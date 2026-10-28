@@ -1,0 +1,9 @@
+# Quieter captive idle and corrected scale
+
+Built-in image generation edit mode; source reference was `dist/assets/items/prison-cage-00.png` from v158. New raw sheet: `source-art/cage-v159/cage-raw.png`. Final assets: `dist/assets/items/prison-cage-00.png` through `prison-cage-05.png`. Normalizer: `scripts/normalize_cage_v159.py`. Game-scale comparison: `source-art/cage-v159/scale-preview.png`.
+
+One common scale and floor anchor; rigid exterior locked across idle frames. Six-step ping-pong loop at 0.32s/pose replaces the rapid exaggerated bobbing. Prisoner now has a closed mouth and planted feet. Cage display size 340px makes the captive comparable in body height to the standing rebel swordsman. Collision footprint increased proportionally. Existing empty destruction frames and rescue behavior retained.
+
+Prompt:
+
+Edit reference into production animation sheet: exactly SIX equal square slots, THREE columns by TWO rows on transparent background. Same wooden iron-bar cage, same prisoner, same facing, camera, palette, outline style, outfit proportions. Cage rigid geometry IDENTICAL all six poses with same scale and baseline. Prisoner calm exhausted fearful serious, mouth CLOSED, hands resting fixed on bars, feet fixed on floor. FIRST FOUR slots form very subtle breathing idle: almost identical poses, torso only 1–2 pixels chest expansion at final game size, head stationary and same expression. No squatting, no head bobbing, no looking around, no waving or face contortions. LAST TWO slots identical quiet prisoner pose but cage wood damaged/cracked braces; bars remain upright. Keep entire cage and feet fully in each cell with transparent margins. Same prisoner body proportions and cage-to-person ratio as reference, adult human. No text or scenery. One whole sheet, not independent designs.

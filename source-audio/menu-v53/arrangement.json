@@ -1,0 +1,43 @@
+{
+  "duration_seconds": 120,
+  "bpm": 144,
+  "sections": [
+    {
+      "name": "intro",
+      "start_seconds": 0.0,
+      "end_seconds": 13.333
+    },
+    {
+      "name": "main-riff",
+      "start_seconds": 13.333,
+      "end_seconds": 40.0
+    },
+    {
+      "name": "power-chord-refrain",
+      "start_seconds": 40.0,
+      "end_seconds": 66.667
+    },
+    {
+      "name": "half-time-breakdown",
+      "start_seconds": 66.667,
+      "end_seconds": 80.0
+    },
+    {
+      "name": "bass-bridge",
+      "start_seconds": 80.0,
+      "end_seconds": 93.333
+    },
+    {
+      "name": "final-reprise",
+      "start_seconds": 93.333,
+      "end_seconds": 120.0
+    }
+  ],
+  "stems": [
+    "rhythm-guitars",
+    "bass",
+    "drums",
+    "support-guitar",
+    "atmosphere"
+  ]
+}

@@ -1,0 +1,19 @@
+[Script Info]
+PlayResX: 1280
+PlayResY: 720
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Story,DejaVu Sans,38,&H00E8EAFF,&H00FFFFFF,&H00110C08,&HA0000000,-1,0,0,0,100,100,0,0,1,3,2,2,65,65,43,1
+Style: Name,DejaVu Sans,49,&H00E8EAFF,&H00FFFFFF,&H00110C08,&HA0000000,-1,0,0,0,100,100,0,0,1,3,2,1,65,65,48,1
+Style: Credit,DejaVu Sans,13,&H00BBBBBB,&H00FFFFFF,&H00110C08,&H00000000,0,0,0,0,100,100,0,0,1,1,0,2,45,45,13,1
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.35,0:00:03.12,Story,,0,0,0,,{\fad(100,100)}MORVANE WILL RAISE HER DEAD KINGDOM.
+Dialogue: 0,0:00:03.55,0:00:06.40,Story,,0,0,0,,{\fad(100,100)}HER BANDITS HARVEST THE LIVING.
+Dialogue: 0,0:00:07.00,0:00:09.70,Name,,0,0,0,,{\fad(100,100)}{\c&H008CBADD&}KAEL
+Dialogue: 0,0:00:10.30,0:00:13.00,Name,,0,0,0,,{\fad(100,100)}{\c&H0086C396&}LYRA
+Dialogue: 0,0:00:13.63,0:00:16.36,Name,,0,0,0,,{\fad(100,100)}{\c&H008080ED&}GARRAN
+Dialogue: 0,0:00:16.96,0:00:19.70,Name,,0,0,0,,{\fad(100,100)}{\c&H00FFD08A&}SELENE
+Dialogue: 0,0:00:26.93,0:00:29.70,Story,,0,0,0,,{\fad(100,100)}BREAK THE RITE.
+Dialogue: 0,0:00:30.40,0:00:33.10,Story,,0,0,0,,{\fad(100,100)}{\pos(640,550)}STEEL. BLOOD. VENGEANCE.
+Dialogue: 0,0:00:30.00,0:00:33.30,Credit,,0,0,0,,{\fad(100,100)}Guitar sample: Skimel · CC BY-SA 4.0 · KillQuest remix

@@ -1,0 +1,42 @@
+{
+  "source_order": [
+    "R3C2",
+    "R3C3",
+    "new-back",
+    "new-back-right",
+    "R2C3",
+    "R2C2",
+    "R2C1",
+    "R1C3",
+    "R1C2"
+  ],
+  "shared_scale": 0.4444444444444444,
+  "source_heights": [
+    544,
+    545
+  ],
+  "target_heights": [
+    243,
+    241
+  ],
+  "new_frames": [
+    {
+      "frame": 2,
+      "translation": [
+        167,
+        166
+      ],
+      "ground": 408,
+      "stance_center": 320
+    },
+    {
+      "frame": 3,
+      "translation": [
+        143,
+        165
+      ],
+      "ground": 408,
+      "stance_center": 320
+    }
+  ]
+}

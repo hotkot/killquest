@@ -1,0 +1,10 @@
+{
+  "name": "killquest",
+  "productName": "KillQuest",
+  "version": "0.56.0",
+  "private": true,
+  "description": "KillQuest fantasy arcade brawler \u2014 offline Windows edition",
+  "main": "main.cjs",
+  "author": "KillQuest",
+  "license": "UNLICENSED"
+}

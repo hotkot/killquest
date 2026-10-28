@@ -1,0 +1,145 @@
+{
+  "total": 265,
+  "newRegions": 149,
+  "joinRegions": 86,
+  "panels": [
+    {
+      "panel": "outskirts",
+      "cloth": 7,
+      "fire": 2,
+      "lights": 1
+    },
+    {
+      "panel": "outskirts-link",
+      "cloth": 7,
+      "fire": 0,
+      "lights": 4
+    },
+    {
+      "panel": "gates",
+      "cloth": 9,
+      "fire": 2,
+      "lights": 3
+    },
+    {
+      "panel": "gates-descent",
+      "cloth": 11,
+      "fire": 0,
+      "lights": 3
+    },
+    {
+      "panel": "market",
+      "cloth": 11,
+      "fire": 0,
+      "lights": 6
+    },
+    {
+      "panel": "market-link",
+      "cloth": 12,
+      "fire": 0,
+      "lights": 2
+    },
+    {
+      "panel": "residential",
+      "cloth": 11,
+      "fire": 6,
+      "lights": 0
+    },
+    {
+      "panel": "residential-descent",
+      "cloth": 6,
+      "fire": 4,
+      "lights": 6
+    },
+    {
+      "panel": "prison",
+      "cloth": 7,
+      "fire": 4,
+      "lights": 1
+    },
+    {
+      "panel": "prison-descent",
+      "cloth": 8,
+      "fire": 0,
+      "lights": 5
+    },
+    {
+      "panel": "citadel",
+      "cloth": 10,
+      "fire": 12,
+      "lights": 0
+    },
+    {
+      "panel": "citadel-link",
+      "cloth": 7,
+      "fire": 8,
+      "lights": 0
+    },
+    {
+      "panel": "join-01",
+      "cloth": 4,
+      "fire": 2,
+      "lights": 0
+    },
+    {
+      "panel": "join-02",
+      "cloth": 3,
+      "fire": 0,
+      "lights": 2
+    },
+    {
+      "panel": "join-03",
+      "cloth": 5,
+      "fire": 0,
+      "lights": 3
+    },
+    {
+      "panel": "join-04",
+      "cloth": 5,
+      "fire": 0,
+      "lights": 2
+    },
+    {
+      "panel": "join-05",
+      "cloth": 7,
+      "fire": 0,
+      "lights": 3
+    },
+    {
+      "panel": "join-06",
+      "cloth": 3,
+      "fire": 0,
+      "lights": 1
+    },
+    {
+      "panel": "join-07",
+      "cloth": 4,
+      "fire": 1,
+      "lights": 0
+    },
+    {
+      "panel": "join-08",
+      "cloth": 3,
+      "fire": 5,
+      "lights": 2
+    },
+    {
+      "panel": "join-09",
+      "cloth": 5,
+      "fire": 3,
+      "lights": 1
+    },
+    {
+      "panel": "join-10",
+      "cloth": 7,
+      "fire": 4,
+      "lights": 2
+    },
+    {
+      "panel": "join-11",
+      "cloth": 5,
+      "fire": 3,
+      "lights": 1
+    }
+  ]
+}

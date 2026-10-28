@@ -1,0 +1,950 @@
+{
+  "baker": [
+    {
+      "frame": 0,
+      "clip": "run",
+      "source_component": 2,
+      "scale": 0.9317269076305221,
+      "bounds": [
+        162,
+        198,
+        374,
+        408
+      ],
+      "foot_y": 408
+    },
+    {
+      "frame": 1,
+      "clip": "run",
+      "source_component": 4,
+      "scale": 0.9317269076305221,
+      "bounds": [
+        184,
+        210,
+        344,
+        408
+      ],
+      "foot_y": 408
+    },
+    {
+      "frame": 2,
+      "clip": "run",
+      "source_component": 1,
+      "scale": 0.9317269076305221,
+      "bounds": [
+        156,
+        196,
+        378,
+        408
+      ],
+      "foot_y": 408
+    },
+    {
+      "frame": 3,
+      "clip": "run",
+      "source_component": 3,
+      "scale": 0.9317269076305221,
+      "bounds": [
+        155,
+        198,
+        366,
+        408
+      ],
+      "foot_y": 408
+    },
+    {
+      "frame": 4,
+      "clip": "run",
+      "source_component": 5,
+      "scale": 0.9317269076305221,
+      "bounds": [
+        162,
+        192,
+        382,
+        408
+      ],
+      "foot_y": 408
+    },
+    {
+      "frame": 5,
+      "clip": "run",
+      "source_component": 8,
+      "scale": 0.9317269076305221,
+      "bounds": [
+        180,
+        205,
+        376,
+        408
+      ],
+      "foot_y": 408
+    },
+    {
+      "frame": 6,
+      "clip": "run",
+      "source_component": 6,
+      "scale": 0.9317269076305221,
+      "bounds": [
+        156,
+        196,
+        377,
+        408
+      ],
+      "foot_y": 408
+    },
+    {
+      "frame": 7,
+      "clip": "run",
+      "source_component": 7,
+      "scale": 0.9317269076305221,
+      "bounds": [
+        162,
+        197,
+        378,
+        408
+      ],
+      "foot_y": 408
+    },
+    {
+      "frame": 0,
+      "clip": "idle",
+      "source_component": 9,
+      "scale": 0.9317269076305221,
+      "bounds": [
+        184,
+        176,
+        303,
+        408
+      ],
+      "foot_y": 408
+    },
+    {
+      "frame": 1,
+      "clip": "idle",
+      "source_component": 10,
+      "scale": 0.9317269076305221,
+      "bounds": [
+        183,
+        176,
+        305,
+        408
+      ],
+      "foot_y": 408
+    },
+    {
+      "frame": 2,
+      "clip": "idle",
+      "source_component": 11,
+      "scale": 0.9317269076305221,
+      "bounds": [
+        183,
+        176,
+        302,
+        408
+      ],
+      "foot_y": 408
+    },
+    {
+      "frame": 3,
+      "clip": "idle",
+      "source_component": 12,
+      "scale": 0.9317269076305221,
+      "bounds": [
+        184,
+        176,
+        305,
+        408
+      ],
+      "foot_y": 408
+    },
+    {
+      "frame": 4,
+      "clip": "idle",
+      "source_component": 13,
+      "scale": 0.9317269076305221,
+      "bounds": [
+        184,
+        176,
+        305,
+        408
+      ],
+      "foot_y": 408
+    },
+    {
+      "frame": 5,
+      "clip": "idle",
+      "source_component": 14,
+      "scale": 0.9317269076305221,
+      "bounds": [
+        183,
+        176,
+        301,
+        408
+      ],
+      "foot_y": 408
+    },
+    {
+      "frame": 6,
+      "clip": "idle",
+      "source_component": 15,
+      "scale": 0.9317269076305221,
+      "bounds": [
+        183,
+        176,
+        306,
+        408
+      ],
+      "foot_y": 408
+    },
+    {
+      "frame": 7,
+      "clip": "idle",
+      "source_component": 16,
+      "scale": 0.9317269076305221,
+      "bounds": [
+        183,
+        176,
+        303,
+        408
+      ],
+      "foot_y": 408
+    }
+  ],
+  "weaver": [
+    {
+      "frame": 0,
+      "clip": "run",
+      "source_component": 2,
+      "scale": 0.8241563055062167,
+      "bounds": [
+        172,
+        203,
+        357,
+        408
+      ],
+      "foot_y": 408
+    },
+    {
+      "frame": 1,
+      "clip": "run",
+      "source_component": 4,
+      "scale": 0.8241563055062167,
+      "bounds": [
+        179,
+        231,
+        341,
+        408
+      ],
+      "foot_y": 408
+    },
+    {
+      "frame": 2,
+      "clip": "run",
+      "source_component": 3,
+      "scale": 0.8241563055062167,
+      "bounds": [
+        184,
+        211,
+        341,
+        408
+      ],
+      "foot_y": 408
+    },
+    {
+      "frame": 3,
+      "clip": "run",
+      "source_component": 1,
+      "scale": 0.8241563055062167,
+      "bounds": [
+        175,
+        201,
+        358,
+        408
+      ],
+      "foot_y": 408
+    },
+    {
+      "frame": 4,
+      "clip": "run",
+      "source_component": 6,
+      "scale": 0.8241563055062167,
+      "bounds": [
+        170,
+        202,
+        351,
+        408
+      ],
+      "foot_y": 408
+    },
+    {
+      "frame": 5,
+      "clip": "run",
+      "source_component": 9,
+      "scale": 0.8241563055062167,
+      "bounds": [
+        178,
+        232,
+        329,
+        408
+      ],
+      "foot_y": 408
+    },
+    {
+      "frame": 6,
+      "clip": "run",
+      "source_component": 8,
+      "scale": 0.8241563055062167,
+      "bounds": [
+        182,
+        207,
+        353,
+        408
+      ],
+      "foot_y": 408
+    },
+    {
+      "frame": 7,
+      "clip": "run",
+      "source_component": 7,
+      "scale": 0.8241563055062167,
+      "bounds": [
+        166,
+        202,
+        356,
+        408
+      ],
+      "foot_y": 408
+    },
+    {
+      "frame": 0,
+      "clip": "idle",
+      "source_component": 10,
+      "scale": 0.8241563055062167,
+      "bounds": [
+        184,
+        178,
+        313,
+        408
+      ],
+      "foot_y": 408
+    },
+    {
+      "frame": 1,
+      "clip": "idle",
+      "source_component": 11,
+      "scale": 0.8241563055062167,
+      "bounds": [
+        183,
+        178,
+        320,
+        408
+      ],
+      "foot_y": 408
+    },
+    {
+      "frame": 2,
+      "clip": "idle",
+      "source_component": 12,
+      "scale": 0.8241563055062167,
+      "bounds": [
+        185,
+        178,
+        318,
+        408
+      ],
+      "foot_y": 408
+    },
+    {
+      "frame": 3,
+      "clip": "idle",
+      "source_component": 13,
+      "scale": 0.8241563055062167,
+      "bounds": [
+        184,
+        178,
+        319,
+        408
+      ],
+      "foot_y": 408
+    },
+    {
+      "frame": 4,
+      "clip": "idle",
+      "source_component": 14,
+      "scale": 0.8241563055062167,
+      "bounds": [
+        184,
+        172,
+        319,
+        408
+      ],
+      "foot_y": 408
+    },
+    {
+      "frame": 5,
+      "clip": "idle",
+      "source_component": 15,
+      "scale": 0.8241563055062167,
+      "bounds": [
+        184,
+        172,
+        318,
+        408
+      ],
+      "foot_y": 408
+    },
+    {
+      "frame": 6,
+      "clip": "idle",
+      "source_component": 16,
+      "scale": 0.8241563055062167,
+      "bounds": [
+        182,
+        174,
+        320,
+        408
+      ],
+      "foot_y": 408
+    },
+    {
+      "frame": 7,
+      "clip": "idle",
+      "source_component": 17,
+      "scale": 0.8241563055062167,
+      "bounds": [
+        183,
+        174,
+        321,
+        408
+      ],
+      "foot_y": 408
+    }
+  ],
+  "porter": [
+    {
+      "frame": 0,
+      "clip": "run",
+      "source_component": 1,
+      "scale": 0.9411764705882353,
+      "bounds": [
+        151,
+        173,
+        374,
+        408
+      ],
+      "foot_y": 408
+    },
+    {
+      "frame": 1,
+      "clip": "run",
+      "source_component": 4,
+      "scale": 0.9411764705882353,
+      "bounds": [
+        180,
+        211,
+        361,
+        408
+      ],
+      "foot_y": 408
+    },
+    {
+      "frame": 2,
+      "clip": "run",
+      "source_component": 3,
+      "scale": 0.9411764705882353,
+      "bounds": [
+        175,
+        185,
+        362,
+        408
+      ],
+      "foot_y": 408
+    },
+    {
+      "frame": 3,
+      "clip": "run",
+      "source_component": 2,
+      "scale": 0.9411764705882353,
+      "bounds": [
+        167,
+        178,
+        374,
+        408
+      ],
+      "foot_y": 408
+    },
+    {
+      "frame": 4,
+      "clip": "run",
+      "source_component": 6,
+      "scale": 0.9411764705882353,
+      "bounds": [
+        149,
+        184,
+        377,
+        408
+      ],
+      "foot_y": 408
+    },
+    {
+      "frame": 5,
+      "clip": "run",
+      "source_component": 9,
+      "scale": 0.9411764705882353,
+      "bounds": [
+        176,
+        204,
+        361,
+        408
+      ],
+      "foot_y": 408
+    },
+    {
+      "frame": 6,
+      "clip": "run",
+      "source_component": 8,
+      "scale": 0.9411764705882353,
+      "bounds": [
+        171,
+        185,
+        365,
+        408
+      ],
+      "foot_y": 408
+    },
+    {
+      "frame": 7,
+      "clip": "run",
+      "source_component": 7,
+      "scale": 0.9411764705882353,
+      "bounds": [
+        169,
+        181,
+        375,
+        408
+      ],
+      "foot_y": 408
+    },
+    {
+      "frame": 0,
+      "clip": "idle",
+      "source_component": 13,
+      "scale": 0.9411764705882353,
+      "bounds": [
+        181,
+        181,
+        321,
+        408
+      ],
+      "foot_y": 408
+    },
+    {
+      "frame": 1,
+      "clip": "idle",
+      "source_component": 10,
+      "scale": 0.9411764705882353,
+      "bounds": [
+        179,
+        176,
+        325,
+        408
+      ],
+      "foot_y": 408
+    },
+    {
+      "frame": 2,
+      "clip": "idle",
+      "source_component": 11,
+      "scale": 0.9411764705882353,
+      "bounds": [
+        182,
+        176,
+        324,
+        408
+      ],
+      "foot_y": 408
+    },
+    {
+      "frame": 3,
+      "clip": "idle",
+      "source_component": 12,
+      "scale": 0.9411764705882353,
+      "bounds": [
+        181,
+        176,
+        325,
+        408
+      ],
+      "foot_y": 408
+    },
+    {
+      "frame": 4,
+      "clip": "idle",
+      "source_component": 16,
+      "scale": 0.9411764705882353,
+      "bounds": [
+        182,
+        176,
+        332,
+        408
+      ],
+      "foot_y": 408
+    },
+    {
+      "frame": 5,
+      "clip": "idle",
+      "source_component": 14,
+      "scale": 0.9411764705882353,
+      "bounds": [
+        180,
+        175,
+        330,
+        408
+      ],
+      "foot_y": 408
+    },
+    {
+      "frame": 6,
+      "clip": "idle",
+      "source_component": 15,
+      "scale": 0.9411764705882353,
+      "bounds": [
+        181,
+        175,
+        331,
+        408
+      ],
+      "foot_y": 408
+    },
+    {
+      "frame": 7,
+      "clip": "idle",
+      "source_component": 17,
+      "scale": 0.9411764705882353,
+      "bounds": [
+        181,
+        176,
+        327,
+        408
+      ],
+      "foot_y": 408
+    }
+  ],
+  "laborer": [
+    {
+      "frame": 0,
+      "clip": "idle",
+      "source_component": 1,
+      "scale": 0.9789029535864979,
+      "bounds": [
+        166,
+        173,
+        321,
+        408
+      ],
+      "foot_y": 408
+    },
+    {
+      "frame": 1,
+      "clip": "idle",
+      "source_component": 4,
+      "scale": 0.9789029535864979,
+      "bounds": [
+        166,
+        176,
+        322,
+        408
+      ],
+      "foot_y": 408
+    },
+    {
+      "frame": 2,
+      "clip": "idle",
+      "source_component": 2,
+      "scale": 0.9789029535864979,
+      "bounds": [
+        167,
+        175,
+        321,
+        408
+      ],
+      "foot_y": 408
+    },
+    {
+      "frame": 3,
+      "clip": "idle",
+      "source_component": 5,
+      "scale": 0.9789029535864979,
+      "bounds": [
+        166,
+        176,
+        321,
+        408
+      ],
+      "foot_y": 408
+    },
+    {
+      "frame": 4,
+      "clip": "idle",
+      "source_component": 6,
+      "scale": 0.9789029535864979,
+      "bounds": [
+        166,
+        176,
+        322,
+        408
+      ],
+      "foot_y": 408
+    },
+    {
+      "frame": 5,
+      "clip": "idle",
+      "source_component": 7,
+      "scale": 0.9789029535864979,
+      "bounds": [
+        166,
+        176,
+        321,
+        408
+      ],
+      "foot_y": 408
+    },
+    {
+      "frame": 6,
+      "clip": "idle",
+      "source_component": 8,
+      "scale": 0.9789029535864979,
+      "bounds": [
+        167,
+        176,
+        320,
+        408
+      ],
+      "foot_y": 408
+    },
+    {
+      "frame": 7,
+      "clip": "idle",
+      "source_component": 3,
+      "scale": 0.9789029535864979,
+      "bounds": [
+        166,
+        175,
+        321,
+        408
+      ],
+      "foot_y": 408
+    }
+  ],
+  "villager": [
+    {
+      "frame": 0,
+      "clip": "idle",
+      "source_component": 9,
+      "scale": 0.9508196721311475,
+      "bounds": [
+        170,
+        176,
+        323,
+        408
+      ],
+      "foot_y": 408
+    },
+    {
+      "frame": 1,
+      "clip": "idle",
+      "source_component": 10,
+      "scale": 0.9508196721311475,
+      "bounds": [
+        171,
+        176,
+        322,
+        408
+      ],
+      "foot_y": 408
+    },
+    {
+      "frame": 2,
+      "clip": "idle",
+      "source_component": 11,
+      "scale": 0.9508196721311475,
+      "bounds": [
+        171,
+        176,
+        321,
+        408
+      ],
+      "foot_y": 408
+    },
+    {
+      "frame": 3,
+      "clip": "idle",
+      "source_component": 12,
+      "scale": 0.9508196721311475,
+      "bounds": [
+        171,
+        176,
+        321,
+        408
+      ],
+      "foot_y": 408
+    },
+    {
+      "frame": 4,
+      "clip": "idle",
+      "source_component": 13,
+      "scale": 0.9508196721311475,
+      "bounds": [
+        170,
+        176,
+        321,
+        408
+      ],
+      "foot_y": 408
+    },
+    {
+      "frame": 5,
+      "clip": "idle",
+      "source_component": 14,
+      "scale": 0.9508196721311475,
+      "bounds": [
+        171,
+        176,
+        323,
+        408
+      ],
+      "foot_y": 408
+    },
+    {
+      "frame": 6,
+      "clip": "idle",
+      "source_component": 15,
+      "scale": 0.9508196721311475,
+      "bounds": [
+        171,
+        176,
+        319,
+        408
+      ],
+      "foot_y": 408
+    },
+    {
+      "frame": 7,
+      "clip": "idle",
+      "source_component": 16,
+      "scale": 0.9508196721311475,
+      "bounds": [
+        170,
+        176,
+        315,
+        408
+      ],
+      "foot_y": 408
+    }
+  ],
+  "traveler": [
+    {
+      "frame": 0,
+      "clip": "idle",
+      "source_component": 17,
+      "scale": 1.0175438596491229,
+      "bounds": [
+        169,
+        176,
+        325,
+        408
+      ],
+      "foot_y": 408
+    },
+    {
+      "frame": 1,
+      "clip": "idle",
+      "source_component": 18,
+      "scale": 1.0175438596491229,
+      "bounds": [
+        169,
+        176,
+        324,
+        408
+      ],
+      "foot_y": 408
+    },
+    {
+      "frame": 2,
+      "clip": "idle",
+      "source_component": 19,
+      "scale": 1.0175438596491229,
+      "bounds": [
+        169,
+        176,
+        324,
+        408
+      ],
+      "foot_y": 408
+    },
+    {
+      "frame": 3,
+      "clip": "idle",
+      "source_component": 20,
+      "scale": 1.0175438596491229,
+      "bounds": [
+        169,
+        176,
+        324,
+        408
+      ],
+      "foot_y": 408
+    },
+    {
+      "frame": 4,
+      "clip": "idle",
+      "source_component": 21,
+      "scale": 1.0175438596491229,
+      "bounds": [
+        170,
+        176,
+        325,
+        408
+      ],
+      "foot_y": 408
+    },
+    {
+      "frame": 5,
+      "clip": "idle",
+      "source_component": 22,
+      "scale": 1.0175438596491229,
+      "bounds": [
+        169,
+        176,
+        325,
+        408
+      ],
+      "foot_y": 408
+    },
+    {
+      "frame": 6,
+      "clip": "idle",
+      "source_component": 23,
+      "scale": 1.0175438596491229,
+      "bounds": [
+        168,
+        176,
+        325,
+        408
+      ],
+      "foot_y": 408
+    },
+    {
+      "frame": 7,
+      "clip": "idle",
+      "source_component": 24,
+      "scale": 1.0175438596491229,
+      "bounds": [
+        169,
+        176,
+        324,
+        408
+      ],
+      "foot_y": 408
+    }
+  ]
+}

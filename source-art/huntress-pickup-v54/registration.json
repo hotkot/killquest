@@ -1,0 +1,50 @@
+[
+  {
+    "frame": "huntress-pickup-00",
+    "old_foot_y": 404,
+    "new_foot_y": 403,
+    "shift_y": -1
+  },
+  {
+    "frame": "huntress-pickup-01",
+    "old_foot_y": 344,
+    "new_foot_y": 403,
+    "shift_y": 59
+  },
+  {
+    "frame": "huntress-pickup-02",
+    "old_foot_y": 352,
+    "new_foot_y": 403,
+    "shift_y": 51
+  },
+  {
+    "frame": "huntress-pickup-03",
+    "old_foot_y": 346,
+    "new_foot_y": 403,
+    "shift_y": 57
+  },
+  {
+    "frame": "huntress-pickup-04",
+    "old_foot_y": 360,
+    "new_foot_y": 403,
+    "shift_y": 43
+  },
+  {
+    "frame": "huntress-pickup-05",
+    "old_foot_y": 398,
+    "new_foot_y": 403,
+    "shift_y": 5
+  },
+  {
+    "frame": "huntress-pickup-06",
+    "old_foot_y": 404,
+    "new_foot_y": 403,
+    "shift_y": -1
+  },
+  {
+    "frame": "huntress-pickup-07",
+    "old_foot_y": 403,
+    "new_foot_y": 403,
+    "shift_y": 0
+  }
+]

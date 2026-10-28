@@ -1,0 +1,13 @@
+{
+  "bpm": 128,
+  "duration": 34,
+  "tonality": "E-centered guitar riff with G, A and D answering stabs",
+  "mix": {
+    "rhythm": 1.4459519386291504,
+    "bass": 0.9756752252578735,
+    "drums": 1.395200490951538,
+    "lead": 2.375447988510132,
+    "room": 2.1328773498535156
+  },
+  "provenance": "Original riffs and arrangement; transposed guitar recording by Skimel, CC BY-SA 4.0; modeled bass and drums. No quoted music."
+}

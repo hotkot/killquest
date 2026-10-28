@@ -1,0 +1,674 @@
+{
+  "king-idle-00.png": {
+    "scale": 1,
+    "pivot": [
+      320,
+      466
+    ],
+    "bounds": [
+      181,
+      201,
+      422,
+      467
+    ],
+    "original_sha256": "b9e034905ad5c7c3ced5160e69779e96d48157fcf6e8fb443e0304d056d237f1"
+  },
+  "king-idle-01.png": {
+    "scale": 1,
+    "pivot": [
+      320,
+      466
+    ],
+    "bounds": [
+      172,
+      201,
+      422,
+      467
+    ],
+    "original_sha256": "6ded54f14f6a9d46d2151ded96d578472b118ae2eed923e2b7f63199ecd48c60"
+  },
+  "king-idle-02.png": {
+    "scale": 1,
+    "pivot": [
+      320,
+      466
+    ],
+    "bounds": [
+      182,
+      203,
+      421,
+      467
+    ],
+    "original_sha256": "a9eda0d7746ccafb6ee87d2a07b47f1e6097f7baff2497e36be0a7a851968742"
+  },
+  "king-idle-03.png": {
+    "scale": 1,
+    "pivot": [
+      320,
+      466
+    ],
+    "bounds": [
+      163,
+      201,
+      423,
+      467
+    ],
+    "original_sha256": "1430ea6da8bd4c6c85be3a9534fd259b8caba6d56b552105121bbdac50f5d166"
+  },
+  "king-idle-04.png": {
+    "scale": 1,
+    "pivot": [
+      320,
+      466
+    ],
+    "bounds": [
+      190,
+      200,
+      423,
+      467
+    ],
+    "original_sha256": "635ea0fbf2da2818c94f2c693061ab2d5deca0d5c738d9525a375eafd504486e"
+  },
+  "king-idle-05.png": {
+    "scale": 1,
+    "pivot": [
+      320,
+      466
+    ],
+    "bounds": [
+      177,
+      201,
+      421,
+      467
+    ],
+    "original_sha256": "a5c5fe8702ffe1f5b37ec456dcad35227b88dd707348297d87af2d74baeb87f8"
+  },
+  "king-walk-00.png": {
+    "scale": 1,
+    "pivot": [
+      320,
+      466
+    ],
+    "bounds": [
+      198,
+      201,
+      412,
+      467
+    ],
+    "original_sha256": "764bf5a7f5d0c49b017fc0fa7a708f397cc6a344bc90081127dbf6a53ffe594f"
+  },
+  "king-walk-01.png": {
+    "scale": 1,
+    "pivot": [
+      320,
+      466
+    ],
+    "bounds": [
+      198,
+      201,
+      398,
+      467
+    ],
+    "original_sha256": "78995198ad41cc5e2d2177800c96388f76cfbba1cd7e062dd096deb948aa2d8e"
+  },
+  "king-walk-02.png": {
+    "scale": 1,
+    "pivot": [
+      320,
+      466
+    ],
+    "bounds": [
+      184,
+      203,
+      416,
+      467
+    ],
+    "original_sha256": "c33908359342e4da90d982f4cbe225458bce9a8c9b48df8e7f870231f82357cb"
+  },
+  "king-walk-03.png": {
+    "scale": 1,
+    "pivot": [
+      320,
+      466
+    ],
+    "bounds": [
+      196,
+      201,
+      397,
+      467
+    ],
+    "original_sha256": "9eb2455e1f70c2c07f97fafc7c2c3321f7b10320a10176c97888944fc3364305"
+  },
+  "king-walk-04.png": {
+    "scale": 1,
+    "pivot": [
+      320,
+      466
+    ],
+    "bounds": [
+      193,
+      206,
+      416,
+      467
+    ],
+    "original_sha256": "a179928b1355576244069fa8559ab8bbfbca4c332f4f88f20b5c9b6118bd3137"
+  },
+  "king-walk-05.png": {
+    "scale": 1,
+    "pivot": [
+      320,
+      466
+    ],
+    "bounds": [
+      199,
+      205,
+      410,
+      467
+    ],
+    "original_sha256": "bdcadac1eb4acfb020fef629c436c22a90ccbe8c9b469e02b05b6ee190ba3b1d"
+  },
+  "king-walk-06.png": {
+    "scale": 1,
+    "pivot": [
+      320,
+      466
+    ],
+    "bounds": [
+      188,
+      206,
+      419,
+      467
+    ],
+    "original_sha256": "79161826eb4f40de08f345cce6845ec64c23e95f7ac0c10daab382b50bd6fcd1"
+  },
+  "king-walk-07.png": {
+    "scale": 1,
+    "pivot": [
+      320,
+      466
+    ],
+    "bounds": [
+      207,
+      207,
+      407,
+      467
+    ],
+    "original_sha256": "4527aa501da5f07c96d292c34d1c985d497eaed622c2daa716d5cddc571038cc"
+  },
+  "king-sweep-00.png": {
+    "scale": 0.8,
+    "pivot": [
+      320,
+      466
+    ],
+    "bounds": [
+      171,
+      213,
+      448,
+      467
+    ],
+    "original_sha256": "8ac92ff84348afa6ae8a4ae3dc97b4bf1292639db1ec56236b66b7290933f8d3"
+  },
+  "king-sweep-01.png": {
+    "scale": 0.8,
+    "pivot": [
+      320,
+      466
+    ],
+    "bounds": [
+      167,
+      213,
+      460,
+      467
+    ],
+    "original_sha256": "014613913c0989a4871c87e57c5925cfe8609eb02231ef8f86cad33e7890c241"
+  },
+  "king-sweep-02.png": {
+    "scale": 0.79,
+    "pivot": [
+      320,
+      466
+    ],
+    "bounds": [
+      148,
+      227,
+      458,
+      467
+    ],
+    "original_sha256": "a154edc9deb8c8db6e9d948a2aa9411cd0d3eadd2ec69ac4cfbf6959e4b6e5be"
+  },
+  "king-sweep-03.png": {
+    "scale": 0.8,
+    "pivot": [
+      320,
+      466
+    ],
+    "bounds": [
+      156,
+      258,
+      533,
+      467
+    ],
+    "original_sha256": "038ae97ce8303f63d8065df1a8ec4c8efbea0c4d1eb3d953dd8935a965f087ed"
+  },
+  "king-sweep-04.png": {
+    "scale": 0.8,
+    "pivot": [
+      320,
+      466
+    ],
+    "bounds": [
+      140,
+      254,
+      560,
+      467
+    ],
+    "original_sha256": "5d10e279f5393cbfe4ba8da5d74817714d46ccb91df472a286d99432a55c84b2"
+  },
+  "king-sweep-05.png": {
+    "scale": 0.84,
+    "pivot": [
+      320,
+      466
+    ],
+    "bounds": [
+      148,
+      247,
+      544,
+      467
+    ],
+    "original_sha256": "bfb545c8164a2ab10d141c19ea6136b888caa5e494be8a737b24fbb5b8d40a74"
+  },
+  "king-sweep-06.png": {
+    "scale": 0.79,
+    "pivot": [
+      320,
+      466
+    ],
+    "bounds": [
+      147,
+      243,
+      497,
+      466
+    ],
+    "original_sha256": "c03ffc7e086b9ec62aadfb5d49ed7bd1554c4509c13311c402c4c8760f0b7cfb"
+  },
+  "king-sweep-07.png": {
+    "scale": 0.78,
+    "pivot": [
+      320,
+      466
+    ],
+    "bounds": [
+      160,
+      243,
+      448,
+      467
+    ],
+    "original_sha256": "20412fce1d65d4ff3dbc96465427d73fe36a84443b1a4780e1aeec3397aefc7c"
+  },
+  "king-slam-00.png": {
+    "scale": 1,
+    "pivot": [
+      320,
+      466
+    ],
+    "bounds": [
+      151,
+      225,
+      473,
+      467
+    ],
+    "original_sha256": "bdb32bb77ff324bb573882fb2daef30d4ec6f3de748432f6dae29381fece38c9"
+  },
+  "king-slam-01.png": {
+    "scale": 1,
+    "pivot": [
+      320,
+      466
+    ],
+    "bounds": [
+      167,
+      137,
+      456,
+      467
+    ],
+    "original_sha256": "a0a4c2e0c2f587113a9b4045c25d865540824f7030ea5c778807c94169c5dfa1"
+  },
+  "king-slam-02.png": {
+    "scale": 1,
+    "pivot": [
+      320,
+      466
+    ],
+    "bounds": [
+      151,
+      141,
+      438,
+      467
+    ],
+    "original_sha256": "e4f5ae6abc8c6c0a7e43359b368ed92172d3d0011f592c4ea376210dc72aaef4"
+  },
+  "king-slam-03.png": {
+    "scale": 1,
+    "pivot": [
+      320,
+      466
+    ],
+    "bounds": [
+      146,
+      244,
+      474,
+      467
+    ],
+    "original_sha256": "ce2de6861b17872e6fe7bdac3f8b682fba26b7f6cace0a3ed324637013a29710"
+  },
+  "king-slam-04.png": {
+    "scale": 1,
+    "pivot": [
+      320,
+      466
+    ],
+    "bounds": [
+      161,
+      263,
+      506,
+      467
+    ],
+    "original_sha256": "10cd7a459a6cebcff4c55dc7b65fdce45ade27ba6effbb745cb730c8119c9c56"
+  },
+  "king-slam-05.png": {
+    "scale": 1,
+    "pivot": [
+      320,
+      466
+    ],
+    "bounds": [
+      178,
+      264,
+      486,
+      467
+    ],
+    "original_sha256": "ea07c79362e12774a34bb30fe85921fa4be52fb24023ea0db3ffc1add31c640e"
+  },
+  "king-slam-06.png": {
+    "scale": 1,
+    "pivot": [
+      320,
+      466
+    ],
+    "bounds": [
+      144,
+      211,
+      466,
+      467
+    ],
+    "original_sha256": "84f740f9180fcf02d850cc4cc4faacd9dbf996dd3ce42b185ee5b509a2a89991"
+  },
+  "king-slam-07.png": {
+    "scale": 1,
+    "pivot": [
+      320,
+      466
+    ],
+    "bounds": [
+      154,
+      222,
+      472,
+      467
+    ],
+    "original_sha256": "bfbf8b9811170e96f75e6fff599048708309bf52f439e1602816eb66358459e7"
+  },
+  "king-charge-00.png": {
+    "scale": 0.76,
+    "pivot": [
+      320,
+      466
+    ],
+    "bounds": [
+      192,
+      281,
+      431,
+      467
+    ],
+    "original_sha256": "feb01c42f89b7fd31cf5d7f880aeaf22f163b75cfe6356fd1ffec31943851ba1"
+  },
+  "king-charge-01.png": {
+    "scale": 0.77,
+    "pivot": [
+      320,
+      466
+    ],
+    "bounds": [
+      193,
+      276,
+      442,
+      466
+    ],
+    "original_sha256": "4112137910bd0809a7895502ad151a68636784203a5d384f96a9b877298926ed"
+  },
+  "king-charge-02.png": {
+    "scale": 0.76,
+    "pivot": [
+      320,
+      466
+    ],
+    "bounds": [
+      192,
+      270,
+      443,
+      467
+    ],
+    "original_sha256": "04f252469ae71810676ec908fec24d00e74747d6dc6a23365a53660b10d1371c"
+  },
+  "king-charge-03.png": {
+    "scale": 0.78,
+    "pivot": [
+      320,
+      466
+    ],
+    "bounds": [
+      175,
+      281,
+      451,
+      467
+    ],
+    "original_sha256": "999f680e8a034b7cbf4bc1ee419c93d0d52f785a7b78c53a666378c04957231f"
+  },
+  "king-charge-04.png": {
+    "scale": 0.78,
+    "pivot": [
+      320,
+      466
+    ],
+    "bounds": [
+      179,
+      292,
+      462,
+      467
+    ],
+    "original_sha256": "e894925d7ac96a5dfcac95bde2aab273341c09cd9e3045b9c86b939404de974f"
+  },
+  "king-charge-05.png": {
+    "scale": 0.85,
+    "pivot": [
+      320,
+      466
+    ],
+    "bounds": [
+      201,
+      244,
+      441,
+      467
+    ],
+    "original_sha256": "16955f9ce2d4ae58e717d742e65cf46208895c1800d705036ae243354e7468ab"
+  },
+  "king-roar-00.png": {
+    "scale": 1,
+    "pivot": [
+      320,
+      466
+    ],
+    "bounds": [
+      197,
+      207,
+      464,
+      467
+    ],
+    "original_sha256": "9e1707e0fb590ecd16186a3a9d22ee7435fdc5d2cd3cf4def2d3785d03838800"
+  },
+  "king-roar-01.png": {
+    "scale": 1,
+    "pivot": [
+      320,
+      466
+    ],
+    "bounds": [
+      204,
+      207,
+      478,
+      467
+    ],
+    "original_sha256": "b269bc20dd1ae3b5d69fddcb1e36e83caea0d63b02c9a081446c1eebfb55051e"
+  },
+  "king-roar-02.png": {
+    "scale": 1,
+    "pivot": [
+      320,
+      466
+    ],
+    "bounds": [
+      205,
+      210,
+      480,
+      467
+    ],
+    "original_sha256": "a6e968b5e6ddb48d4bc88f8699df377c6b3c36627c7cc6d434b7c3227d2e223a"
+  },
+  "king-roar-03.png": {
+    "scale": 1,
+    "pivot": [
+      320,
+      466
+    ],
+    "bounds": [
+      187,
+      214,
+      501,
+      467
+    ],
+    "original_sha256": "b398637b3de337ec1f1651968612d86c81394d83a49c08a99b8c5bce0c6917b5"
+  },
+  "king-roar-04.png": {
+    "scale": 1,
+    "pivot": [
+      320,
+      466
+    ],
+    "bounds": [
+      199,
+      223,
+      467,
+      467
+    ],
+    "original_sha256": "4bd723df359b0c6548aee71024324266d6f5e8c8934fb6b95dcdc20e26217904"
+  },
+  "king-roar-05.png": {
+    "scale": 1,
+    "pivot": [
+      320,
+      466
+    ],
+    "bounds": [
+      200,
+      216,
+      469,
+      467
+    ],
+    "original_sha256": "16436e22ff873a2c7cc3e1b5d5984cef00b767c745c71b63f26bb88bfd9ab0ca"
+  },
+  "king-death-00.png": {
+    "scale": 1,
+    "pivot": [
+      320,
+      466
+    ],
+    "bounds": [
+      195,
+      205,
+      473,
+      467
+    ],
+    "original_sha256": "571f9e64a9686fb3134e93697ee9bc70263dd8b6d6df1dbb1ccecf040dd4415d"
+  },
+  "king-death-01.png": {
+    "scale": 1,
+    "pivot": [
+      320,
+      466
+    ],
+    "bounds": [
+      198,
+      234,
+      455,
+      467
+    ],
+    "original_sha256": "fe92f7be3fd2ce0cf758c1aa2ade7b637888225b210801ba1a6a4588e6c175a3"
+  },
+  "king-death-02.png": {
+    "scale": 1,
+    "pivot": [
+      320,
+      466
+    ],
+    "bounds": [
+      178,
+      291,
+      441,
+      467
+    ],
+    "original_sha256": "707c5e0ec3a1c92296dc44fa59a4736117a263c069242f6fb5ad7980bedb6497"
+  },
+  "king-death-03.png": {
+    "scale": 1,
+    "pivot": [
+      320,
+      466
+    ],
+    "bounds": [
+      177,
+      323,
+      447,
+      467
+    ],
+    "original_sha256": "08a92e226e5576823ea5c4c29d0eda47728cc344fafdf1279fc8cca96b1a3892"
+  },
+  "king-death-04.png": {
+    "scale": 1,
+    "pivot": [
+      320,
+      466
+    ],
+    "bounds": [
+      187,
+      378,
+      444,
+      467
+    ],
+    "original_sha256": "a10fc3839cf2e53f96ad52ab2034c4b3ff85c7c1be2ca65e8de2e2b012b4e0c9"
+  },
+  "king-death-05.png": {
+    "scale": 1,
+    "pivot": [
+      320,
+      466
+    ],
+    "bounds": [
+      184,
+      386,
+      452,
+      467
+    ],
+    "original_sha256": "ae31e1f6c00d9def83238e6421aab45b4dd0af3fe306cb50759dfb1a4fe394a9"
+  }
+}

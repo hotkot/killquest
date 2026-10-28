@@ -1,0 +1,62 @@
+{
+  "source_order": [
+    "hidden-blade-windup-1",
+    "hidden-blade-windup-2",
+    "retained-back",
+    "retained-back-right",
+    "retained-contact",
+    "retained-slash",
+    "retained-slash-end",
+    "hidden-blade-recovery-1",
+    "hidden-blade-recovery-2"
+  ],
+  "shared_scale": 0.5856019358741682,
+  "source_heights": [
+    423,
+    415,
+    407,
+    408
+  ],
+  "target_heights": [
+    243,
+    241
+  ],
+  "new_frames": [
+    {
+      "frame": 0,
+      "translation": [
+        168,
+        159
+      ],
+      "ground": 408,
+      "stance_center": 320
+    },
+    {
+      "frame": 1,
+      "translation": [
+        172,
+        163
+      ],
+      "ground": 408,
+      "stance_center": 320
+    },
+    {
+      "frame": 7,
+      "translation": [
+        164,
+        168
+      ],
+      "ground": 408,
+      "stance_center": 320
+    },
+    {
+      "frame": 8,
+      "translation": [
+        164,
+        168
+      ],
+      "ground": 408,
+      "stance_center": 320
+    }
+  ]
+}

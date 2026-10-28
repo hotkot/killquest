@@ -1,0 +1,1886 @@
+{
+  "huntress-idle-00": {
+    "source": "huntress-a-v43.png",
+    "component": 1,
+    "anchor": [
+      101,
+      104
+    ],
+    "scale": 1.28,
+    "body_anchor": [
+      224,
+      300
+    ]
+  },
+  "huntress-idle-01": {
+    "source": "huntress-a-v43.png",
+    "component": 2,
+    "anchor": [
+      282,
+      104
+    ],
+    "scale": 1.28,
+    "body_anchor": [
+      224,
+      300
+    ]
+  },
+  "huntress-idle-02": {
+    "source": "huntress-a-v43.png",
+    "component": 3,
+    "anchor": [
+      463,
+      104
+    ],
+    "scale": 1.28,
+    "body_anchor": [
+      224,
+      300
+    ]
+  },
+  "huntress-idle-03": {
+    "source": "huntress-a-v43.png",
+    "component": 5,
+    "anchor": [
+      644,
+      104
+    ],
+    "scale": 1.28,
+    "body_anchor": [
+      224,
+      300
+    ]
+  },
+  "huntress-idle-04": {
+    "source": "huntress-a-v43.png",
+    "component": 6,
+    "anchor": [
+      825,
+      104
+    ],
+    "scale": 1.28,
+    "body_anchor": [
+      224,
+      300
+    ]
+  },
+  "huntress-idle-05": {
+    "source": "huntress-a-v43.png",
+    "component": 7,
+    "anchor": [
+      1006,
+      104
+    ],
+    "scale": 1.28,
+    "body_anchor": [
+      224,
+      300
+    ]
+  },
+  "huntress-idle-06": {
+    "source": "huntress-a-v43.png",
+    "component": 4,
+    "anchor": [
+      1187,
+      104
+    ],
+    "scale": 1.28,
+    "body_anchor": [
+      224,
+      300
+    ]
+  },
+  "huntress-idle-07": {
+    "source": "huntress-a-v43.png",
+    "component": 8,
+    "anchor": [
+      1368,
+      104
+    ],
+    "scale": 1.28,
+    "body_anchor": [
+      224,
+      300
+    ]
+  },
+  "huntress-walk-00": {
+    "source": "huntress-walk-eight-v43.png",
+    "component": 4,
+    "anchor": [
+      179,
+      283
+    ],
+    "scale": 0.414,
+    "body_anchor": [
+      224,
+      300
+    ],
+    "key_pose": 0
+  },
+  "huntress-walk-01": {
+    "source": "huntress-walk-eight-v43.png",
+    "component": 1,
+    "anchor": [
+      535,
+      283
+    ],
+    "scale": 0.414,
+    "body_anchor": [
+      224,
+      300
+    ],
+    "key_pose": 1
+  },
+  "huntress-walk-02": {
+    "source": "huntress-walk-eight-v43.png",
+    "component": 3,
+    "anchor": [
+      902,
+      283
+    ],
+    "scale": 0.414,
+    "body_anchor": [
+      224,
+      300
+    ],
+    "key_pose": 2
+  },
+  "huntress-walk-03": {
+    "source": "huntress-walk-eight-v43.png",
+    "component": 2,
+    "anchor": [
+      1265,
+      283
+    ],
+    "scale": 0.414,
+    "body_anchor": [
+      224,
+      300
+    ],
+    "key_pose": 3
+  },
+  "huntress-walk-04": {
+    "source": "huntress-walk-eight-v43.png",
+    "component": 13,
+    "anchor": [
+      181,
+      822
+    ],
+    "scale": 0.414,
+    "body_anchor": [
+      224,
+      300
+    ],
+    "key_pose": 4
+  },
+  "huntress-walk-05": {
+    "source": "huntress-walk-eight-v43.png",
+    "component": 10,
+    "anchor": [
+      542,
+      822
+    ],
+    "scale": 0.414,
+    "body_anchor": [
+      224,
+      300
+    ],
+    "key_pose": 5
+  },
+  "huntress-walk-06": {
+    "source": "huntress-walk-eight-v43.png",
+    "component": 11,
+    "anchor": [
+      908,
+      822
+    ],
+    "scale": 0.414,
+    "body_anchor": [
+      224,
+      300
+    ],
+    "key_pose": 6
+  },
+  "huntress-walk-07": {
+    "source": "huntress-walk-eight-v43.png",
+    "component": 12,
+    "anchor": [
+      1273,
+      822
+    ],
+    "scale": 0.414,
+    "body_anchor": [
+      224,
+      300
+    ],
+    "key_pose": 7
+  },
+  "huntress-slash-00": {
+    "shared_scale": 0.773746432939258,
+    "ground_anchor": 403,
+    "body_anchor": [
+      320,
+      300
+    ],
+    "translation": [
+      240,
+      159
+    ],
+    "effect_components": 1,
+    "source": "source-art/lyra-slashes-v87/slash.png",
+    "component": 0,
+    "action": "diagonal sweep",
+    "locked_to": "huntress-idle-00"
+  },
+  "huntress-slash-01": {
+    "shared_scale": 0.773746432939258,
+    "ground_anchor": 403,
+    "body_anchor": [
+      320,
+      300
+    ],
+    "translation": [
+      195,
+      178
+    ],
+    "effect_components": 1,
+    "source": "source-art/lyra-slashes-v87/slash.png",
+    "component": 1,
+    "action": "diagonal sweep"
+  },
+  "huntress-slash-02": {
+    "shared_scale": 0.773746432939258,
+    "ground_anchor": 403,
+    "body_anchor": [
+      320,
+      300
+    ],
+    "translation": [
+      240,
+      162
+    ],
+    "effect_components": 1,
+    "source": "source-art/lyra-slashes-v87/slash.png",
+    "component": 2,
+    "action": "diagonal sweep"
+  },
+  "huntress-slash-03": {
+    "shared_scale": 0.773746432939258,
+    "ground_anchor": 403,
+    "body_anchor": [
+      320,
+      300
+    ],
+    "translation": [
+      231,
+      150
+    ],
+    "effect_components": 1,
+    "source": "source-art/lyra-slashes-v87/slash.png",
+    "component": 3,
+    "action": "diagonal sweep"
+  },
+  "huntress-slash-04": {
+    "shared_scale": 0.773746432939258,
+    "ground_anchor": 403,
+    "body_anchor": [
+      320,
+      300
+    ],
+    "translation": [
+      213,
+      168
+    ],
+    "effect_components": 1,
+    "source": "source-art/lyra-slashes-v87/slash.png",
+    "component": 4,
+    "action": "diagonal sweep"
+  },
+  "huntress-slash-05": {
+    "shared_scale": 0.773746432939258,
+    "ground_anchor": 403,
+    "body_anchor": [
+      320,
+      300
+    ],
+    "translation": [
+      236,
+      196
+    ],
+    "effect_components": 1,
+    "source": "source-art/lyra-slashes-v87/slash.png",
+    "component": 5,
+    "action": "diagonal sweep"
+  },
+  "huntress-slash-06": {
+    "shared_scale": 0.773746432939258,
+    "ground_anchor": 403,
+    "body_anchor": [
+      320,
+      300
+    ],
+    "translation": [
+      235,
+      206
+    ],
+    "effect_components": 1,
+    "source": "source-art/lyra-slashes-v87/slash.png",
+    "component": 6,
+    "action": "diagonal sweep"
+  },
+  "huntress-slash-07": {
+    "shared_scale": 0.773746432939258,
+    "ground_anchor": 403,
+    "body_anchor": [
+      320,
+      300
+    ],
+    "translation": [
+      232,
+      213
+    ],
+    "effect_components": 1,
+    "source": "source-art/lyra-slashes-v87/slash.png",
+    "component": 7,
+    "action": "diagonal sweep"
+  },
+  "huntress-rise-00": {
+    "shared_scale": 0.7617391304347826,
+    "ground_anchor": 403,
+    "body_anchor": [
+      320,
+      300
+    ],
+    "translation": [
+      202,
+      180
+    ],
+    "effect_components": 1,
+    "source": "source-art/lyra-slashes-v87/rise.png",
+    "component": 0,
+    "action": "turning horizontal slash",
+    "locked_to": "huntress-slash-07"
+  },
+  "huntress-rise-01": {
+    "shared_scale": 0.7617391304347826,
+    "ground_anchor": 403,
+    "body_anchor": [
+      320,
+      300
+    ],
+    "translation": [
+      209,
+      177
+    ],
+    "effect_components": 1,
+    "source": "source-art/lyra-slashes-v87/rise.png",
+    "component": 1,
+    "action": "turning horizontal slash"
+  },
+  "huntress-rise-02": {
+    "shared_scale": 0.7617391304347826,
+    "ground_anchor": 403,
+    "body_anchor": [
+      320,
+      300
+    ],
+    "translation": [
+      214,
+      174
+    ],
+    "effect_components": 1,
+    "source": "source-art/lyra-slashes-v87/rise.png",
+    "component": 2,
+    "action": "turning horizontal slash"
+  },
+  "huntress-rise-03": {
+    "shared_scale": 0.7617391304347826,
+    "ground_anchor": 403,
+    "body_anchor": [
+      320,
+      300
+    ],
+    "translation": [
+      186,
+      178
+    ],
+    "effect_components": 1,
+    "source": "source-art/lyra-slashes-v87/rise.png",
+    "component": 3,
+    "action": "turning horizontal slash"
+  },
+  "huntress-rise-04": {
+    "shared_scale": 0.7617391304347826,
+    "ground_anchor": 403,
+    "body_anchor": [
+      320,
+      300
+    ],
+    "translation": [
+      184,
+      192
+    ],
+    "effect_components": 1,
+    "source": "source-art/lyra-slashes-v87/rise.png",
+    "component": 4,
+    "action": "turning horizontal slash"
+  },
+  "huntress-rise-05": {
+    "shared_scale": 0.7617391304347826,
+    "ground_anchor": 403,
+    "body_anchor": [
+      320,
+      300
+    ],
+    "translation": [
+      179,
+      191
+    ],
+    "effect_components": 1,
+    "source": "source-art/lyra-slashes-v87/rise.png",
+    "component": 5,
+    "action": "turning horizontal slash"
+  },
+  "huntress-rise-06": {
+    "shared_scale": 0.7617391304347826,
+    "ground_anchor": 403,
+    "body_anchor": [
+      320,
+      300
+    ],
+    "translation": [
+      208,
+      182
+    ],
+    "effect_components": 1,
+    "source": "source-art/lyra-slashes-v87/rise.png",
+    "component": 6,
+    "action": "turning horizontal slash"
+  },
+  "huntress-rise-07": {
+    "shared_scale": 0.7617391304347826,
+    "ground_anchor": 403,
+    "body_anchor": [
+      320,
+      300
+    ],
+    "translation": [
+      230,
+      177
+    ],
+    "effect_components": 1,
+    "source": "source-art/lyra-slashes-v87/rise.png",
+    "component": 7,
+    "action": "turning horizontal slash"
+  },
+  "huntress-finisher-00": {
+    "shared_scale": 0.7465909090909091,
+    "ground_anchor": 403,
+    "body_anchor": [
+      320,
+      300
+    ],
+    "translation": [
+      232,
+      152
+    ],
+    "effect_components": 1,
+    "source": "source-art/lyra-slashes-v87/finisher.png",
+    "component": 0,
+    "action": "crossed-blade slash",
+    "locked_to": "huntress-rise-07"
+  },
+  "huntress-finisher-01": {
+    "shared_scale": 0.7465909090909091,
+    "ground_anchor": 403,
+    "body_anchor": [
+      320,
+      300
+    ],
+    "translation": [
+      226,
+      152
+    ],
+    "effect_components": 1,
+    "source": "source-art/lyra-slashes-v87/finisher.png",
+    "component": 1,
+    "action": "crossed-blade slash"
+  },
+  "huntress-finisher-02": {
+    "shared_scale": 0.7465909090909091,
+    "ground_anchor": 403,
+    "body_anchor": [
+      320,
+      300
+    ],
+    "translation": [
+      214,
+      144
+    ],
+    "effect_components": 1,
+    "source": "source-art/lyra-slashes-v87/finisher.png",
+    "component": 2,
+    "action": "crossed-blade slash"
+  },
+  "huntress-finisher-03": {
+    "shared_scale": 0.7465909090909091,
+    "ground_anchor": 403,
+    "body_anchor": [
+      320,
+      300
+    ],
+    "translation": [
+      219,
+      161
+    ],
+    "effect_components": 1,
+    "source": "source-art/lyra-slashes-v87/finisher.png",
+    "component": 3,
+    "action": "crossed-blade slash"
+  },
+  "huntress-finisher-04": {
+    "shared_scale": 0.7465909090909091,
+    "ground_anchor": 403,
+    "body_anchor": [
+      320,
+      300
+    ],
+    "translation": [
+      218,
+      170
+    ],
+    "effect_components": 3,
+    "source": "source-art/lyra-slashes-v87/finisher.png",
+    "component": 4,
+    "action": "crossed-blade slash"
+  },
+  "huntress-finisher-05": {
+    "shared_scale": 0.7465909090909091,
+    "ground_anchor": 403,
+    "body_anchor": [
+      320,
+      300
+    ],
+    "translation": [
+      200,
+      156
+    ],
+    "effect_components": 1,
+    "source": "source-art/lyra-slashes-v87/finisher.png",
+    "component": 5,
+    "action": "crossed-blade slash"
+  },
+  "huntress-finisher-06": {
+    "shared_scale": 0.7465909090909091,
+    "ground_anchor": 403,
+    "body_anchor": [
+      320,
+      300
+    ],
+    "translation": [
+      196,
+      172
+    ],
+    "effect_components": 1,
+    "source": "source-art/lyra-slashes-v87/finisher.png",
+    "component": 6,
+    "action": "crossed-blade slash"
+  },
+  "huntress-finisher-07": {
+    "shared_scale": 0.7465909090909091,
+    "ground_anchor": 403,
+    "body_anchor": [
+      320,
+      300
+    ],
+    "translation": [
+      239,
+      168
+    ],
+    "effect_components": 1,
+    "source": "source-art/lyra-slashes-v87/finisher.png",
+    "component": 7,
+    "action": "crossed-blade slash",
+    "locked_to": "huntress-idle-00"
+  },
+  "huntress-roll-00": {
+    "source": "huntress-a-v43.png",
+    "component": 87,
+    "anchor": [
+      105,
+      1005
+    ],
+    "scale": 1.28,
+    "body_anchor": [
+      224,
+      300
+    ]
+  },
+  "huntress-roll-01": {
+    "source": "huntress-a-v43.png",
+    "component": 94,
+    "anchor": [
+      283,
+      1016
+    ],
+    "scale": 1.28,
+    "body_anchor": [
+      224,
+      300
+    ]
+  },
+  "huntress-roll-02": {
+    "source": "huntress-a-v43.png",
+    "component": 98,
+    "anchor": [
+      454,
+      1032
+    ],
+    "scale": 1.28,
+    "body_anchor": [
+      224,
+      300
+    ]
+  },
+  "huntress-roll-03": {
+    "source": "huntress-a-v43.png",
+    "component": 89,
+    "anchor": [
+      656,
+      995
+    ],
+    "scale": 1.28,
+    "body_anchor": [
+      224,
+      300
+    ]
+  },
+  "huntress-roll-04": {
+    "source": "huntress-a-v43.png",
+    "component": 96,
+    "anchor": [
+      806,
+      1028
+    ],
+    "scale": 1.28,
+    "body_anchor": [
+      224,
+      300
+    ]
+  },
+  "huntress-roll-05": {
+    "source": "huntress-a-v43.png",
+    "component": 92,
+    "anchor": [
+      1021,
+      1015
+    ],
+    "scale": 1.28,
+    "body_anchor": [
+      224,
+      300
+    ]
+  },
+  "huntress-roll-06": {
+    "source": "huntress-a-v43.png",
+    "component": 90,
+    "anchor": [
+      1200,
+      1027
+    ],
+    "scale": 1.28,
+    "body_anchor": [
+      224,
+      300
+    ]
+  },
+  "huntress-roll-07": {
+    "source": "huntress-a-v43.png",
+    "component": 88,
+    "anchor": [
+      1371,
+      1024
+    ],
+    "scale": 1.28,
+    "body_anchor": [
+      224,
+      300
+    ]
+  },
+  "huntress-jump-00": {
+    "source": "huntress-b-v43.png",
+    "component": 9,
+    "anchor": [
+      110,
+      154
+    ],
+    "scale": 1.28,
+    "body_anchor": [
+      224,
+      300
+    ]
+  },
+  "huntress-jump-01": {
+    "source": "huntress-b-v43.png",
+    "component": 5,
+    "anchor": [
+      275,
+      114
+    ],
+    "scale": 1.28,
+    "body_anchor": [
+      224,
+      300
+    ]
+  },
+  "huntress-jump-02": {
+    "source": "huntress-b-v43.png",
+    "component": 1,
+    "anchor": [
+      462,
+      95
+    ],
+    "scale": 1.28,
+    "body_anchor": [
+      224,
+      300
+    ]
+  },
+  "huntress-jump-03": {
+    "source": "huntress-b-v43.png",
+    "component": 3,
+    "anchor": [
+      637,
+      107
+    ],
+    "scale": 1.28,
+    "body_anchor": [
+      224,
+      300
+    ]
+  },
+  "huntress-jump-04": {
+    "source": "huntress-b-v43.png",
+    "component": 4,
+    "anchor": [
+      826,
+      113
+    ],
+    "scale": 1.28,
+    "body_anchor": [
+      224,
+      300
+    ]
+  },
+  "huntress-jump-05": {
+    "source": "huntress-b-v43.png",
+    "component": 11,
+    "anchor": [
+      1011,
+      165
+    ],
+    "scale": 1.28,
+    "body_anchor": [
+      224,
+      300
+    ]
+  },
+  "huntress-jump-06": {
+    "source": "huntress-b-v43.png",
+    "component": 8,
+    "anchor": [
+      1200,
+      153
+    ],
+    "scale": 1.28,
+    "body_anchor": [
+      224,
+      300
+    ]
+  },
+  "huntress-jump-07": {
+    "source": "huntress-b-v43.png",
+    "component": 2,
+    "anchor": [
+      1374,
+      112
+    ],
+    "scale": 1.28,
+    "body_anchor": [
+      224,
+      300
+    ]
+  },
+  "huntress-air-slash-00": {
+    "source": "huntress-b-v43.png",
+    "component": 16,
+    "anchor": [
+      98,
+      310
+    ],
+    "scale": 1.28,
+    "body_anchor": [
+      224,
+      300
+    ]
+  },
+  "huntress-air-slash-01": {
+    "source": "huntress-b-v43.png",
+    "component": 20,
+    "anchor": [
+      282,
+      300
+    ],
+    "scale": 1.28,
+    "body_anchor": [
+      224,
+      300
+    ]
+  },
+  "huntress-air-slash-02": {
+    "source": "huntress-b-v43.png",
+    "component": 19,
+    "anchor": [
+      465,
+      300
+    ],
+    "scale": 1.28,
+    "body_anchor": [
+      224,
+      300
+    ]
+  },
+  "huntress-air-slash-03": {
+    "source": "huntress-b-v43.png",
+    "component": 14,
+    "anchor": [
+      650,
+      301
+    ],
+    "scale": 1.28,
+    "body_anchor": [
+      224,
+      300
+    ]
+  },
+  "huntress-air-slash-04": {
+    "source": "huntress-b-v43.png",
+    "component": 18,
+    "anchor": [
+      833,
+      302
+    ],
+    "scale": 1.28,
+    "body_anchor": [
+      224,
+      300
+    ]
+  },
+  "huntress-air-slash-05": {
+    "source": "huntress-b-v43.png",
+    "component": 21,
+    "anchor": [
+      1020,
+      304
+    ],
+    "scale": 1.28,
+    "body_anchor": [
+      224,
+      300
+    ]
+  },
+  "huntress-air-slash-06": {
+    "source": "huntress-b-v43.png",
+    "component": 17,
+    "anchor": [
+      1207,
+      307
+    ],
+    "scale": 1.28,
+    "body_anchor": [
+      224,
+      300
+    ]
+  },
+  "huntress-air-slash-07": {
+    "source": "huntress-b-v43.png",
+    "component": 15,
+    "anchor": [
+      1370,
+      299
+    ],
+    "scale": 1.28,
+    "body_anchor": [
+      224,
+      300
+    ]
+  },
+  "huntress-air-spin-00": {
+    "source": "huntress-b-v43.png",
+    "component": 42,
+    "anchor": [
+      101,
+      475
+    ],
+    "scale": 1.28,
+    "body_anchor": [
+      224,
+      300
+    ]
+  },
+  "huntress-air-spin-01": {
+    "source": "huntress-b-v43.png",
+    "component": 37,
+    "anchor": [
+      282,
+      472
+    ],
+    "scale": 1.28,
+    "body_anchor": [
+      224,
+      300
+    ]
+  },
+  "huntress-air-spin-02": {
+    "source": "huntress-b-v43.png",
+    "component": 38,
+    "anchor": [
+      463,
+      469
+    ],
+    "scale": 1.28,
+    "body_anchor": [
+      224,
+      300
+    ]
+  },
+  "huntress-air-spin-03": {
+    "source": "huntress-b-v43.png",
+    "component": 40,
+    "anchor": [
+      644,
+      478
+    ],
+    "scale": 1.28,
+    "body_anchor": [
+      224,
+      300
+    ]
+  },
+  "huntress-air-spin-04": {
+    "source": "huntress-b-v43.png",
+    "component": 36,
+    "anchor": [
+      822,
+      481
+    ],
+    "scale": 1.28,
+    "body_anchor": [
+      224,
+      300
+    ]
+  },
+  "huntress-air-spin-05": {
+    "source": "huntress-b-v43.png",
+    "component": 41,
+    "anchor": [
+      1012,
+      471
+    ],
+    "scale": 1.28,
+    "body_anchor": [
+      224,
+      300
+    ]
+  },
+  "huntress-air-spin-06": {
+    "source": "huntress-b-v43.png",
+    "component": 39,
+    "anchor": [
+      1185,
+      468
+    ],
+    "scale": 1.28,
+    "body_anchor": [
+      224,
+      300
+    ]
+  },
+  "huntress-air-spin-07": {
+    "source": "huntress-b-v43.png",
+    "component": 46,
+    "anchor": [
+      1375,
+      482
+    ],
+    "scale": 1.28,
+    "body_anchor": [
+      224,
+      300
+    ]
+  },
+  "huntress-air-finish-00": {
+    "source": "huntress-b-v43.png",
+    "component": 68,
+    "anchor": [
+      101,
+      659
+    ],
+    "scale": 1.28,
+    "body_anchor": [
+      224,
+      300
+    ]
+  },
+  "huntress-air-finish-01": {
+    "source": "huntress-b-v43.png",
+    "component": 69,
+    "anchor": [
+      283,
+      668
+    ],
+    "scale": 1.28,
+    "body_anchor": [
+      224,
+      300
+    ]
+  },
+  "huntress-air-finish-02": {
+    "source": "huntress-b-v43.png",
+    "component": 70,
+    "anchor": [
+      433,
+      661
+    ],
+    "scale": 1.28,
+    "body_anchor": [
+      224,
+      300
+    ]
+  },
+  "huntress-air-finish-03": {
+    "source": "huntress-b-v43.png",
+    "component": 71,
+    "anchor": [
+      617,
+      669
+    ],
+    "scale": 1.28,
+    "body_anchor": [
+      224,
+      300
+    ]
+  },
+  "huntress-air-finish-04": {
+    "source": "huntress-b-v43.png",
+    "component": 72,
+    "anchor": [
+      802,
+      668
+    ],
+    "scale": 1.28,
+    "body_anchor": [
+      224,
+      300
+    ]
+  },
+  "huntress-air-finish-05": {
+    "source": "huntress-b-v43.png",
+    "component": 74,
+    "anchor": [
+      984,
+      686
+    ],
+    "scale": 1.28,
+    "body_anchor": [
+      224,
+      300
+    ]
+  },
+  "huntress-air-finish-06": {
+    "source": "huntress-b-v43.png",
+    "component": 77,
+    "anchor": [
+      1183,
+      690
+    ],
+    "scale": 1.28,
+    "body_anchor": [
+      224,
+      300
+    ]
+  },
+  "huntress-air-finish-07": {
+    "source": "huntress-b-v43.png",
+    "component": 73,
+    "anchor": [
+      1370,
+      671
+    ],
+    "scale": 1.28,
+    "body_anchor": [
+      224,
+      300
+    ]
+  },
+  "huntress-bow-00": {
+    "source": "huntress-b-v43.png",
+    "component": 100,
+    "anchor": [
+      94,
+      824
+    ],
+    "scale": 1.28,
+    "body_anchor": [
+      224,
+      300
+    ]
+  },
+  "huntress-bow-01": {
+    "source": "huntress-b-v43.png",
+    "component": 92,
+    "anchor": [
+      279,
+      826
+    ],
+    "scale": 1.28,
+    "body_anchor": [
+      224,
+      300
+    ]
+  },
+  "huntress-bow-02": {
+    "source": "huntress-b-v43.png",
+    "component": 91,
+    "anchor": [
+      460,
+      825
+    ],
+    "scale": 1.28,
+    "body_anchor": [
+      224,
+      300
+    ]
+  },
+  "huntress-bow-03": {
+    "source": "huntress-b-v43.png",
+    "component": 89,
+    "anchor": [
+      641,
+      826
+    ],
+    "scale": 1.28,
+    "body_anchor": [
+      224,
+      300
+    ]
+  },
+  "huntress-bow-04": {
+    "source": "huntress-b-v43.png",
+    "component": 88,
+    "anchor": [
+      825,
+      826
+    ],
+    "scale": 1.28,
+    "body_anchor": [
+      224,
+      300
+    ]
+  },
+  "huntress-bow-05": {
+    "source": "huntress-b-v43.png",
+    "component": 90,
+    "anchor": [
+      1001,
+      826
+    ],
+    "scale": 1.28,
+    "body_anchor": [
+      224,
+      300
+    ]
+  },
+  "huntress-bow-06": {
+    "source": "huntress-b-v43.png",
+    "component": 95,
+    "anchor": [
+      1195,
+      826
+    ],
+    "scale": 1.28,
+    "body_anchor": [
+      224,
+      300
+    ]
+  },
+  "huntress-bow-07": {
+    "source": "huntress-b-v43.png",
+    "component": 117,
+    "anchor": [
+      1374,
+      826
+    ],
+    "scale": 1.28,
+    "body_anchor": [
+      224,
+      300
+    ]
+  },
+  "huntress-air-bow-00": {
+    "source": "huntress-b-v43.png",
+    "component": 174,
+    "anchor": [
+      96,
+      1002
+    ],
+    "scale": 1.28,
+    "body_anchor": [
+      224,
+      300
+    ]
+  },
+  "huntress-air-bow-01": {
+    "source": "huntress-b-v43.png",
+    "component": 176,
+    "anchor": [
+      280,
+      1002
+    ],
+    "scale": 1.28,
+    "body_anchor": [
+      224,
+      300
+    ]
+  },
+  "huntress-air-bow-02": {
+    "source": "huntress-b-v43.png",
+    "component": 175,
+    "anchor": [
+      465,
+      1005
+    ],
+    "scale": 1.28,
+    "body_anchor": [
+      224,
+      300
+    ]
+  },
+  "huntress-air-bow-03": {
+    "source": "huntress-b-v43.png",
+    "component": 182,
+    "anchor": [
+      644,
+      1007
+    ],
+    "scale": 1.28,
+    "body_anchor": [
+      224,
+      300
+    ]
+  },
+  "huntress-air-bow-04": {
+    "source": "huntress-b-v43.png",
+    "component": 180,
+    "anchor": [
+      821,
+      1005
+    ],
+    "scale": 1.28,
+    "body_anchor": [
+      224,
+      300
+    ]
+  },
+  "huntress-air-bow-05": {
+    "source": "huntress-b-v43.png",
+    "component": 178,
+    "anchor": [
+      999,
+      1000
+    ],
+    "scale": 1.28,
+    "body_anchor": [
+      224,
+      300
+    ]
+  },
+  "huntress-air-bow-06": {
+    "source": "huntress-b-v43.png",
+    "component": 177,
+    "anchor": [
+      1205,
+      1000
+    ],
+    "scale": 1.28,
+    "body_anchor": [
+      224,
+      300
+    ]
+  },
+  "huntress-air-bow-07": {
+    "source": "huntress-b-v43.png",
+    "component": 179,
+    "anchor": [
+      1377,
+      1004
+    ],
+    "scale": 1.28,
+    "body_anchor": [
+      224,
+      300
+    ]
+  },
+  "huntress-rage-00": {
+    "source": "huntress-c-v43.png",
+    "component": 16,
+    "anchor": [
+      94,
+      142
+    ],
+    "scale": 1.16,
+    "body_anchor": [
+      224,
+      300
+    ]
+  },
+  "huntress-rage-01": {
+    "source": "huntress-c-v43.png",
+    "component": 1,
+    "anchor": [
+      276,
+      143
+    ],
+    "scale": 1.16,
+    "body_anchor": [
+      224,
+      300
+    ]
+  },
+  "huntress-rage-02": {
+    "source": "huntress-c-v43.png",
+    "component": 5,
+    "anchor": [
+      468,
+      143
+    ],
+    "scale": 1.16,
+    "body_anchor": [
+      224,
+      300
+    ]
+  },
+  "huntress-rage-03": {
+    "source": "huntress-c-v43.png",
+    "component": 3,
+    "anchor": [
+      645,
+      143
+    ],
+    "scale": 1.16,
+    "body_anchor": [
+      224,
+      300
+    ]
+  },
+  "huntress-rage-04": {
+    "source": "huntress-c-v43.png",
+    "component": 4,
+    "anchor": [
+      819,
+      144
+    ],
+    "scale": 1.16,
+    "body_anchor": [
+      224,
+      300
+    ]
+  },
+  "huntress-rage-05": {
+    "source": "huntress-c-v43.png",
+    "component": 6,
+    "anchor": [
+      1012,
+      144
+    ],
+    "scale": 1.16,
+    "body_anchor": [
+      224,
+      300
+    ]
+  },
+  "huntress-rage-06": {
+    "source": "huntress-c-v43.png",
+    "component": 21,
+    "anchor": [
+      1197,
+      145
+    ],
+    "scale": 1.16,
+    "body_anchor": [
+      224,
+      300
+    ]
+  },
+  "huntress-rage-07": {
+    "source": "huntress-c-v43.png",
+    "component": 22,
+    "anchor": [
+      1375,
+      145
+    ],
+    "scale": 1.16,
+    "body_anchor": [
+      224,
+      300
+    ]
+  },
+  "huntress-hurt-00": {
+    "source": "huntress-c-v43.png",
+    "component": 103,
+    "anchor": [
+      96,
+      325
+    ],
+    "scale": 1.16,
+    "body_anchor": [
+      224,
+      300
+    ]
+  },
+  "huntress-hurt-01": {
+    "source": "huntress-c-v43.png",
+    "component": 102,
+    "anchor": [
+      279,
+      326
+    ],
+    "scale": 1.16,
+    "body_anchor": [
+      224,
+      300
+    ]
+  },
+  "huntress-hurt-02": {
+    "source": "huntress-c-v43.png",
+    "component": 108,
+    "anchor": [
+      462,
+      330
+    ],
+    "scale": 1.16,
+    "body_anchor": [
+      224,
+      300
+    ]
+  },
+  "huntress-hurt-03": {
+    "source": "huntress-c-v43.png",
+    "component": 110,
+    "anchor": [
+      628,
+      358
+    ],
+    "scale": 1.16,
+    "body_anchor": [
+      224,
+      300
+    ]
+  },
+  "huntress-hurt-04": {
+    "source": "huntress-c-v43.png",
+    "component": 113,
+    "anchor": [
+      831,
+      380
+    ],
+    "scale": 1.16,
+    "body_anchor": [
+      224,
+      300
+    ]
+  },
+  "huntress-hurt-05": {
+    "source": "huntress-c-v43.png",
+    "component": 111,
+    "anchor": [
+      1031,
+      373
+    ],
+    "scale": 1.16,
+    "body_anchor": [
+      224,
+      300
+    ]
+  },
+  "huntress-hurt-06": {
+    "source": "huntress-c-v43.png",
+    "component": 104,
+    "anchor": [
+      1198,
+      330
+    ],
+    "scale": 1.16,
+    "body_anchor": [
+      224,
+      300
+    ]
+  },
+  "huntress-hurt-07": {
+    "source": "huntress-c-v43.png",
+    "component": 105,
+    "anchor": [
+      1371,
+      325
+    ],
+    "scale": 1.16,
+    "body_anchor": [
+      224,
+      300
+    ]
+  },
+  "huntress-pickup-00": {
+    "source": "huntress-c-v43.png",
+    "component": 115,
+    "anchor": [
+      93,
+      510
+    ],
+    "scale": 1.16,
+    "body_anchor": [
+      224,
+      299
+    ],
+    "ground_anchor": 403,
+    "ground_shift_y": -1,
+    "registration": "grounded pickup",
+    "normalization_source": "source-art/huntress-pickup-v54/huntress-pickup-00-original.png"
+  },
+  "huntress-pickup-01": {
+    "source": "huntress-c-v43.png",
+    "component": 119,
+    "anchor": [
+      271,
+      540
+    ],
+    "scale": 1.16,
+    "body_anchor": [
+      224,
+      359
+    ],
+    "ground_anchor": 403,
+    "ground_shift_y": 59,
+    "registration": "grounded pickup",
+    "normalization_source": "source-art/huntress-pickup-v54/huntress-pickup-01-original.png"
+  },
+  "huntress-pickup-02": {
+    "source": "huntress-c-v43.png",
+    "component": 121,
+    "anchor": [
+      450,
+      546
+    ],
+    "scale": 1.16,
+    "body_anchor": [
+      224,
+      351
+    ],
+    "ground_anchor": 403,
+    "ground_shift_y": 51,
+    "registration": "grounded pickup",
+    "normalization_source": "source-art/huntress-pickup-v54/huntress-pickup-02-original.png"
+  },
+  "huntress-pickup-03": {
+    "source": "huntress-c-v43.png",
+    "component": 123,
+    "anchor": [
+      637,
+      550
+    ],
+    "scale": 1.16,
+    "body_anchor": [
+      224,
+      357
+    ],
+    "ground_anchor": 403,
+    "ground_shift_y": 57,
+    "registration": "grounded pickup",
+    "normalization_source": "source-art/huntress-pickup-v54/huntress-pickup-03-original.png"
+  },
+  "huntress-pickup-04": {
+    "source": "huntress-c-v43.png",
+    "component": 122,
+    "anchor": [
+      811,
+      542
+    ],
+    "scale": 1.16,
+    "body_anchor": [
+      224,
+      343
+    ],
+    "ground_anchor": 403,
+    "ground_shift_y": 43,
+    "registration": "grounded pickup",
+    "normalization_source": "source-art/huntress-pickup-v54/huntress-pickup-04-original.png"
+  },
+  "huntress-pickup-05": {
+    "source": "huntress-c-v43.png",
+    "component": 117,
+    "anchor": [
+      1007,
+      519
+    ],
+    "scale": 1.16,
+    "body_anchor": [
+      224,
+      305
+    ],
+    "ground_anchor": 403,
+    "ground_shift_y": 5,
+    "registration": "grounded pickup",
+    "normalization_source": "source-art/huntress-pickup-v54/huntress-pickup-05-original.png"
+  },
+  "huntress-pickup-06": {
+    "source": "huntress-c-v43.png",
+    "component": 114,
+    "anchor": [
+      1198,
+      512
+    ],
+    "scale": 1.16,
+    "body_anchor": [
+      224,
+      299
+    ],
+    "ground_anchor": 403,
+    "ground_shift_y": -1,
+    "registration": "grounded pickup",
+    "normalization_source": "source-art/huntress-pickup-v54/huntress-pickup-06-original.png"
+  },
+  "huntress-pickup-07": {
+    "source": "huntress-c-v43.png",
+    "component": 116,
+    "anchor": [
+      1373,
+      510
+    ],
+    "scale": 1.16,
+    "body_anchor": [
+      224,
+      300
+    ],
+    "ground_anchor": 403,
+    "ground_shift_y": 0,
+    "registration": "grounded pickup",
+    "normalization_source": "source-art/huntress-pickup-v54/huntress-pickup-07-original.png"
+  },
+  "huntress-grapple-00": {
+    "source": "huntress-c-v43.png",
+    "component": 129,
+    "anchor": [
+      97,
+      685
+    ],
+    "scale": 1.16,
+    "body_anchor": [
+      224,
+      300
+    ]
+  },
+  "huntress-grapple-01": {
+    "source": "huntress-c-v43.png",
+    "component": 126,
+    "anchor": [
+      280,
+      685
+    ],
+    "scale": 1.16,
+    "body_anchor": [
+      224,
+      300
+    ]
+  },
+  "huntress-grapple-02": {
+    "source": "huntress-c-v43.png",
+    "component": 127,
+    "anchor": [
+      470,
+      685
+    ],
+    "scale": 1.16,
+    "body_anchor": [
+      224,
+      300
+    ]
+  },
+  "huntress-grapple-03": {
+    "source": "huntress-c-v43.png",
+    "component": 125,
+    "anchor": [
+      655,
+      673
+    ],
+    "scale": 1.16,
+    "body_anchor": [
+      224,
+      300
+    ]
+  },
+  "huntress-grapple-04": {
+    "source": "huntress-c-v43.png",
+    "component": 130,
+    "anchor": [
+      825,
+      681
+    ],
+    "scale": 1.16,
+    "body_anchor": [
+      224,
+      300
+    ]
+  },
+  "huntress-grapple-05": {
+    "source": "huntress-c-v43.png",
+    "component": 131,
+    "anchor": [
+      1007,
+      682
+    ],
+    "scale": 1.16,
+    "body_anchor": [
+      224,
+      300
+    ]
+  },
+  "huntress-grapple-06": {
+    "source": "huntress-c-v43.png",
+    "component": 128,
+    "anchor": [
+      1190,
+      682
+    ],
+    "scale": 1.16,
+    "body_anchor": [
+      224,
+      300
+    ]
+  },
+  "huntress-grapple-07": {
+    "source": "huntress-c-v43.png",
+    "component": 132,
+    "anchor": [
+      1370,
+      682
+    ],
+    "scale": 1.16,
+    "body_anchor": [
+      224,
+      300
+    ]
+  },
+  "huntress-win-00": {
+    "source": "huntress-c-v43.png",
+    "component": 146,
+    "anchor": [
+      97,
+      873
+    ],
+    "scale": 1.16,
+    "body_anchor": [
+      224,
+      300
+    ]
+  },
+  "huntress-win-01": {
+    "source": "huntress-c-v43.png",
+    "component": 142,
+    "anchor": [
+      284,
+      873
+    ],
+    "scale": 1.16,
+    "body_anchor": [
+      224,
+      300
+    ]
+  },
+  "huntress-win-02": {
+    "source": "huntress-c-v43.png",
+    "component": 144,
+    "anchor": [
+      463,
+      873
+    ],
+    "scale": 1.16,
+    "body_anchor": [
+      224,
+      300
+    ]
+  },
+  "huntress-win-03": {
+    "source": "huntress-c-v43.png",
+    "component": 143,
+    "anchor": [
+      640,
+      874
+    ],
+    "scale": 1.16,
+    "body_anchor": [
+      224,
+      300
+    ]
+  },
+  "huntress-win-04": {
+    "source": "huntress-c-v43.png",
+    "component": 147,
+    "anchor": [
+      812,
+      872
+    ],
+    "scale": 1.16,
+    "body_anchor": [
+      224,
+      300
+    ]
+  },
+  "huntress-win-05": {
+    "source": "huntress-c-v43.png",
+    "component": 149,
+    "anchor": [
+      996,
+      870
+    ],
+    "scale": 1.16,
+    "body_anchor": [
+      224,
+      300
+    ]
+  },
+  "huntress-win-06": {
+    "source": "huntress-c-v43.png",
+    "component": 145,
+    "anchor": [
+      1190,
+      872
+    ],
+    "scale": 1.16,
+    "body_anchor": [
+      224,
+      300
+    ]
+  },
+  "huntress-win-07": {
+    "source": "huntress-c-v43.png",
+    "component": 148,
+    "anchor": [
+      1371,
+      872
+    ],
+    "scale": 1.16,
+    "body_anchor": [
+      224,
+      300
+    ]
+  }
+}

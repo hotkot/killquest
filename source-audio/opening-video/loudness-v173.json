@@ -1,0 +1,29 @@
+{
+  "target_lufs": -21,
+  "peak_ceiling_dbtp": -2,
+  "source_measurements": {
+    "input_i": "-35.97",
+    "input_tp": "-25.18",
+    "input_lra": "5.70",
+    "input_thresh": "-46.32",
+    "output_i": "-21.35",
+    "output_tp": "-10.17",
+    "output_lra": "3.90",
+    "output_thresh": "-31.58",
+    "normalization_type": "dynamic",
+    "target_offset": "0.35"
+  },
+  "encoded_measurements": {
+    "input_i": "-21.03",
+    "input_tp": "-10.21",
+    "input_lra": "5.70",
+    "input_thresh": "-31.43",
+    "output_i": "-21.34",
+    "output_tp": "-10.17",
+    "output_lra": "3.90",
+    "output_thresh": "-31.57",
+    "normalization_type": "dynamic",
+    "target_offset": "0.34"
+  },
+  "filter": "volume=2.0,alimiter=limit=0.9,afade=t=out:st=43.2:d=1.05,loudnorm=I=-21:TP=-2:LRA=8:measured_I=-35.97:measured_TP=-25.18:measured_LRA=5.70:measured_thresh=-46.32:offset=0.35:linear=true"
+}

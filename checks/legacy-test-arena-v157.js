@@ -1,0 +1,10 @@
+class LegacyTestCombat extends Combat{
+ reset(character=this.characters||this.character){this.isTest=true;super.reset(character);this.pitEnabled=false;this.wave=0;this.banner=0;this.squad=null;
+  const posts=[[390,495],[410,610],[515,550],[285,625],[560,485]];
+  this.allies=Object.keys(REBEL_TYPES).map((kind,i)=>({id:9400+i,kind,team:'players',friendly:true,isNpc:true,hp:kind==='guard'?110:kind==='bulwark'?BULWARK.hp:kind==='spearman'?SPEARMAN.hp:kind==='crossbowman'?CROSSBOW.hp:COMMANDER.hp,maxHp:kind==='guard'?110:kind==='bulwark'?BULWARK.hp:kind==='spearman'?SPEARMAN.hp:kind==='crossbowman'?CROSSBOW.hp:COMMANDER.hp,x:posts[i][0],y:posts[i][1],face:1,idleTime:i*.17,state:'idle',t:0,cool:.5,inv:0,rage:0,walkDistance:0,guardCooldown:0,turnWait:0,loaded:true,reloadRemaining:0,parryCooldown:0,commanderStep:0,engaged:false,inspection:false}));
+  const hpFor={guard:110,bulwark:BULWARK.hp,spearman:SPEARMAN.hp,crossbowman:CROSSBOW.hp,commander:COMMANDER.hp+(this.players.length-1)*100};
+  Object.keys(REBEL_TYPES).forEach((kind,i)=>{const e={id:9300+i,kind,hp:hpFor[kind],maxHp:hpFor[kind],x:1380+i*85,y:[490,625,545,585,520][i],face:-1,state:'entering',entrySide:1,entryTarget:[890,900,1000,1120,1070][i],t:0,cool:.7+i*.15,hit:false,walkDistance:0,inFormation:false,engaged:true,commanderStep:0,guardCooldown:0,turnWait:0,role:'pressure',side:1,lane:i%2?1:-1,ai:'orbit',decision:.6,retreat:0,lastAttack:-5};if(kind==='commander')e.variant=chooseCommanderVariant();if(kind==='crossbowman'){e.loaded=true;e.reloadRemaining=0;}this.enemies.push(e);});
+  const form=(actors,id,face,frontX)=>{const q={id,leaderId:actors.find(a=>a.kind==='commander').id,active:true,face,frontX,centerY:555,ready:false,breached:false,meleeGap:.5,rangedGap:.8,commandClock:0,status:'forming'};actors.forEach((a,i)=>{a.formationId=id;a.formationRole=a.kind==='commander'?'commander':a.kind==='spearman'?'spear':a.kind==='crossbowman'?'bow':'shield';a.formationOrder=i;a.inFormation=true;a.engaged=false;});return q;};this.allySquad=form(this.allies,11,1,570);this.squad=form(this.enemies,12,-1,900);
+ }
+ spawn(){}
+}

@@ -1,0 +1,37 @@
+{
+  "duration_seconds": 120,
+  "method": "median active 200ms block RMS with per-stem peak headroom; shared master gain",
+  "master_gain_db": 1.9309624933029959,
+  "stems": {
+    "rhythm-guitars": {
+      "active_rms_before": 0.1977129727602005,
+      "active_rms_after": 0.07,
+      "gain_db": -9.01874252158074,
+      "target_active_rms": 0.07
+    },
+    "bass": {
+      "active_rms_before": 0.05974527448415756,
+      "active_rms_after": 0.065,
+      "gain_db": 0.7321959183996191,
+      "target_active_rms": 0.065
+    },
+    "drums": {
+      "active_rms_before": 0.059305332601070404,
+      "active_rms_after": 0.050930354820810604,
+      "gain_db": -1.3223408814511137,
+      "target_active_rms": 0.075
+    },
+    "support-guitar": {
+      "active_rms_before": 0.018464040011167526,
+      "active_rms_after": 0.045000000000000005,
+      "gain_db": 7.737715623842432,
+      "target_active_rms": 0.045
+    },
+    "atmosphere": {
+      "active_rms_before": 0.017154647037386894,
+      "active_rms_after": 0.028,
+      "gain_db": 4.255524892252856,
+      "target_active_rms": 0.028
+    }
+  }
+}

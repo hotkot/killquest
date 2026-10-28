@@ -1,0 +1,94 @@
+{
+  "composer": "Original procedural composition",
+  "title": "Quarter Forge",
+  "bpm": 128,
+  "duration_seconds": 60.0,
+  "bars": 32,
+  "style": "distorted power-chord riffs / electronic bass / dance drums",
+  "vocals": "AI Voice Generator TTS-generated vocalizations; deep barbarian / normal bandit; no procedural voice source",
+  "sample_rate": 44100,
+  "voice_variants": {
+    "hero-effort": 4,
+    "hero-pain": 2,
+    "hero-death": 2,
+    "bandit-death": 4,
+    "hero-warcry": 1,
+    "lyra-effort": 2,
+    "lyra-pain": 1,
+    "lyra-death": 1,
+    "lyra-warcry": 1
+  },
+  "voice_revision": "AI sustained death vowels with pitch-preserving core extension; punch/clarity pass on original short attacks",
+  "effect_variants": {
+    "flesh": 6,
+    "bow": 3,
+    "arrow-rain": 1,
+    "roll": 1
+  },
+  "voice_source": "source-audio/ai-voice-provenance.json",
+  "death_voice_source": "source-audio/long-cries-provenance.json",
+  "vocal_mix": {
+    "direct_gain_db": -3,
+    "echo_taps_ms": [
+      85,
+      170
+    ],
+    "echo_levels": [
+      0.13,
+      0.055
+    ],
+    "echo_lowpass_hz": 2600
+  },
+  "rage_warcry": {
+    "source": "AI Voice Generator",
+    "transcript": "RAAAAAAAH!",
+    "voice": "deep",
+    "echo_taps_ms": [
+      85,
+      170
+    ]
+  },
+  "huntress_audio": {
+    "voice_source": "source-audio/lyra-provenance.json",
+    "voice_style": "delicate",
+    "reflection_ms": [
+      75,
+      150
+    ],
+    "voice_sample_rate": 24000,
+    "effects_source": "scripts/make_huntress_sounds.py"
+  },
+  "result_fanfares": {
+    "victory": {
+      "duration_seconds": 5,
+      "bpm": 200,
+      "style": "Original synthesized harmonized power-metal guitar lick, sixteenth notes and double kick"
+    },
+    "defeat": {
+      "duration_seconds": 6,
+      "style": "Original descending minor piano/bell lament with strings"
+    }
+  },
+  "menu_cues": [
+    "menu-move",
+    "menu-confirm",
+    "menu-back"
+  ],
+  "menu_theme": {
+    "file": "killquest-menu-balanced-v54.mp3",
+    "duration_seconds": 120,
+    "bpm": 144,
+    "style": "Original low-register thrash arrangement: intro, main riff, power-chord refrain, half-time breakdown, bass bridge and final reprise",
+    "stems": [
+      "rhythm-guitars",
+      "bass",
+      "drums",
+      "support-guitar",
+      "atmosphere"
+    ],
+    "source_stems": "source-audio/menu-v53",
+    "mix_settings": "source-audio/menu-v54/mix-settings.json",
+    "mix": "Active-RMS balanced stems; rhythm guitar -9dB relative to original, backing layers raised relative to lead, shared master headroom"
+  },
+  "menu_cue_pitch": "one octave below v49"
+}

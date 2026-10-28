@@ -1,0 +1,1452 @@
+{
+  "guard": [
+    {
+      "frame": 0,
+      "source_component": 5,
+      "scale": 0.9852631578947368,
+      "bounds": [
+        254,
+        173,
+        442,
+        408
+      ],
+      "foot_y": 408
+    },
+    {
+      "frame": 1,
+      "source_component": 6,
+      "scale": 0.9852631578947368,
+      "bounds": [
+        280,
+        174,
+        465,
+        408
+      ],
+      "foot_y": 408
+    },
+    {
+      "frame": 2,
+      "source_component": 1,
+      "scale": 0.9852631578947368,
+      "bounds": [
+        265,
+        169,
+        439,
+        408
+      ],
+      "foot_y": 408
+    },
+    {
+      "frame": 3,
+      "source_component": 2,
+      "scale": 0.9852631578947368,
+      "bounds": [
+        267,
+        167,
+        454,
+        408
+      ],
+      "foot_y": 408
+    },
+    {
+      "frame": 4,
+      "source_component": 3,
+      "scale": 0.9852631578947368,
+      "bounds": [
+        262,
+        168,
+        446,
+        408
+      ],
+      "foot_y": 408
+    },
+    {
+      "frame": 5,
+      "source_component": 4,
+      "scale": 0.9852631578947368,
+      "bounds": [
+        280,
+        172,
+        458,
+        408
+      ],
+      "foot_y": 408
+    },
+    {
+      "frame": 6,
+      "source_component": 8,
+      "scale": 0.9852631578947368,
+      "bounds": [
+        237,
+        152,
+        465,
+        408
+      ],
+      "foot_y": 408
+    },
+    {
+      "frame": 7,
+      "source_component": 7,
+      "scale": 0.9852631578947368,
+      "bounds": [
+        251,
+        146,
+        442,
+        408
+      ],
+      "foot_y": 408
+    },
+    {
+      "frame": 8,
+      "source_component": 9,
+      "scale": 0.9852631578947368,
+      "bounds": [
+        230,
+        159,
+        444,
+        408
+      ],
+      "foot_y": 408
+    },
+    {
+      "frame": 9,
+      "source_component": 12,
+      "scale": 0.9852631578947368,
+      "bounds": [
+        240,
+        185,
+        536,
+        408
+      ],
+      "foot_y": 408
+    },
+    {
+      "frame": 10,
+      "source_component": 11,
+      "scale": 0.9852631578947368,
+      "bounds": [
+        245,
+        182,
+        538,
+        408
+      ],
+      "foot_y": 408
+    },
+    {
+      "frame": 11,
+      "source_component": 10,
+      "scale": 0.9852631578947368,
+      "bounds": [
+        290,
+        177,
+        461,
+        408
+      ],
+      "foot_y": 408
+    },
+    {
+      "frame": 12,
+      "source_component": 26,
+      "scale": 0.9852631578947368,
+      "bounds": [
+        261,
+        196,
+        442,
+        408
+      ],
+      "foot_y": 408
+    },
+    {
+      "frame": 13,
+      "source_component": 25,
+      "scale": 0.9852631578947368,
+      "bounds": [
+        255,
+        198,
+        434,
+        408
+      ],
+      "foot_y": 408
+    },
+    {
+      "frame": 14,
+      "source_component": 24,
+      "scale": 0.9852631578947368,
+      "bounds": [
+        244,
+        193,
+        458,
+        408
+      ],
+      "foot_y": 408
+    },
+    {
+      "frame": 15,
+      "source_component": 30,
+      "scale": 0.9852631578947368,
+      "bounds": [
+        262,
+        202,
+        453,
+        408
+      ],
+      "foot_y": 408
+    },
+    {
+      "frame": 16,
+      "source_component": 22,
+      "scale": 0.9852631578947368,
+      "bounds": [
+        313,
+        187,
+        557,
+        408
+      ],
+      "foot_y": 408
+    },
+    {
+      "frame": 17,
+      "source_component": 28,
+      "scale": 0.9852631578947368,
+      "bounds": [
+        312,
+        198,
+        519,
+        408
+      ],
+      "foot_y": 408
+    },
+    {
+      "frame": 18,
+      "source_component": 38,
+      "scale": 0.9852631578947368,
+      "bounds": [
+        185,
+        211,
+        459,
+        408
+      ],
+      "foot_y": 408
+    },
+    {
+      "frame": 19,
+      "source_component": 39,
+      "scale": 0.9852631578947368,
+      "bounds": [
+        300,
+        217,
+        502,
+        408
+      ],
+      "foot_y": 408
+    },
+    {
+      "frame": 20,
+      "source_component": 40,
+      "scale": 0.9852631578947368,
+      "bounds": [
+        253,
+        231,
+        473,
+        408
+      ],
+      "foot_y": 408
+    },
+    {
+      "frame": 21,
+      "source_component": 42,
+      "scale": 0.9852631578947368,
+      "bounds": [
+        272,
+        299,
+        497,
+        408
+      ],
+      "foot_y": 408
+    },
+    {
+      "frame": 22,
+      "source_component": 43,
+      "scale": 0.9852631578947368,
+      "bounds": [
+        235,
+        320,
+        533,
+        408
+      ],
+      "foot_y": 408
+    },
+    {
+      "frame": 23,
+      "source_component": 47,
+      "scale": 0.9852631578947368,
+      "bounds": [
+        263,
+        334,
+        504,
+        408
+      ],
+      "foot_y": 408
+    }
+  ],
+  "bulwark": [
+    {
+      "frame": 0,
+      "source_component": 2,
+      "scale": 0.9669421487603306,
+      "bounds": [
+        255,
+        169,
+        473,
+        408
+      ],
+      "foot_y": 408
+    },
+    {
+      "frame": 1,
+      "source_component": 4,
+      "scale": 0.9669421487603306,
+      "bounds": [
+        252,
+        172,
+        462,
+        408
+      ],
+      "foot_y": 408
+    },
+    {
+      "frame": 2,
+      "source_component": 3,
+      "scale": 0.9669421487603306,
+      "bounds": [
+        244,
+        171,
+        468,
+        408
+      ],
+      "foot_y": 408
+    },
+    {
+      "frame": 3,
+      "source_component": 1,
+      "scale": 0.9669421487603306,
+      "bounds": [
+        258,
+        167,
+        464,
+        408
+      ],
+      "foot_y": 408
+    },
+    {
+      "frame": 4,
+      "source_component": 5,
+      "scale": 0.9669421487603306,
+      "bounds": [
+        243,
+        171,
+        461,
+        408
+      ],
+      "foot_y": 408
+    },
+    {
+      "frame": 5,
+      "source_component": 6,
+      "scale": 0.9669421487603306,
+      "bounds": [
+        238,
+        172,
+        467,
+        408
+      ],
+      "foot_y": 408
+    },
+    {
+      "frame": 6,
+      "source_component": 7,
+      "scale": 0.9669421487603306,
+      "bounds": [
+        260,
+        177,
+        477,
+        408
+      ],
+      "foot_y": 408
+    },
+    {
+      "frame": 7,
+      "source_component": 10,
+      "scale": 0.9669421487603306,
+      "bounds": [
+        251,
+        180,
+        527,
+        408
+      ],
+      "foot_y": 408
+    },
+    {
+      "frame": 8,
+      "source_component": 10,
+      "scale": 0.9669421487603306,
+      "bounds": [
+        251,
+        180,
+        527,
+        408
+      ],
+      "foot_y": 408
+    },
+    {
+      "frame": 9,
+      "source_component": 10,
+      "scale": 0.9669421487603306,
+      "bounds": [
+        251,
+        180,
+        527,
+        408
+      ],
+      "foot_y": 408
+    },
+    {
+      "frame": 10,
+      "source_component": 9,
+      "scale": 0.9669421487603306,
+      "bounds": [
+        249,
+        177,
+        485,
+        408
+      ],
+      "foot_y": 408
+    },
+    {
+      "frame": 11,
+      "source_component": 11,
+      "scale": 0.9669421487603306,
+      "bounds": [
+        331,
+        178,
+        535,
+        408
+      ],
+      "foot_y": 408
+    },
+    {
+      "frame": 12,
+      "source_component": 14,
+      "scale": 0.9669421487603306,
+      "bounds": [
+        249,
+        181,
+        475,
+        408
+      ],
+      "foot_y": 408
+    },
+    {
+      "frame": 13,
+      "source_component": 15,
+      "scale": 0.9669421487603306,
+      "bounds": [
+        255,
+        183,
+        468,
+        407
+      ],
+      "foot_y": 408
+    },
+    {
+      "frame": 14,
+      "source_component": 13,
+      "scale": 0.9669421487603306,
+      "bounds": [
+        213,
+        180,
+        454,
+        407
+      ],
+      "foot_y": 408
+    },
+    {
+      "frame": 15,
+      "source_component": 12,
+      "scale": 0.9669421487603306,
+      "bounds": [
+        260,
+        174,
+        508,
+        408
+      ],
+      "foot_y": 408
+    },
+    {
+      "frame": 16,
+      "source_component": 16,
+      "scale": 0.9669421487603306,
+      "bounds": [
+        275,
+        194,
+        464,
+        407
+      ],
+      "foot_y": 408
+    },
+    {
+      "frame": 17,
+      "source_component": 17,
+      "scale": 0.9669421487603306,
+      "bounds": [
+        274,
+        196,
+        457,
+        408
+      ],
+      "foot_y": 408
+    },
+    {
+      "frame": 18,
+      "source_component": 18,
+      "scale": 0.9669421487603306,
+      "bounds": [
+        186,
+        218,
+        439,
+        407
+      ],
+      "foot_y": 408
+    },
+    {
+      "frame": 19,
+      "source_component": 19,
+      "scale": 0.9669421487603306,
+      "bounds": [
+        252,
+        235,
+        486,
+        407
+      ],
+      "foot_y": 408
+    },
+    {
+      "frame": 20,
+      "source_component": 20,
+      "scale": 0.9669421487603306,
+      "bounds": [
+        171,
+        272,
+        450,
+        407
+      ],
+      "foot_y": 408
+    },
+    {
+      "frame": 21,
+      "source_component": 21,
+      "scale": 0.9669421487603306,
+      "bounds": [
+        256,
+        297,
+        511,
+        407
+      ],
+      "foot_y": 408
+    },
+    {
+      "frame": 22,
+      "source_component": 23,
+      "scale": 0.9669421487603306,
+      "bounds": [
+        270,
+        307,
+        497,
+        408
+      ],
+      "foot_y": 408
+    },
+    {
+      "frame": 23,
+      "source_component": 22,
+      "scale": 0.9669421487603306,
+      "bounds": [
+        256,
+        305,
+        511,
+        408
+      ],
+      "foot_y": 408
+    }
+  ],
+  "spearman": [
+    {
+      "frame": 0,
+      "source_component": 1,
+      "scale": 1.231578947368421,
+      "bounds": [
+        308,
+        169,
+        692,
+        408
+      ],
+      "foot_y": 408
+    },
+    {
+      "frame": 1,
+      "source_component": 2,
+      "scale": 1.231578947368421,
+      "bounds": [
+        296,
+        169,
+        685,
+        408
+      ],
+      "foot_y": 408
+    },
+    {
+      "frame": 2,
+      "source_component": 3,
+      "scale": 1.231578947368421,
+      "bounds": [
+        301,
+        168,
+        686,
+        408
+      ],
+      "foot_y": 408
+    },
+    {
+      "frame": 3,
+      "source_component": 4,
+      "scale": 1.231578947368421,
+      "bounds": [
+        295,
+        167,
+        684,
+        408
+      ],
+      "foot_y": 408
+    },
+    {
+      "frame": 4,
+      "source_component": 6,
+      "scale": 1.231578947368421,
+      "bounds": [
+        303,
+        173,
+        690,
+        408
+      ],
+      "foot_y": 408
+    },
+    {
+      "frame": 5,
+      "source_component": 7,
+      "scale": 1.231578947368421,
+      "bounds": [
+        346,
+        178,
+        728,
+        408
+      ],
+      "foot_y": 408
+    },
+    {
+      "frame": 6,
+      "source_component": 13,
+      "scale": 1.231578947368421,
+      "bounds": [
+        328,
+        169,
+        725,
+        408
+      ],
+      "foot_y": 408
+    },
+    {
+      "frame": 7,
+      "source_component": 14,
+      "scale": 1.231578947368421,
+      "bounds": [
+        324,
+        164,
+        719,
+        408
+      ],
+      "foot_y": 408
+    },
+    {
+      "frame": 8,
+      "source_component": 11,
+      "scale": 1.231578947368421,
+      "bounds": [
+        319,
+        186,
+        841,
+        408
+      ],
+      "foot_y": 408
+    },
+    {
+      "frame": 9,
+      "source_component": 12,
+      "scale": 1.231578947368421,
+      "bounds": [
+        470,
+        184,
+        976,
+        408
+      ],
+      "foot_y": 408
+    },
+    {
+      "frame": 10,
+      "source_component": 9,
+      "scale": 1.231578947368421,
+      "bounds": [
+        322,
+        176,
+        727,
+        408
+      ],
+      "foot_y": 408
+    },
+    {
+      "frame": 11,
+      "source_component": 10,
+      "scale": 1.231578947368421,
+      "bounds": [
+        423,
+        174,
+        812,
+        408
+      ],
+      "foot_y": 408
+    },
+    {
+      "frame": 12,
+      "source_component": 13,
+      "scale": 1.231578947368421,
+      "bounds": [
+        328,
+        169,
+        725,
+        408
+      ],
+      "foot_y": 408
+    },
+    {
+      "frame": 13,
+      "source_component": 14,
+      "scale": 1.231578947368421,
+      "bounds": [
+        324,
+        164,
+        719,
+        408
+      ],
+      "foot_y": 408
+    },
+    {
+      "frame": 14,
+      "source_component": 15,
+      "scale": 1.231578947368421,
+      "bounds": [
+        417,
+        162,
+        802,
+        408
+      ],
+      "foot_y": 408
+    },
+    {
+      "frame": 15,
+      "source_component": 16,
+      "scale": 1.231578947368421,
+      "bounds": [
+        278,
+        162,
+        673,
+        408
+      ],
+      "foot_y": 408
+    },
+    {
+      "frame": 16,
+      "source_component": 17,
+      "scale": 1.231578947368421,
+      "bounds": [
+        404,
+        191,
+        757,
+        408
+      ],
+      "foot_y": 408
+    },
+    {
+      "frame": 17,
+      "source_component": 18,
+      "scale": 1.231578947368421,
+      "bounds": [
+        369,
+        210,
+        714,
+        408
+      ],
+      "foot_y": 408
+    },
+    {
+      "frame": 18,
+      "source_component": 19,
+      "scale": 1.231578947368421,
+      "bounds": [
+        369,
+        234,
+        706,
+        408
+      ],
+      "foot_y": 408
+    },
+    {
+      "frame": 19,
+      "source_component": 20,
+      "scale": 1.231578947368421,
+      "bounds": [
+        404,
+        250,
+        771,
+        408
+      ],
+      "foot_y": 408
+    },
+    {
+      "frame": 20,
+      "source_component": 21,
+      "scale": 1.231578947368421,
+      "bounds": [
+        286,
+        306,
+        738,
+        408
+      ],
+      "foot_y": 408
+    },
+    {
+      "frame": 21,
+      "source_component": 22,
+      "scale": 1.231578947368421,
+      "bounds": [
+        288,
+        309,
+        736,
+        408
+      ],
+      "foot_y": 408
+    },
+    {
+      "frame": 22,
+      "source_component": 23,
+      "scale": 1.231578947368421,
+      "bounds": [
+        287,
+        309,
+        737,
+        408
+      ],
+      "foot_y": 408
+    },
+    {
+      "frame": 23,
+      "source_component": 24,
+      "scale": 1.231578947368421,
+      "bounds": [
+        288,
+        313,
+        736,
+        408
+      ],
+      "foot_y": 408
+    }
+  ],
+  "crossbowman": [
+    {
+      "frame": 0,
+      "source_component": 6,
+      "scale": 0.8961303462321792,
+      "bounds": [
+        262,
+        192,
+        467,
+        408
+      ],
+      "foot_y": 408
+    },
+    {
+      "frame": 1,
+      "source_component": 5,
+      "scale": 0.8961303462321792,
+      "bounds": [
+        340,
+        187,
+        545,
+        408
+      ],
+      "foot_y": 408
+    },
+    {
+      "frame": 2,
+      "source_component": 1,
+      "scale": 0.8961303462321792,
+      "bounds": [
+        263,
+        182,
+        466,
+        408
+      ],
+      "foot_y": 408
+    },
+    {
+      "frame": 3,
+      "source_component": 2,
+      "scale": 0.8961303462321792,
+      "bounds": [
+        282,
+        183,
+        481,
+        408
+      ],
+      "foot_y": 408
+    },
+    {
+      "frame": 4,
+      "source_component": 4,
+      "scale": 0.8961303462321792,
+      "bounds": [
+        259,
+        186,
+        465,
+        408
+      ],
+      "foot_y": 408
+    },
+    {
+      "frame": 5,
+      "source_component": 3,
+      "scale": 0.8961303462321792,
+      "bounds": [
+        268,
+        183,
+        469,
+        408
+      ],
+      "foot_y": 408
+    },
+    {
+      "frame": 6,
+      "source_component": 7,
+      "scale": 0.8961303462321792,
+      "bounds": [
+        271,
+        182,
+        498,
+        408
+      ],
+      "foot_y": 408
+    },
+    {
+      "frame": 7,
+      "source_component": 9,
+      "scale": 0.8961303462321792,
+      "bounds": [
+        264,
+        187,
+        477,
+        408
+      ],
+      "foot_y": 408
+    },
+    {
+      "frame": 8,
+      "source_component": 9,
+      "scale": 0.8961303462321792,
+      "bounds": [
+        264,
+        187,
+        477,
+        408
+      ],
+      "foot_y": 408
+    },
+    {
+      "frame": 9,
+      "source_component": 11,
+      "scale": 0.8961303462321792,
+      "bounds": [
+        280,
+        189,
+        474,
+        408
+      ],
+      "foot_y": 408
+    },
+    {
+      "frame": 10,
+      "source_component": 8,
+      "scale": 0.8961303462321792,
+      "bounds": [
+        285,
+        184,
+        481,
+        408
+      ],
+      "foot_y": 408
+    },
+    {
+      "frame": 11,
+      "source_component": 12,
+      "scale": 0.8961303462321792,
+      "bounds": [
+        268,
+        194,
+        484,
+        408
+      ],
+      "foot_y": 408
+    },
+    {
+      "frame": 12,
+      "source_component": 14,
+      "scale": 0.8961303462321792,
+      "bounds": [
+        284,
+        185,
+        478,
+        408
+      ],
+      "foot_y": 408
+    },
+    {
+      "frame": 13,
+      "source_component": 15,
+      "scale": 0.8961303462321792,
+      "bounds": [
+        257,
+        185,
+        468,
+        408
+      ],
+      "foot_y": 408
+    },
+    {
+      "frame": 14,
+      "source_component": 13,
+      "scale": 0.8961303462321792,
+      "bounds": [
+        270,
+        182,
+        480,
+        408
+      ],
+      "foot_y": 408
+    },
+    {
+      "frame": 15,
+      "source_component": 17,
+      "scale": 0.8961303462321792,
+      "bounds": [
+        275,
+        183,
+        479,
+        408
+      ],
+      "foot_y": 408
+    },
+    {
+      "frame": 16,
+      "source_component": 16,
+      "scale": 0.8961303462321792,
+      "bounds": [
+        263,
+        183,
+        484,
+        408
+      ],
+      "foot_y": 408
+    },
+    {
+      "frame": 17,
+      "source_component": 18,
+      "scale": 0.8961303462321792,
+      "bounds": [
+        333,
+        183,
+        558,
+        408
+      ],
+      "foot_y": 408
+    },
+    {
+      "frame": 18,
+      "source_component": 20,
+      "scale": 0.8961303462321792,
+      "bounds": [
+        258,
+        200,
+        455,
+        408
+      ],
+      "foot_y": 408
+    },
+    {
+      "frame": 19,
+      "source_component": 22,
+      "scale": 0.8961303462321792,
+      "bounds": [
+        283,
+        205,
+        453,
+        408
+      ],
+      "foot_y": 408
+    },
+    {
+      "frame": 20,
+      "source_component": 19,
+      "scale": 0.8961303462321792,
+      "bounds": [
+        209,
+        224,
+        437,
+        408
+      ],
+      "foot_y": 408
+    },
+    {
+      "frame": 21,
+      "source_component": 23,
+      "scale": 0.8961303462321792,
+      "bounds": [
+        155,
+        255,
+        425,
+        408
+      ],
+      "foot_y": 408
+    },
+    {
+      "frame": 22,
+      "source_component": 24,
+      "scale": 0.8961303462321792,
+      "bounds": [
+        209,
+        297,
+        433,
+        408
+      ],
+      "foot_y": 408
+    },
+    {
+      "frame": 23,
+      "source_component": 25,
+      "scale": 0.8961303462321792,
+      "bounds": [
+        260,
+        300,
+        508,
+        408
+      ],
+      "foot_y": 408
+    }
+  ],
+  "commander": [
+    {
+      "frame": 0,
+      "source_component": 4,
+      "scale": 0.98989898989899,
+      "bounds": [
+        238,
+        160,
+        474,
+        408
+      ],
+      "foot_y": 408
+    },
+    {
+      "frame": 1,
+      "source_component": 1,
+      "scale": 0.98989898989899,
+      "bounds": [
+        246,
+        159,
+        484,
+        408
+      ],
+      "foot_y": 408
+    },
+    {
+      "frame": 2,
+      "source_component": 2,
+      "scale": 0.98989898989899,
+      "bounds": [
+        265,
+        158,
+        489,
+        407
+      ],
+      "foot_y": 408
+    },
+    {
+      "frame": 3,
+      "source_component": 6,
+      "scale": 0.98989898989899,
+      "bounds": [
+        237,
+        162,
+        493,
+        408
+      ],
+      "foot_y": 408
+    },
+    {
+      "frame": 4,
+      "source_component": 5,
+      "scale": 0.98989898989899,
+      "bounds": [
+        243,
+        163,
+        485,
+        408
+      ],
+      "foot_y": 408
+    },
+    {
+      "frame": 5,
+      "source_component": 3,
+      "scale": 0.98989898989899,
+      "bounds": [
+        249,
+        157,
+        487,
+        408
+      ],
+      "foot_y": 408
+    },
+    {
+      "frame": 6,
+      "source_action": 0,
+      "scale": 0.8477508650519031,
+      "bounds": [
+        186,
+        110,
+        445,
+        408
+      ],
+      "foot_y": 408
+    },
+    {
+      "frame": 7,
+      "source_action": 1,
+      "scale": 0.8477508650519031,
+      "bounds": [
+        220,
+        153,
+        498,
+        408
+      ],
+      "foot_y": 408
+    },
+    {
+      "frame": 8,
+      "source_action": 2,
+      "scale": 0.8477508650519031,
+      "bounds": [
+        209,
+        182,
+        481,
+        408
+      ],
+      "foot_y": 408
+    },
+    {
+      "frame": 9,
+      "source_action": 3,
+      "scale": 0.8477508650519031,
+      "bounds": [
+        248,
+        160,
+        486,
+        408
+      ],
+      "foot_y": 408
+    },
+    {
+      "frame": 10,
+      "source_action": 4,
+      "scale": 0.8477508650519031,
+      "bounds": [
+        189,
+        155,
+        448,
+        408
+      ],
+      "foot_y": 408
+    },
+    {
+      "frame": 11,
+      "source_action": 5,
+      "scale": 0.8477508650519031,
+      "bounds": [
+        217,
+        170,
+        537,
+        408
+      ],
+      "foot_y": 408
+    },
+    {
+      "frame": 12,
+      "source_action": 5,
+      "scale": 0.8477508650519031,
+      "bounds": [
+        217,
+        170,
+        537,
+        408
+      ],
+      "foot_y": 408
+    },
+    {
+      "frame": 13,
+      "source_action": 3,
+      "scale": 0.8477508650519031,
+      "bounds": [
+        248,
+        160,
+        486,
+        408
+      ],
+      "foot_y": 408
+    },
+    {
+      "frame": 14,
+      "source_action": 6,
+      "scale": 0.8477508650519031,
+      "bounds": [
+        220,
+        172,
+        447,
+        408
+      ],
+      "foot_y": 408
+    },
+    {
+      "frame": 15,
+      "source_action": 7,
+      "scale": 0.8477508650519031,
+      "bounds": [
+        224,
+        172,
+        550,
+        408
+      ],
+      "foot_y": 408
+    },
+    {
+      "frame": 16,
+      "source_action": 7,
+      "scale": 0.8477508650519031,
+      "bounds": [
+        224,
+        172,
+        550,
+        408
+      ],
+      "foot_y": 408
+    },
+    {
+      "frame": 17,
+      "source_action": 3,
+      "scale": 0.8477508650519031,
+      "bounds": [
+        248,
+        160,
+        486,
+        408
+      ],
+      "foot_y": 408
+    },
+    {
+      "frame": 18,
+      "source_action": 8,
+      "scale": 0.8477508650519031,
+      "bounds": [
+        217,
+        134,
+        443,
+        408
+      ],
+      "foot_y": 408
+    },
+    {
+      "frame": 19,
+      "source_action": 8,
+      "scale": 0.8477508650519031,
+      "bounds": [
+        217,
+        134,
+        443,
+        408
+      ],
+      "foot_y": 408
+    },
+    {
+      "frame": 20,
+      "source_action": 4,
+      "scale": 0.8477508650519031,
+      "bounds": [
+        189,
+        155,
+        448,
+        408
+      ],
+      "foot_y": 408
+    },
+    {
+      "frame": 21,
+      "source_action": 9,
+      "scale": 0.8477508650519031,
+      "bounds": [
+        213,
+        181,
+        529,
+        408
+      ],
+      "foot_y": 408
+    },
+    {
+      "frame": 22,
+      "source_action": 10,
+      "scale": 0.8477508650519031,
+      "bounds": [
+        293,
+        179,
+        561,
+        408
+      ],
+      "foot_y": 408
+    },
+    {
+      "frame": 23,
+      "source_action": 11,
+      "scale": 0.8477508650519031,
+      "bounds": [
+        234,
+        304,
+        533,
+        408
+      ],
+      "foot_y": 408
+    }
+  ]
+}

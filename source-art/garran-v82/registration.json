@@ -1,0 +1,132 @@
+{
+  "cross": {
+    "source_order": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "core_threshold": 32,
+    "shared_scale": 1.17,
+    "source_body_heights": [
+      200,
+      205,
+      218,
+      210,
+      208,
+      211,
+      208,
+      204,
+      215,
+      211,
+      213,
+      212
+    ],
+    "frames": [
+      {
+        "translation": [
+          180,
+          167
+        ],
+        "ground": 408,
+        "stance_center": 320
+      },
+      {
+        "translation": [
+          187,
+          124
+        ],
+        "ground": 408,
+        "stance_center": 320
+      },
+      {
+        "translation": [
+          192,
+          35
+        ],
+        "ground": 408,
+        "stance_center": 320
+      },
+      {
+        "translation": [
+          182,
+          117
+        ],
+        "ground": 408,
+        "stance_center": 320
+      },
+      {
+        "translation": [
+          178,
+          143
+        ],
+        "ground": 408,
+        "stance_center": 320
+      },
+      {
+        "translation": [
+          179,
+          155
+        ],
+        "ground": 408,
+        "stance_center": 320
+      },
+      {
+        "translation": [
+          174,
+          159
+        ],
+        "ground": 408,
+        "stance_center": 320
+      },
+      {
+        "translation": [
+          178,
+          163
+        ],
+        "ground": 408,
+        "stance_center": 320
+      },
+      {
+        "translation": [
+          190,
+          151
+        ],
+        "ground": 408,
+        "stance_center": 320
+      },
+      {
+        "translation": [
+          135,
+          156
+        ],
+        "ground": 408,
+        "stance_center": 320
+      },
+      {
+        "translation": [
+          184,
+          153
+        ],
+        "ground": 408,
+        "stance_center": 320
+      },
+      {
+        "translation": [
+          186,
+          154
+        ],
+        "ground": 408,
+        "stance_center": 320
+      }
+    ]
+  }
+}

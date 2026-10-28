@@ -1,0 +1,68 @@
+{
+  "title": "Iron Rising",
+  "bpm": 128,
+  "duration_seconds": 120.0,
+  "bars": 64,
+  "key": "D pedal",
+  "sections": [
+    [
+      0,
+      8,
+      "starting-riff"
+    ],
+    [
+      8,
+      16,
+      "response-build"
+    ],
+    [
+      16,
+      32,
+      "driving-variation"
+    ],
+    [
+      32,
+      36,
+      "low-pocket"
+    ],
+    [
+      36,
+      48,
+      "second-build"
+    ],
+    [
+      48,
+      60,
+      "full-drive"
+    ],
+    [
+      60,
+      64,
+      "final-push"
+    ]
+  ],
+  "stems": {
+    "guitar-left": {
+      "active_rms": 0.07500000298023224,
+      "gain_db": 3.4563589129884504
+    },
+    "guitar-right": {
+      "active_rms": 0.07499999552965164,
+      "gain_db": 3.638518918429284
+    },
+    "bass": {
+      "active_rms": 0.07800000160932541,
+      "gain_db": 2.0063498863818365
+    },
+    "drums": {
+      "active_rms": 0.0949999988079071,
+      "gain_db": 1.4224149731590625
+    },
+    "guitar-answer": {
+      "active_rms": 0.02500000037252903,
+      "gain_db": 3.7164565089754396
+    }
+  },
+  "loudness_target_lufs": -16.5,
+  "guitar_source": "Skimel, CC BY-SA 4.0"
+}

@@ -1,0 +1,11 @@
+# Knight captain and commanded squad — v140
+
+Three newly drawn closed-helmet longsword captains: crimson/gold lion, azure/silver griffin, ochre/black stag. Cosmetic only; random selection excludes the previous skin, persisted locally. Unlike Garran, these have no shield and wear full heraldic tabards and plumes.
+
+Image generation: references city-guard-00.png and knight-idle-00.png for shared illustrated proportions. Master prompt: a complete transparent 24-pose 4-column/6-row enemy knight sheet, worn dark steel closed visor, gold plume, crimson tabard/cape and gold lion coat of arms, one straight longsword, no shield. Six walking poses; six overhead slash poses; four thrust poses; idle, command gesture, hurt, grab; lifted, thrown, down, dead. Repair pass widened packing and separated every sword tip. Variant edit prompts preserve all poses, body proportions and layout, replacing only cloth/heraldry/plume with azure/silver griffin/silver-blue, and ochre/black stag/black respectively.
+
+Reproduce runtime frames: `python scripts/normalize_captain_v140.py`. Complete alpha components, one common 1.10 scale, 512×448 canvas, body x256 and ground y408, transparent gutters; no individual frame scaling. Runtime files: `dist/assets/characters/commander-{variant}-{00..23}.png`. Preview sheets are adjacent.
+
+Test roster: captain + 3 Ironshields, 3 city guards, 4 spearmen, 2 crossbowmen. All enter from the right. Shield order shuffles across a top-to-bottom front rank. Shared advance, spears 96px behind, bows 235px behind, captain 305px behind. Surviving ranks compact their slots smoothly when a soldier dies. No reinforcements. The captain commands until any living player crosses behind the shield line, then fights with slash/thrust attacks. Killing him ends coordinated formation behavior. Existing grab, jump, dodge and rage counters remain available. Forest and City populations unchanged.
+
+Validation: city-formation, city-guard, city-bulwark, city-crossbow, city-spearman, carion-render, projectile-airborne, jump-containers, container-escape, carion-city and forest-campaign checks pass. Scene adapter verifies all 1007 preload textures and all three captain skins/states. Browser playtest not performed; prior browser-preview approval rejection remains in effect.

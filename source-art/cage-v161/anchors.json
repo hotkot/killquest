@@ -1,0 +1,130 @@
+[
+  {
+    "frame": 4,
+    "source_anchor": [
+      239,
+      420
+    ],
+    "scale": 1,
+    "offset": [
+      0,
+      28
+    ],
+    "target_anchor": [
+      239,
+      448
+    ]
+  },
+  {
+    "frame": 5,
+    "source_anchor": [
+      239,
+      420
+    ],
+    "scale": 1,
+    "offset": [
+      0,
+      28
+    ],
+    "target_anchor": [
+      239,
+      448
+    ]
+  },
+  {
+    "frame": 6,
+    "source_anchor": [
+      197,
+      439
+    ],
+    "scale": 0.87,
+    "offset": [
+      68,
+      66
+    ],
+    "target_anchor": [
+      239,
+      448
+    ]
+  },
+  {
+    "frame": 7,
+    "source_anchor": [
+      208,
+      440
+    ],
+    "scale": 0.87,
+    "offset": [
+      58,
+      65
+    ],
+    "target_anchor": [
+      239,
+      448
+    ]
+  },
+  {
+    "frame": 8,
+    "source_anchor": [
+      198,
+      430
+    ],
+    "scale": 0.87,
+    "offset": [
+      67,
+      74
+    ],
+    "target_anchor": [
+      239,
+      448
+    ]
+  },
+  {
+    "frame": 9,
+    "source_anchor": [
+      196,
+      430
+    ],
+    "scale": 0.87,
+    "offset": [
+      68,
+      74
+    ],
+    "target_anchor": [
+      239,
+      448
+    ]
+  },
+  {
+    "frame": 10,
+    "source_anchor": [
+      220,
+      430
+    ],
+    "scale": 0.87,
+    "offset": [
+      48,
+      74
+    ],
+    "target_anchor": [
+      239,
+      448
+    ]
+  },
+  {
+    "frame": 11,
+    "source_anchor": [
+      220,
+      430
+    ],
+    "scale": 0.87,
+    "offset": [
+      48,
+      74
+    ],
+    "target_anchor": [
+      239,
+      448
+    ]
+  }
+]

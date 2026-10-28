@@ -1,0 +1,16 @@
+[Script Info]
+PlayResX: 1280
+PlayResY: 720
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,DejaVu Sans,28,&H00E4F0FF,&H00FFFFFF,&H00110C08,&H99000000,-1,0,0,0,100,100,0,0,1,2,1,2,65,65,34,1
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.20,0:00:08.40,Default,,0,0,0,,{\fad(180,180)}Queen Morvane would raise her dead kingdom.\NAnd the living would pay the price.
+Dialogue: 0,0:00:08.80,0:00:16.90,Default,,0,0,0,,{\fad(180,180)}Through the forest, her bandits hunt for souls.\NSouls to feed the rite.
+Dialogue: 0,0:00:17.30,0:00:21.20,Default,,0,0,0,,{\fad(180,180)}But four survivors follow their trail.
+Dialogue: 0,0:00:21.30,0:00:24.60,Default,,0,0,0,,{\fad(180,180)}An axe sworn to vengeance.
+Dialogue: 0,0:00:24.70,0:00:29.10,Default,,0,0,0,,{\fad(180,180)}A huntress who will not abandon her people.
+Dialogue: 0,0:00:29.50,0:00:33.10,Default,,0,0,0,,{\fad(180,180)}A shield against the darkness.
+Dialogue: 0,0:00:33.20,0:00:40.10,Default,,0,0,0,,{\fad(180,180)}And a flame to burn the dead queen’s dream to ash.
+Dialogue: 0,0:00:41.00,0:00:44.10,Default,,0,0,0,,{\fad(180,180)}STEEL · BLOOD · VENGEANCE

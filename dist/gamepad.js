@@ -1,0 +1,24 @@
+'use strict';
+class GamepadControls{
+ constructor(read=()=>typeof navigator!=='undefined'&&navigator.getGamepads?navigator.getGamepads():[]){this.read=read;this.device=null;this.previous=[];this.menuDirection=null;this.nextMenu=0;}
+ static stick(x=0,y=0){x=Number.isFinite(x)?x:0;y=Number.isFinite(y)?y:0;const length=Math.hypot(x,y);if(length<=.18)return{x:0,y:0};const scale=Math.min(1,(length-.18)/.82)/length;return{x:x*scale,y:y*scale};}
+ poll(now=0){let pads=[];try{pads=Array.from(this.read()||[]).filter(p=>p&&p.connected!==false)}catch{}const supported=pads.filter(p=>p.mapping==='standard');const pad=supported.find(p=>this.device===p.index+':'+p.id)||supported[0];const blank={connected:false,move:{x:0,y:0},face:0,scroll:0,actions:[],menu:null,label:pads.length?'Controller needs standard browser mapping':'Click the game, then press a controller button'};if(!pad){this.device=null;this.previous=[];this.menuDirection=null;return blank;}const device=pad.index+':'+pad.id,changed=device!==this.device;if(changed){this.previous=[];this.menuDirection=null;this.device=device;}const down=Array.from(pad.buttons||[],b=>!!b&&(b.pressed||b.value>.5)),pressed=i=>down[i]&&!this.previous[i];let move=GamepadControls.stick(pad.axes?.[0],pad.axes?.[1]);const dx=(down[15]?1:0)-(down[14]?1:0),dy=(down[13]?1:0)-(down[12]?1:0);if(dx||dy){const length=Math.hypot(dx,dy);move={x:dx/length,y:dy/length};}const actions=[];for(const [index,name] of [[2,'light'],[3,'heavy'],[1,'dodge'],[0,'jump'],[5,'rage'],[9,'pause']])if(pressed(index))actions.push(name);const direction=Math.abs(move.y)>.45?(move.y>0?'down':'up'):Math.abs(move.x)>.45?(move.x>0?'right':'left'):null;let menu=null;if(direction!==this.menuDirection){this.menuDirection=direction;this.nextMenu=now+350;menu=direction;}else if(direction&&now>=this.nextMenu){menu=direction;this.nextMenu=now+160;}this.previous=down;const ps=!/xbox/i.test(pad.id)&&/sony|054c|dualsense|playstation|wireless controller/i.test(pad.id);return{connected:true,device,ps,label:ps?'PS5 / PlayStation controller ready':/xbox|045e/i.test(pad.id)?'Xbox controller ready':'Controller ready',move,face:Math.abs(pad.axes?.[2]||0)>.30?Math.sign(pad.axes[2]):0,scroll:Math.abs(pad.axes?.[3]||0)>.25?pad.axes[3]:0,actions,menu};}
+}
+// Each physical device keeps its own button edges; an assigned device never
+// silently falls back to the other player's controller after disconnecting.
+class GamepadParty{
+ constructor(read=()=>typeof navigator!=='undefined'&&navigator.getGamepads?navigator.getGamepads():[]){this.read=read;this.devices=new Map();this.primary=null;this.secondary=null;this.extras=[];this.menuDevice=null;this.pads=[];}
+ poll(now=0){try{this.pads=Array.from(this.read()||[]).filter(p=>p&&p.connected!==false&&p.mapping==='standard');}catch{this.pads=[];}
+  if(!this.primary&&this.pads.length)this.primary=this.pads[0].index+':'+this.pads[0].id;if(!this.menuDevice)this.menuDevice=this.primary;
+  const keys=new Set([...this.devices.keys(),...this.pads.map(p=>p.index+':'+p.id)]),states=[];
+  for(const key of keys){let device=this.devices.get(key);if(!device){device=new GamepadControls(()=>this.pads.filter(p=>p.index+':'+p.id===key));this.devices.set(key,device);}const pad=this.pads.find(p=>p.index+':'+p.id===key),buttons=Array.from(pad?.buttons||[],b=>!!b&&(b.pressed||b.value>.5)),axes=Array.from({length:4},(_,i)=>Number.isFinite(pad?.axes?.[i])?pad.axes[i]:0);const freshInput=!!pad&&(buttons.some((down,i)=>down&&!device.activityButtons?.[i])||axes.some((axis,i)=>Math.abs(axis)>.30&&Math.abs(axis-(device.activityAxes?.[i]||0))>.15));device.activityButtons=buttons;device.activityAxes=axes;if(freshInput)device.lastInputAt=now;states.push({...device.poll(now),device:key,freshInput,lastInputAt:device.lastInputAt??-1,slot:key===this.primary?0:[this.secondary,...this.extras].includes(key)?[this.secondary,...this.extras].indexOf(key)+1:null});}
+  return states;
+ }
+ // Menu ownership is independent of P1/P2 gameplay bindings. Held inputs and
+ // analog jitter never seize control back from a freshly used controller.
+ followMenuInput(states){const active=states.filter(s=>s.connected&&s.freshInput);if(active.length)this.menuDevice=(active.find(s=>s.device===this.menuDevice)||active[0]).device;return states.find(s=>s.device===this.menuDevice)||states.find(s=>s.device===this.primary);}
+ bindMenuPrimary(){if(this.pads.some(p=>p.index+':'+p.id===this.menuDevice))this.primary=this.menuDevice;}
+ join(device){const guests=[this.secondary,...this.extras].filter(Boolean);if(guests.length>=3||!device||device===this.primary||guests.includes(device)||!this.pads.some(p=>p.index+':'+p.id===device))return false;guests.push(device);this.secondary=guests[0];this.extras=guests.slice(1);return true;}
+ leave(device){const guests=[this.secondary,...this.extras].filter(d=>d&&d!==device);this.secondary=guests[0]||null;this.extras=guests.slice(1);}
+ releaseSecondary(){this.secondary=null;this.extras=[];}
+}

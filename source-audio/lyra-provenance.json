@@ -1,0 +1,22 @@
+{
+  "source": "AI Voice Generator",
+  "voice_id": "delicate",
+  "takes": [
+    {
+      "file": "source-art/lyra-vocals-v43.mp3",
+      "context_id": "53c7fe37f36c49c19a9b734c0e9232ee",
+      "transcript": "Hah! ... Hyah! ... Huh! ... Hyaah! ... Aah! ... Ngh! ... Aaaaaaah! ... Hyaaaaaah!"
+    },
+    {
+      "file": "source-art/lyra-death-v43.mp3",
+      "context_id": "9109b621386f4c389b32b212750980b6",
+      "transcript": "Aaaaaaaah!"
+    },
+    {
+      "file": "source-art/lyra-rage-v43.mp3",
+      "context_id": "8e11bc9ff5544253b1a89857117f7422",
+      "transcript": "Hyaaaaaaah!"
+    }
+  ],
+  "processing": "scripts/prepare_huntress_vocals.py"
+}

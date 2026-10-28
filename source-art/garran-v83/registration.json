@@ -1,0 +1,132 @@
+{
+  "cross": {
+    "source_order": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "core_threshold": 32,
+    "shared_scale": 0.9790794979079498,
+    "source_body_heights": [
+      234,
+      236,
+      235,
+      240,
+      244,
+      248,
+      246,
+      244,
+      244,
+      241,
+      240,
+      239
+    ],
+    "frames": [
+      {
+        "translation": [
+          194,
+          174
+        ],
+        "ground": 408,
+        "stance_center": 320
+      },
+      {
+        "translation": [
+          120,
+          173
+        ],
+        "ground": 408,
+        "stance_center": 320
+      },
+      {
+        "translation": [
+          128,
+          173
+        ],
+        "ground": 408,
+        "stance_center": 320
+      },
+      {
+        "translation": [
+          186,
+          167
+        ],
+        "ground": 408,
+        "stance_center": 320
+      },
+      {
+        "translation": [
+          174,
+          165
+        ],
+        "ground": 408,
+        "stance_center": 320
+      },
+      {
+        "translation": [
+          175,
+          161
+        ],
+        "ground": 408,
+        "stance_center": 320
+      },
+      {
+        "translation": [
+          180,
+          161
+        ],
+        "ground": 408,
+        "stance_center": 320
+      },
+      {
+        "translation": [
+          120,
+          163
+        ],
+        "ground": 408,
+        "stance_center": 320
+      },
+      {
+        "translation": [
+          130,
+          164
+        ],
+        "ground": 408,
+        "stance_center": 320
+      },
+      {
+        "translation": [
+          183,
+          168
+        ],
+        "ground": 408,
+        "stance_center": 320
+      },
+      {
+        "translation": [
+          186,
+          168
+        ],
+        "ground": 408,
+        "stance_center": 320
+      },
+      {
+        "translation": [
+          188,
+          169
+        ],
+        "ground": 408,
+        "stance_center": 320
+      }
+    ]
+  }
+}

@@ -1,0 +1,7 @@
+# Remove cutscene voiceover
+
+New Game story intro and Forest intro now play narration-free soundtrack versions. Startup hype intro was already instrumental and stays unchanged. Preserved all images, framing, edits, captions, duration, skip controls, loading behavior and music handoffs. Embedded video streams are copied byte-for-byte; only the audio stream changes.
+
+Story intro retains its original clean ambient music stem, existing gain/limiter/fade. Forest intro reconstructs the exact deterministic quiet minor drone, forest wind, fire crackles and cart creak from the original rendering script, without the voice bus, preserving its fades. New versioned MP4 paths are used by gameplay and boot preloading. The original render scripts now default to narration-free output as well. Historical narrated source recordings/videos remain archived but are not referenced by active game playback/preloading.
+
+Verification: packet hashes prove identical video streams and subtitles; each new AAC stream exactly matches an independent encode from its clean ambience source and differs from the old narrated stream. Both contain only one video and one clean audio stream. Syntax checks, cutscene playback/error/skip/autoplay tests, Forest/New Game selection transitions, controller input consumption and cinematic-over-loading/menu-music order checks passed. Updated stale selection assertions from the former empty City prototype to current Carion City/opening3 bandits. No EXE build and no browser visual QA.

@@ -1,0 +1,8 @@
+Use case: identity-preserve
+Asset type: two-frame transitional sprite strip for KillQuest sword combo.
+Input image 1: current 3-column 4-row source sprite sheet, character identity and style reference. Input image 2: expanded transparent approved rear-left seed.
+Generate exactly TWO NEW poses side by side in a 2-column 1-row strip on a transparent canvas. Both full body complete boots plume sword shield, separated with generous transparent margin. Same hand-drawn bold outlined arcade sprite style, proportions, closed steel helmet, red plume and cape, white sun tabard, single straight sword in RIGHT hand and single forearm-mounted heater shield on LEFT arm. Do not copy the sheet layout or add any other frames.
+These are consecutive middle poses of a horizontal sword slash rotating from the source sheet R3C3 (rear-left view) toward R2C3 (right-facing side view).
+LEFT new pose: knight fully BACK toward viewer, helmet back visible, shoulders and waist rotate through the swing; feet in wide planted crouch, cape flares from rotation, sword held horizontally in right hand. Back must read clearly with NO face or front sun emblem showing.
+RIGHT new pose: knight still mostly BACK toward viewer but rotated slightly toward screen RIGHT, beginning rear-right three-quarter view, right shoulder and sword move toward screen right. Continue same horizontal sword swing, natural torso/hip movement, no jumping or rolling.
+Maintain identical scale, baseline, outfit and anatomy between both. ONE sword, ONE shield, exactly two arms per pose. No extra weapons, no detached parts, no weapon trails, no ground shadows, no glow, no scenery, no text or labels. Preserve real alpha transparency.

@@ -1,0 +1,59 @@
+[
+  {
+    "key": "queen",
+    "refs": [
+      "/workspace/sites/axe-and-ash/source-art/opening-v115/morvane-v115.webp",
+      "/workspace/scratch/e77afc5b40f4/carion-intro-corrections/arrival.png"
+    ],
+    "prompt": "Use case: illustration-story. Create a single 16:9 cinematic shot for KillQuest. Match the supplied Carion City style reference: crisp visibly pixelled fantasy arcade illustration, strong dark contours, readable clustered shading, expressive moderately detailed characters, deliberate clean staging. Middle ground between tiny gameplay sprites and over-detailed painted poster. No text, no panels, no logo, no smooth photorealism. Leave bottom 13% quiet for subtitles. Image1 establishes Queen Morvane identity and story, image2 is the exact target visual style. Redraw and simplify the queen's ritual: pale undead red-haired crowned queen in dark armor, seated on a ruined stone throne on right, one raised hand gathering blue soul flame. LEFT shows a few ghost silhouettes, not a crowd. Blood-red moon and one arch framing distant dead castle. Strong silhouette, coherent anatomy, one sword beside throne. Omit scattered skulls, excessive ornaments and overlapping objects. Keep grim royal menace."
+  },
+  {
+    "key": "captives",
+    "refs": [
+      "/workspace/sites/axe-and-ash/source-art/opening-v115/village-v115.webp",
+      "/workspace/scratch/e77afc5b40f4/carion-intro-corrections/arrival.png"
+    ],
+    "prompt": "Use case: illustration-story. Create a single 16:9 cinematic shot for KillQuest. Match the supplied Carion City style reference: crisp visibly pixelled fantasy arcade illustration, strong dark contours, readable clustered shading, expressive moderately detailed characters, deliberate clean staging. Middle ground between tiny gameplay sprites and over-detailed painted poster. No text, no panels, no logo, no smooth photorealism. Leave bottom 13% quiet for subtitles. Image1 story reference, image2 style. A burning forest village street, one red-scarfed sword bandit on RIGHT marching two adult frightened villagers to the right. One male peasant in beige and one woman in muted red, hands bound clearly at waists. Three figures total, spaced silhouettes, physically separate arms. Bandit in brown leather, short dark hair, one sword carried point down. One burning timber house behind; forest edge left, a few smoke columns. No extra bandits, carts, clutter or crowds. Emotion: villagers captured for the queen's rite. Burning orange light."
+  },
+  {
+    "key": "kael-lyra",
+    "refs": [
+      "/workspace/sites/axe-and-ash/source-art/opening-revisions/third-approved.png",
+      "/workspace/scratch/e77afc5b40f4/carion-intro-corrections/arrival.png",
+      "/workspace/scratch/e77afc5b40f4/carion-intro-corrections/village.png"
+    ],
+    "prompt": "Use case: illustration-story. Create a single 16:9 cinematic shot for KillQuest. Match the supplied Carion City style reference: crisp visibly pixelled fantasy arcade illustration, strong dark contours, readable clustered shading, expressive moderately detailed characters, deliberate clean staging. Middle ground between tiny gameplay sprites and over-detailed painted poster. No text, no panels, no logo, no smooth photorealism. Leave bottom 13% quiet for subtitles. First image is old story reference, second exact target style, third Kael's corrected large axe reference. Redraw NEW clean scene with only TWO protagonists: Kael on left, Lyra on right, standing on forest ridge following raiders' trail, looking toward smoke rising from village in distance to right. Kael muscular long auburn hair and beard, bare torso brown leather harness, fur kilt and boots; holds ONE LARGE double-bladed axe, straight aligned shaft fully connected to head, hand wraps shaft naturally. Lyra brown braid, green huntress tunic, brown leather armor, undrawn bow on her back, one knife at side. Large three-quarter expressive figures, confident vengeance and resolve. No other heroes here. Clear separation of weapons and bodies."
+  },
+  {
+    "key": "garran-selene",
+    "refs": [
+      "/workspace/sites/axe-and-ash/source-art/opening-revisions/fourth-axe-review.png",
+      "/workspace/scratch/e77afc5b40f4/carion-intro-corrections/arrival.png"
+    ],
+    "prompt": "Use case: illustration-story. Create a single 16:9 cinematic shot for KillQuest. Match the supplied Carion City style reference: crisp visibly pixelled fantasy arcade illustration, strong dark contours, readable clustered shading, expressive moderately detailed characters, deliberate clean staging. Middle ground between tiny gameplay sprites and over-detailed painted poster. No text, no panels, no logo, no smooth photorealism. Leave bottom 13% quiet for subtitles. First image identity/story reference, second is exact target style. New clean forest-edge shot of only TWO protagonists striding toward camera, Garran left, Selene right, smoke-orange sky behind. Garran closed steel helmet, red plume, worn steel armor, WHITE tabard with GOLD SUN emblem (not black), straight sword held in RIGHT hand pointing down, heater shield securely strapped to LEFT forearm with natural elbow and grip. Selene long white hair, black and blue witch outfit, no hat, one blue crystal staff in LEFT hand held upright with wrist and elbow anatomically natural, small blue flame in open right palm, confident arrogant expression. Exactly two arms each, no mirrored hands or twisted shoulder. Separate nonoverlapping silhouettes."
+  },
+  {
+    "key": "forest-path",
+    "refs": [
+      "/workspace/sites/axe-and-ash/source-art/forest-intro-v122/shot-1.png",
+      "/workspace/scratch/e77afc5b40f4/carion-intro-corrections/arrival.png"
+    ],
+    "prompt": "Use case: illustration-story. Create a single 16:9 cinematic shot for KillQuest. Match the supplied Carion City style reference: crisp visibly pixelled fantasy arcade illustration, strong dark contours, readable clustered shading, expressive moderately detailed characters, deliberate clean staging. Middle ground between tiny gameplay sprites and over-detailed painted poster. No text, no panels, no logo, no smooth photorealism. Leave bottom 13% quiet for subtitles. First image shot-content reference, second visual style. Empty winding forest path under large dark trees, mossy rocks at sides, clear path center leading toward small distant village with smoke and orange firelight above treeline. Dusk purple sky, ominous silence. No people. Simplify leaves into readable pixel clusters; strong foreground/middle/distant layers. Preserve forest intro narrative."
+  },
+  {
+    "key": "forest-cart",
+    "refs": [
+      "/workspace/sites/axe-and-ash/source-art/forest-intro-v122/shot-2.png",
+      "/workspace/scratch/e77afc5b40f4/carion-intro-corrections/arrival.png"
+    ],
+    "prompt": "Use case: illustration-story. Create a single 16:9 cinematic shot for KillQuest. Match the supplied Carion City style reference: crisp visibly pixelled fantasy arcade illustration, strong dark contours, readable clustered shading, expressive moderately detailed characters, deliberate clean staging. Middle ground between tiny gameplay sprites and over-detailed painted poster. No text, no panels, no logo, no smooth photorealism. Leave bottom 13% quiet for subtitles. First image shot-content reference, second visual style. Low camera on broken wooden cart wheel and torn beige cloth on RIGHT beside forest-village path. A few red apples scattered near wheel. One burning cottage in soft distance left. Clear coherent ONE wheel with axle attached to cart, broken shaft, empty path leading inward. Smoke in orange-purple dusk. No people; no pile of confusing extra wooden parts."
+  },
+  {
+    "key": "bandit-king",
+    "refs": [
+      "/workspace/sites/axe-and-ash/source-art/forest-intro-v122/shot-4.png",
+      "/workspace/scratch/e77afc5b40f4/carion-intro-corrections/arrival.png"
+    ],
+    "prompt": "Use case: illustration-story. Create a single 16:9 cinematic shot for KillQuest. Match the supplied Carion City style reference: crisp visibly pixelled fantasy arcade illustration, strong dark contours, readable clustered shading, expressive moderately detailed characters, deliberate clean staging. Middle ground between tiny gameplay sprites and over-detailed painted poster. No text, no panels, no logo, no smooth photorealism. Leave bottom 13% quiet for subtitles. First image Bandit King identity and staging reference, second target pixel-art style. One imposing broad muscular middle-aged bandit king standing in village arena, dark long hair and beard, crude iron crown, scarred face, black battered chest armor with brown fur mantle and dark red cape. One large notched longsword in his right hand pointing down. Powerful coherent human silhouette, large figure center-right, sparse timber palisade and one burning cottage behind. Left space smoky village road. No extra weapons, people, elaborate clutter or enormous realistic texture."
+  }
+]

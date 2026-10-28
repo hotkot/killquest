@@ -1,0 +1,1812 @@
+{
+  "guard": [
+    {
+      "key": "rebel-guard-00",
+      "scale": 1.0,
+      "angle": 0,
+      "score": 0.893,
+      "head": [
+        186,
+        176,
+        56,
+        48
+      ]
+    },
+    {
+      "key": "rebel-guard-01",
+      "scale": 1.0,
+      "angle": 0,
+      "score": 0.885,
+      "head": [
+        186,
+        174,
+        56,
+        48
+      ]
+    },
+    {
+      "key": "rebel-guard-02",
+      "scale": 1.0,
+      "angle": 0,
+      "score": 0.912,
+      "head": [
+        186,
+        176,
+        56,
+        48
+      ]
+    },
+    {
+      "key": "rebel-guard-03",
+      "scale": 0.95,
+      "angle": 0,
+      "score": 0.898,
+      "head": [
+        188,
+        178,
+        54,
+        44
+      ]
+    },
+    {
+      "key": "rebel-guard-04",
+      "scale": 0.95,
+      "angle": 0,
+      "score": 0.922,
+      "head": [
+        188,
+        176,
+        54,
+        44
+      ]
+    },
+    {
+      "key": "rebel-guard-05",
+      "scale": 1.0,
+      "angle": 0,
+      "score": 0.912,
+      "head": [
+        188,
+        176,
+        56,
+        48
+      ]
+    },
+    {
+      "key": "rebel-guard-combat-00",
+      "scale": 1.1,
+      "angle": 0,
+      "score": 0.84,
+      "head": [
+        346,
+        174,
+        62,
+        52
+      ]
+    },
+    {
+      "key": "rebel-guard-combat-01",
+      "scale": 1.05,
+      "angle": 0,
+      "score": 0.861,
+      "head": [
+        370,
+        176,
+        58,
+        50
+      ]
+    },
+    {
+      "key": "rebel-guard-combat-02",
+      "scale": 1.0,
+      "angle": 0,
+      "score": 0.895,
+      "head": [
+        340,
+        172,
+        56,
+        48
+      ]
+    },
+    {
+      "key": "rebel-guard-combat-03",
+      "scale": 1.0,
+      "angle": 0,
+      "score": 0.859,
+      "head": [
+        348,
+        170,
+        56,
+        48
+      ]
+    },
+    {
+      "key": "rebel-guard-combat-04",
+      "scale": 1.05,
+      "angle": 0,
+      "score": 0.88,
+      "head": [
+        348,
+        170,
+        58,
+        50
+      ]
+    },
+    {
+      "key": "rebel-guard-combat-05",
+      "scale": 1.05,
+      "angle": 0,
+      "score": 0.897,
+      "head": [
+        366,
+        174,
+        58,
+        50
+      ]
+    },
+    {
+      "key": "rebel-guard-combat-06",
+      "scale": 1.1,
+      "angle": 0,
+      "score": 0.747,
+      "head": [
+        346,
+        188,
+        62,
+        52
+      ]
+    },
+    {
+      "key": "rebel-guard-combat-07",
+      "scale": 1.1,
+      "angle": 0,
+      "score": 0.675,
+      "head": [
+        336,
+        178,
+        62,
+        52
+      ]
+    },
+    {
+      "key": "rebel-guard-combat-08",
+      "scale": 0.95,
+      "angle": 30,
+      "score": 0.574,
+      "head": [
+        292,
+        196,
+        70,
+        68
+      ]
+    },
+    {
+      "key": "rebel-guard-combat-09",
+      "scale": 1.1,
+      "angle": 0,
+      "score": 0.765,
+      "head": [
+        350,
+        188,
+        62,
+        52
+      ]
+    },
+    {
+      "key": "rebel-guard-combat-10",
+      "scale": 1.1,
+      "angle": 0,
+      "score": 0.82,
+      "head": [
+        352,
+        184,
+        62,
+        52
+      ]
+    },
+    {
+      "key": "rebel-guard-combat-11",
+      "scale": 1.05,
+      "angle": 0,
+      "score": 0.753,
+      "head": [
+        366,
+        180,
+        58,
+        50
+      ]
+    },
+    {
+      "key": "rebel-guard-combat-12",
+      "scale": 1.05,
+      "angle": 0,
+      "score": 0.598,
+      "head": [
+        344,
+        202,
+        58,
+        50
+      ]
+    },
+    {
+      "key": "rebel-guard-combat-13",
+      "scale": 0.8,
+      "angle": 0,
+      "score": 0.61,
+      "head": [
+        294,
+        246,
+        44,
+        38
+      ]
+    },
+    {
+      "key": "rebel-guard-combat-14",
+      "scale": 0.9,
+      "angle": 0,
+      "score": 0.615,
+      "head": [
+        276,
+        252,
+        50,
+        42
+      ]
+    },
+    {
+      "key": "rebel-guard-combat-15",
+      "scale": 0.95,
+      "angle": 0,
+      "score": 0.618,
+      "head": [
+        360,
+        204,
+        54,
+        44
+      ]
+    },
+    {
+      "key": "rebel-guard-combat-16",
+      "scale": 0.9,
+      "angle": 30,
+      "score": 0.654,
+      "head": [
+        330,
+        180,
+        66,
+        62
+      ]
+    },
+    {
+      "key": "rebel-guard-combat-17",
+      "scale": 0.75,
+      "angle": 120,
+      "score": 0.544,
+      "head": [
+        344,
+        246,
+        54,
+        56
+      ]
+    },
+    {
+      "key": "rebel-guard-combat-18",
+      "scale": 0.9,
+      "angle": 90,
+      "score": 0.573,
+      "head": [
+        224,
+        308,
+        42,
+        50
+      ]
+    },
+    {
+      "key": "rebel-guard-combat-19",
+      "scale": 0.75,
+      "angle": -30,
+      "score": 0.615,
+      "head": [
+        410,
+        264,
+        58,
+        56
+      ]
+    },
+    {
+      "key": "rebel-guard-combat-20",
+      "scale": 0.8,
+      "angle": -60,
+      "score": 0.586,
+      "head": [
+        396,
+        298,
+        56,
+        58
+      ]
+    },
+    {
+      "key": "rebel-guard-combat-21",
+      "scale": 0.75,
+      "angle": -90,
+      "score": 0.555,
+      "head": [
+        368,
+        328,
+        36,
+        42
+      ]
+    },
+    {
+      "key": "rebel-guard-combat-22",
+      "scale": 0.8,
+      "angle": -120,
+      "score": 0.585,
+      "head": [
+        420,
+        318,
+        56,
+        58
+      ]
+    },
+    {
+      "key": "rebel-guard-combat-23",
+      "scale": 0.75,
+      "angle": -60,
+      "score": 0.602,
+      "head": [
+        412,
+        332,
+        54,
+        56
+      ]
+    }
+  ],
+  "bulwark": [
+    {
+      "key": "rebel-bulwark-00",
+      "scale": 1.0,
+      "angle": 0,
+      "score": 0.922,
+      "head": [
+        182,
+        180,
+        58,
+        54
+      ]
+    },
+    {
+      "key": "rebel-bulwark-01",
+      "scale": 1.0,
+      "angle": 0,
+      "score": 0.895,
+      "head": [
+        184,
+        178,
+        58,
+        54
+      ]
+    },
+    {
+      "key": "rebel-bulwark-02",
+      "scale": 1.0,
+      "angle": 0,
+      "score": 0.873,
+      "head": [
+        186,
+        180,
+        58,
+        54
+      ]
+    },
+    {
+      "key": "rebel-bulwark-03",
+      "scale": 1.05,
+      "angle": 0,
+      "score": 0.903,
+      "head": [
+        182,
+        176,
+        60,
+        56
+      ]
+    },
+    {
+      "key": "rebel-bulwark-04",
+      "scale": 1.0,
+      "angle": 0,
+      "score": 0.904,
+      "head": [
+        186,
+        176,
+        58,
+        54
+      ]
+    },
+    {
+      "key": "rebel-bulwark-05",
+      "scale": 1.05,
+      "angle": 0,
+      "score": 0.844,
+      "head": [
+        184,
+        176,
+        60,
+        56
+      ]
+    },
+    {
+      "key": "rebel-bulwark-combat-00",
+      "scale": 1.05,
+      "angle": 0,
+      "score": 0.868,
+      "head": [
+        340,
+        174,
+        60,
+        56
+      ]
+    },
+    {
+      "key": "rebel-bulwark-combat-01",
+      "scale": 1.05,
+      "angle": 0,
+      "score": 0.836,
+      "head": [
+        330,
+        176,
+        60,
+        56
+      ]
+    },
+    {
+      "key": "rebel-bulwark-combat-02",
+      "scale": 1.05,
+      "angle": 0,
+      "score": 0.831,
+      "head": [
+        330,
+        176,
+        60,
+        56
+      ]
+    },
+    {
+      "key": "rebel-bulwark-combat-03",
+      "scale": 1.05,
+      "angle": 0,
+      "score": 0.844,
+      "head": [
+        322,
+        172,
+        60,
+        56
+      ]
+    },
+    {
+      "key": "rebel-bulwark-combat-04",
+      "scale": 1.05,
+      "angle": 0,
+      "score": 0.864,
+      "head": [
+        330,
+        176,
+        60,
+        56
+      ]
+    },
+    {
+      "key": "rebel-bulwark-combat-05",
+      "scale": 1.05,
+      "angle": 0,
+      "score": 0.86,
+      "head": [
+        332,
+        176,
+        60,
+        56
+      ]
+    },
+    {
+      "key": "rebel-bulwark-combat-06",
+      "scale": 1.05,
+      "angle": 0,
+      "score": 0.8,
+      "head": [
+        338,
+        182,
+        60,
+        56
+      ]
+    },
+    {
+      "key": "rebel-bulwark-combat-07",
+      "scale": 1.05,
+      "angle": 0,
+      "score": 0.704,
+      "head": [
+        340,
+        186,
+        60,
+        56
+      ]
+    },
+    {
+      "key": "rebel-bulwark-combat-08",
+      "scale": 1.05,
+      "angle": 0,
+      "score": 0.704,
+      "head": [
+        340,
+        186,
+        60,
+        56
+      ]
+    },
+    {
+      "key": "rebel-bulwark-combat-09",
+      "scale": 1.05,
+      "angle": 0,
+      "score": 0.704,
+      "head": [
+        340,
+        186,
+        60,
+        56
+      ]
+    },
+    {
+      "key": "rebel-bulwark-combat-10",
+      "scale": 1.1,
+      "angle": 0,
+      "score": 0.724,
+      "head": [
+        334,
+        182,
+        62,
+        58
+      ]
+    },
+    {
+      "key": "rebel-bulwark-combat-11",
+      "scale": 1.1,
+      "angle": 0,
+      "score": 0.802,
+      "head": [
+        392,
+        182,
+        62,
+        58
+      ]
+    },
+    {
+      "key": "rebel-bulwark-combat-12",
+      "scale": 1.15,
+      "angle": 0,
+      "score": 0.759,
+      "head": [
+        328,
+        184,
+        66,
+        60
+      ]
+    },
+    {
+      "key": "rebel-bulwark-combat-13",
+      "scale": 1.0,
+      "angle": 0,
+      "score": 0.679,
+      "head": [
+        332,
+        188,
+        58,
+        54
+      ]
+    },
+    {
+      "key": "rebel-bulwark-combat-14",
+      "scale": 0.95,
+      "angle": 30,
+      "score": 0.608,
+      "head": [
+        262,
+        184,
+        74,
+        74
+      ]
+    },
+    {
+      "key": "rebel-bulwark-combat-15",
+      "scale": 0.75,
+      "angle": -30,
+      "score": 0.563,
+      "head": [
+        260,
+        230,
+        58,
+        56
+      ]
+    },
+    {
+      "key": "rebel-bulwark-combat-16",
+      "scale": 0.8,
+      "angle": 0,
+      "score": 0.602,
+      "head": [
+        364,
+        236,
+        46,
+        42
+      ]
+    },
+    {
+      "key": "rebel-bulwark-combat-17",
+      "scale": 0.75,
+      "angle": -90,
+      "score": 0.626,
+      "head": [
+        334,
+        210,
+        40,
+        42
+      ]
+    },
+    {
+      "key": "rebel-bulwark-combat-18",
+      "scale": 0.8,
+      "angle": 90,
+      "score": 0.58,
+      "head": [
+        296,
+        306,
+        42,
+        46
+      ]
+    },
+    {
+      "key": "rebel-bulwark-combat-19",
+      "scale": 0.95,
+      "angle": 0,
+      "score": 0.582,
+      "head": [
+        386,
+        322,
+        54,
+        50
+      ]
+    },
+    {
+      "key": "rebel-bulwark-combat-20",
+      "scale": 0.9,
+      "angle": 0,
+      "score": 0.506,
+      "head": [
+        264,
+        342,
+        52,
+        48
+      ]
+    },
+    {
+      "key": "rebel-bulwark-combat-21",
+      "scale": 0.9,
+      "angle": 0,
+      "score": 0.587,
+      "head": [
+        418,
+        334,
+        52,
+        48
+      ]
+    },
+    {
+      "key": "rebel-bulwark-combat-22",
+      "scale": 0.75,
+      "angle": -90,
+      "score": 0.601,
+      "head": [
+        352,
+        328,
+        40,
+        42
+      ]
+    },
+    {
+      "key": "rebel-bulwark-combat-23",
+      "scale": 0.75,
+      "angle": -90,
+      "score": 0.549,
+      "head": [
+        430,
+        332,
+        40,
+        42
+      ]
+    }
+  ],
+  "spearman": [
+    {
+      "key": "rebel-spearman-00",
+      "scale": 1.0,
+      "angle": 0,
+      "score": 0.938,
+      "head": [
+        202,
+        170,
+        64,
+        50
+      ]
+    },
+    {
+      "key": "rebel-spearman-01",
+      "scale": 0.95,
+      "angle": 0,
+      "score": 0.751,
+      "head": [
+        200,
+        166,
+        60,
+        46
+      ]
+    },
+    {
+      "key": "rebel-spearman-02",
+      "scale": 1.0,
+      "angle": 0,
+      "score": 0.817,
+      "head": [
+        198,
+        166,
+        64,
+        50
+      ]
+    },
+    {
+      "key": "rebel-spearman-03",
+      "scale": 1.0,
+      "angle": 0,
+      "score": 0.953,
+      "head": [
+        202,
+        172,
+        64,
+        50
+      ]
+    },
+    {
+      "key": "rebel-spearman-04",
+      "scale": 0.95,
+      "angle": 0,
+      "score": 0.725,
+      "head": [
+        200,
+        166,
+        60,
+        46
+      ]
+    },
+    {
+      "key": "rebel-spearman-05",
+      "scale": 1.0,
+      "angle": 0,
+      "score": 0.902,
+      "head": [
+        202,
+        172,
+        64,
+        50
+      ]
+    },
+    {
+      "key": "rebel-spearman-combat-00",
+      "scale": 1.35,
+      "angle": 0,
+      "score": 0.914,
+      "head": [
+        454,
+        170,
+        86,
+        66
+      ]
+    },
+    {
+      "key": "rebel-spearman-combat-01",
+      "scale": 1.35,
+      "angle": 0,
+      "score": 0.847,
+      "head": [
+        450,
+        170,
+        86,
+        66
+      ]
+    },
+    {
+      "key": "rebel-spearman-combat-02",
+      "scale": 1.3,
+      "angle": 0,
+      "score": 0.871,
+      "head": [
+        454,
+        170,
+        82,
+        64
+      ]
+    },
+    {
+      "key": "rebel-spearman-combat-03",
+      "scale": 1.35,
+      "angle": 0,
+      "score": 0.867,
+      "head": [
+        448,
+        168,
+        86,
+        66
+      ]
+    },
+    {
+      "key": "rebel-spearman-combat-04",
+      "scale": 1.3,
+      "angle": 0,
+      "score": 0.884,
+      "head": [
+        454,
+        174,
+        82,
+        64
+      ]
+    },
+    {
+      "key": "rebel-spearman-combat-05",
+      "scale": 1.25,
+      "angle": 0,
+      "score": 0.848,
+      "head": [
+        498,
+        180,
+        78,
+        62
+      ]
+    },
+    {
+      "key": "rebel-spearman-combat-06",
+      "scale": 1.35,
+      "angle": 0,
+      "score": 0.853,
+      "head": [
+        454,
+        168,
+        86,
+        66
+      ]
+    },
+    {
+      "key": "rebel-spearman-combat-07",
+      "scale": 1.3,
+      "angle": 0,
+      "score": 0.851,
+      "head": [
+        460,
+        166,
+        82,
+        64
+      ]
+    },
+    {
+      "key": "rebel-spearman-combat-08",
+      "scale": 1.15,
+      "angle": 0,
+      "score": 0.617,
+      "head": [
+        500,
+        192,
+        72,
+        56
+      ]
+    },
+    {
+      "key": "rebel-spearman-combat-09",
+      "scale": 1.2,
+      "angle": 0,
+      "score": 0.583,
+      "head": [
+        620,
+        188,
+        76,
+        58
+      ]
+    },
+    {
+      "key": "rebel-spearman-combat-10",
+      "scale": 1.3,
+      "angle": 0,
+      "score": 0.804,
+      "head": [
+        452,
+        178,
+        82,
+        64
+      ]
+    },
+    {
+      "key": "rebel-spearman-combat-11",
+      "scale": 1.3,
+      "angle": 0,
+      "score": 0.834,
+      "head": [
+        552,
+        174,
+        82,
+        64
+      ]
+    },
+    {
+      "key": "rebel-spearman-combat-12",
+      "scale": 1.35,
+      "angle": 0,
+      "score": 0.853,
+      "head": [
+        454,
+        168,
+        86,
+        66
+      ]
+    },
+    {
+      "key": "rebel-spearman-combat-13",
+      "scale": 1.3,
+      "angle": 0,
+      "score": 0.851,
+      "head": [
+        460,
+        166,
+        82,
+        64
+      ]
+    },
+    {
+      "key": "rebel-spearman-combat-14",
+      "scale": 1.15,
+      "angle": 30,
+      "score": 0.706,
+      "head": [
+        432,
+        146,
+        92,
+        88
+      ]
+    },
+    {
+      "key": "rebel-spearman-combat-15",
+      "scale": 0.75,
+      "angle": 90,
+      "score": 0.59,
+      "head": [
+        332,
+        176,
+        36,
+        48
+      ]
+    },
+    {
+      "key": "rebel-spearman-combat-16",
+      "scale": 0.85,
+      "angle": 90,
+      "score": 0.575,
+      "head": [
+        446,
+        222,
+        42,
+        54
+      ]
+    },
+    {
+      "key": "rebel-spearman-combat-17",
+      "scale": 0.75,
+      "angle": 90,
+      "score": 0.575,
+      "head": [
+        402,
+        260,
+        36,
+        48
+      ]
+    },
+    {
+      "key": "rebel-spearman-combat-18",
+      "scale": 0.85,
+      "angle": 90,
+      "score": 0.582,
+      "head": [
+        426,
+        252,
+        42,
+        54
+      ]
+    },
+    {
+      "key": "rebel-spearman-combat-19",
+      "scale": 1.1,
+      "angle": 60,
+      "score": 0.553,
+      "head": [
+        408,
+        280,
+        82,
+        90
+      ]
+    },
+    {
+      "key": "rebel-spearman-combat-20",
+      "scale": 1.05,
+      "angle": 0,
+      "score": 0.566,
+      "head": [
+        538,
+        312,
+        66,
+        52
+      ]
+    },
+    {
+      "key": "rebel-spearman-combat-21",
+      "scale": 1.05,
+      "angle": 180,
+      "score": 0.55,
+      "head": [
+        478,
+        346,
+        66,
+        52
+      ]
+    },
+    {
+      "key": "rebel-spearman-combat-22",
+      "scale": 0.75,
+      "angle": 90,
+      "score": 0.548,
+      "head": [
+        418,
+        322,
+        36,
+        48
+      ]
+    },
+    {
+      "key": "rebel-spearman-combat-23",
+      "scale": 0.75,
+      "angle": 120,
+      "score": 0.561,
+      "head": [
+        410,
+        326,
+        56,
+        60
+      ]
+    }
+  ],
+  "crossbowman": [
+    {
+      "key": "rebel-crossbowman-00",
+      "scale": 1.0,
+      "angle": 0,
+      "score": 0.927,
+      "head": [
+        210,
+        188,
+        58,
+        60
+      ]
+    },
+    {
+      "key": "rebel-crossbowman-01",
+      "scale": 1.0,
+      "angle": 0,
+      "score": 0.897,
+      "head": [
+        206,
+        184,
+        58,
+        60
+      ]
+    },
+    {
+      "key": "rebel-crossbowman-02",
+      "scale": 1.0,
+      "angle": 0,
+      "score": 0.88,
+      "head": [
+        204,
+        186,
+        58,
+        60
+      ]
+    },
+    {
+      "key": "rebel-crossbowman-03",
+      "scale": 0.95,
+      "angle": 0,
+      "score": 0.919,
+      "head": [
+        212,
+        190,
+        56,
+        56
+      ]
+    },
+    {
+      "key": "rebel-crossbowman-04",
+      "scale": 0.95,
+      "angle": 0,
+      "score": 0.888,
+      "head": [
+        206,
+        188,
+        56,
+        56
+      ]
+    },
+    {
+      "key": "rebel-crossbowman-05",
+      "scale": 0.95,
+      "angle": 0,
+      "score": 0.951,
+      "head": [
+        210,
+        190,
+        56,
+        56
+      ]
+    },
+    {
+      "key": "rebel-crossbowman-combat-00",
+      "scale": 0.95,
+      "angle": 0,
+      "score": 0.89,
+      "head": [
+        364,
+        192,
+        56,
+        56
+      ]
+    },
+    {
+      "key": "rebel-crossbowman-combat-01",
+      "scale": 0.9,
+      "angle": 0,
+      "score": 0.788,
+      "head": [
+        440,
+        188,
+        52,
+        54
+      ]
+    },
+    {
+      "key": "rebel-crossbowman-combat-02",
+      "scale": 0.95,
+      "angle": 0,
+      "score": 0.755,
+      "head": [
+        358,
+        182,
+        56,
+        56
+      ]
+    },
+    {
+      "key": "rebel-crossbowman-combat-03",
+      "scale": 0.95,
+      "angle": 0,
+      "score": 0.763,
+      "head": [
+        378,
+        184,
+        56,
+        56
+      ]
+    },
+    {
+      "key": "rebel-crossbowman-combat-04",
+      "scale": 0.95,
+      "angle": 0,
+      "score": 0.769,
+      "head": [
+        360,
+        186,
+        56,
+        56
+      ]
+    },
+    {
+      "key": "rebel-crossbowman-combat-05",
+      "scale": 0.95,
+      "angle": 0,
+      "score": 0.782,
+      "head": [
+        370,
+        184,
+        56,
+        56
+      ]
+    },
+    {
+      "key": "rebel-crossbowman-combat-06",
+      "scale": 0.95,
+      "angle": 0,
+      "score": 0.947,
+      "head": [
+        366,
+        184,
+        56,
+        56
+      ]
+    },
+    {
+      "key": "rebel-crossbowman-combat-07",
+      "scale": 0.95,
+      "angle": 0,
+      "score": 0.847,
+      "head": [
+        356,
+        188,
+        56,
+        56
+      ]
+    },
+    {
+      "key": "rebel-crossbowman-combat-08",
+      "scale": 0.95,
+      "angle": 0,
+      "score": 0.847,
+      "head": [
+        356,
+        188,
+        56,
+        56
+      ]
+    },
+    {
+      "key": "rebel-crossbowman-combat-09",
+      "scale": 0.9,
+      "angle": 0,
+      "score": 0.691,
+      "head": [
+        350,
+        190,
+        52,
+        54
+      ]
+    },
+    {
+      "key": "rebel-crossbowman-combat-10",
+      "scale": 0.95,
+      "angle": 0,
+      "score": 0.893,
+      "head": [
+        378,
+        186,
+        56,
+        56
+      ]
+    },
+    {
+      "key": "rebel-crossbowman-combat-11",
+      "scale": 0.95,
+      "angle": 0,
+      "score": 0.941,
+      "head": [
+        378,
+        196,
+        56,
+        56
+      ]
+    },
+    {
+      "key": "rebel-crossbowman-combat-12",
+      "scale": 0.95,
+      "angle": 0,
+      "score": 0.899,
+      "head": [
+        370,
+        186,
+        56,
+        56
+      ]
+    },
+    {
+      "key": "rebel-crossbowman-combat-13",
+      "scale": 1.0,
+      "angle": 0,
+      "score": 0.872,
+      "head": [
+        354,
+        186,
+        58,
+        60
+      ]
+    },
+    {
+      "key": "rebel-crossbowman-combat-14",
+      "scale": 1.0,
+      "angle": 0,
+      "score": 0.713,
+      "head": [
+        360,
+        182,
+        58,
+        60
+      ]
+    },
+    {
+      "key": "rebel-crossbowman-combat-15",
+      "scale": 1.0,
+      "angle": 0,
+      "score": 0.869,
+      "head": [
+        360,
+        182,
+        58,
+        60
+      ]
+    },
+    {
+      "key": "rebel-crossbowman-combat-16",
+      "scale": 1.0,
+      "angle": 0,
+      "score": 0.869,
+      "head": [
+        362,
+        182,
+        58,
+        60
+      ]
+    },
+    {
+      "key": "rebel-crossbowman-combat-17",
+      "scale": 0.95,
+      "angle": 0,
+      "score": 0.825,
+      "head": [
+        428,
+        186,
+        56,
+        56
+      ]
+    },
+    {
+      "key": "rebel-crossbowman-combat-18",
+      "scale": 0.8,
+      "angle": 60,
+      "score": 0.603,
+      "head": [
+        262,
+        190,
+        66,
+        64
+      ]
+    },
+    {
+      "key": "rebel-crossbowman-combat-19",
+      "scale": 0.95,
+      "angle": 0,
+      "score": 0.773,
+      "head": [
+        374,
+        206,
+        56,
+        56
+      ]
+    },
+    {
+      "key": "rebel-crossbowman-combat-20",
+      "scale": 0.9,
+      "angle": 90,
+      "score": 0.616,
+      "head": [
+        210,
+        278,
+        54,
+        52
+      ]
+    },
+    {
+      "key": "rebel-crossbowman-combat-21",
+      "scale": 0.75,
+      "angle": -30,
+      "score": 0.579,
+      "head": [
+        330,
+        306,
+        64,
+        64
+      ]
+    },
+    {
+      "key": "rebel-crossbowman-combat-22",
+      "scale": 0.75,
+      "angle": -30,
+      "score": 0.578,
+      "head": [
+        376,
+        308,
+        64,
+        64
+      ]
+    },
+    {
+      "key": "rebel-crossbowman-combat-23",
+      "scale": 0.75,
+      "angle": 150,
+      "score": 0.567,
+      "head": [
+        364,
+        328,
+        64,
+        64
+      ]
+    }
+  ],
+  "commander": [
+    {
+      "key": "rebel-commander-00",
+      "scale": 1.0,
+      "angle": 0,
+      "score": 0.955,
+      "head": [
+        180,
+        178,
+        64,
+        64
+      ]
+    },
+    {
+      "key": "rebel-commander-01",
+      "scale": 0.95,
+      "angle": 0,
+      "score": 0.86,
+      "head": [
+        178,
+        178,
+        60,
+        60
+      ]
+    },
+    {
+      "key": "rebel-commander-02",
+      "scale": 1.0,
+      "angle": 0,
+      "score": 0.859,
+      "head": [
+        178,
+        178,
+        64,
+        64
+      ]
+    },
+    {
+      "key": "rebel-commander-03",
+      "scale": 1.0,
+      "angle": 0,
+      "score": 0.935,
+      "head": [
+        182,
+        178,
+        64,
+        64
+      ]
+    },
+    {
+      "key": "rebel-commander-04",
+      "scale": 0.95,
+      "angle": 0,
+      "score": 0.925,
+      "head": [
+        186,
+        180,
+        60,
+        60
+      ]
+    },
+    {
+      "key": "rebel-commander-05",
+      "scale": 1.0,
+      "angle": 0,
+      "score": 0.89,
+      "head": [
+        178,
+        178,
+        64,
+        64
+      ]
+    },
+    {
+      "key": "rebel-commander-combat-00",
+      "scale": 0.9,
+      "angle": 0,
+      "score": 0.871,
+      "head": [
+        340,
+        178,
+        56,
+        56
+      ]
+    },
+    {
+      "key": "rebel-commander-combat-01",
+      "scale": 0.85,
+      "angle": 0,
+      "score": 0.888,
+      "head": [
+        342,
+        176,
+        54,
+        54
+      ]
+    },
+    {
+      "key": "rebel-commander-combat-02",
+      "scale": 0.9,
+      "angle": 0,
+      "score": 0.897,
+      "head": [
+        356,
+        176,
+        56,
+        56
+      ]
+    },
+    {
+      "key": "rebel-commander-combat-03",
+      "scale": 0.9,
+      "angle": 0,
+      "score": 0.866,
+      "head": [
+        348,
+        180,
+        56,
+        56
+      ]
+    },
+    {
+      "key": "rebel-commander-combat-04",
+      "scale": 0.9,
+      "angle": 0,
+      "score": 0.891,
+      "head": [
+        334,
+        180,
+        56,
+        56
+      ]
+    },
+    {
+      "key": "rebel-commander-combat-05",
+      "scale": 0.9,
+      "angle": 0,
+      "score": 0.917,
+      "head": [
+        340,
+        176,
+        56,
+        56
+      ]
+    },
+    {
+      "key": "rebel-commander-combat-06",
+      "scale": 0.9,
+      "angle": 0,
+      "score": 0.76,
+      "head": [
+        360,
+        178,
+        56,
+        56
+      ]
+    },
+    {
+      "key": "rebel-commander-combat-07",
+      "scale": 0.9,
+      "angle": 0,
+      "score": 0.73,
+      "head": [
+        334,
+        190,
+        56,
+        56
+      ]
+    },
+    {
+      "key": "rebel-commander-combat-08",
+      "scale": 0.9,
+      "angle": 0,
+      "score": 0.665,
+      "head": [
+        338,
+        210,
+        56,
+        56
+      ]
+    },
+    {
+      "key": "rebel-commander-combat-09",
+      "scale": 1.0,
+      "angle": 0,
+      "score": 0.894,
+      "head": [
+        336,
+        176,
+        64,
+        64
+      ]
+    },
+    {
+      "key": "rebel-commander-combat-10",
+      "scale": 0.75,
+      "angle": 0,
+      "score": 0.576,
+      "head": [
+        234,
+        152,
+        48,
+        48
+      ]
+    },
+    {
+      "key": "rebel-commander-combat-11",
+      "scale": 0.95,
+      "angle": 0,
+      "score": 0.677,
+      "head": [
+        342,
+        186,
+        60,
+        60
+      ]
+    },
+    {
+      "key": "rebel-commander-combat-12",
+      "scale": 0.95,
+      "angle": 0,
+      "score": 0.677,
+      "head": [
+        342,
+        186,
+        60,
+        60
+      ]
+    },
+    {
+      "key": "rebel-commander-combat-13",
+      "scale": 1.0,
+      "angle": 0,
+      "score": 0.894,
+      "head": [
+        336,
+        176,
+        64,
+        64
+      ]
+    },
+    {
+      "key": "rebel-commander-combat-14",
+      "scale": 0.95,
+      "angle": 0,
+      "score": 0.596,
+      "head": [
+        380,
+        192,
+        60,
+        60
+      ]
+    },
+    {
+      "key": "rebel-commander-combat-15",
+      "scale": 1.0,
+      "angle": 0,
+      "score": 0.677,
+      "head": [
+        340,
+        194,
+        64,
+        64
+      ]
+    },
+    {
+      "key": "rebel-commander-combat-16",
+      "scale": 1.0,
+      "angle": 0,
+      "score": 0.677,
+      "head": [
+        340,
+        194,
+        64,
+        64
+      ]
+    },
+    {
+      "key": "rebel-commander-combat-17",
+      "scale": 1.0,
+      "angle": 0,
+      "score": 0.894,
+      "head": [
+        336,
+        176,
+        64,
+        64
+      ]
+    },
+    {
+      "key": "rebel-commander-combat-18",
+      "scale": 0.95,
+      "angle": 0,
+      "score": 0.612,
+      "head": [
+        312,
+        178,
+        60,
+        60
+      ]
+    },
+    {
+      "key": "rebel-commander-combat-19",
+      "scale": 0.95,
+      "angle": 0,
+      "score": 0.612,
+      "head": [
+        312,
+        178,
+        60,
+        60
+      ]
+    },
+    {
+      "key": "rebel-commander-combat-20",
+      "scale": 0.75,
+      "angle": 0,
+      "score": 0.576,
+      "head": [
+        234,
+        152,
+        48,
+        48
+      ]
+    },
+    {
+      "key": "rebel-commander-combat-21",
+      "scale": 0.9,
+      "angle": 0,
+      "score": 0.584,
+      "head": [
+        358,
+        202,
+        56,
+        56
+      ]
+    },
+    {
+      "key": "rebel-commander-combat-22",
+      "scale": 0.75,
+      "angle": 0,
+      "score": 0.595,
+      "head": [
+        504,
+        282,
+        48,
+        48
+      ]
+    },
+    {
+      "key": "rebel-commander-combat-23",
+      "scale": 0.75,
+      "angle": 90,
+      "score": 0.582,
+      "head": [
+        266,
+        306,
+        48,
+        48
+      ]
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+# NPC screen behavior fixes
+
+City civilians bypass road collision only in the final clear 100px of their left exit and despawn beyond the current screen edge. They retain normal obstacle navigation and animation distance before exiting. This fixes negative-world-X clamping that stranded the opening townsfolk at x0.
+
+Rescued melee rebels now rally to approximately two thirds of the current screen, with small individual offsets, when no living visible foes remain. They walk there using existing navigation/collision/escape logic rather than teleporting or attaching to heroes. Visible opponents cancel rallying immediately and restore normal target-locked combat AI. Crossbow support keeps its existing movement/reload behavior. Recoil, throws and other disabled states take precedence.
+
+Hostile actors acquire a persistent screenRevealed flag after entering the playable view. Once revealed, movement goals and final positions stay within reachable viewport margins, with City elevation-aware pavement bounds, forward-camera following and bounded throw endpoints. Unrevealed/offscreen encounters and entering actors remain free to stage, walk in, or fight offscreen. The restriction is applied before/after combat and after campaign camera movement. Existing scene reset creates fresh actors and clears visibility naturally.
+
+Checks: npc-screen-v168 tests complete City civilian departure/despawn; guard/heavy/spear standby and actual damage against visible targets in City/Forest/Test; no hero tether; both horizontal boundaries; camera advance; airborne throw endpoints; descending streets; unseen and entering exemptions. Carion full campaign/factions, Forest full campaign, Forest intro all15 parties, both scene adapters, autonomous rebel AI and revised spear/follow regressions passed. Old idle-in-place fixtures now wait for the requested rally before asserting stable positioning. No browser visual QA or EXE build.

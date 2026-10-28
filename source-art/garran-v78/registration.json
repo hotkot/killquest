@@ -1,0 +1,347 @@
+{
+  "down": {
+    "shared_scale": 0.8571428571428571,
+    "source_body_heights": [
+      273,
+      269,
+      285,
+      328,
+      316,
+      266,
+      257,
+      269,
+      266,
+      273,
+      274,
+      277
+    ],
+    "frames": [
+      {
+        "translation": [
+          215,
+          172
+        ],
+        "ground": 408,
+        "torso": 320
+      },
+      {
+        "translation": [
+          220,
+          109
+        ],
+        "ground": 408,
+        "torso": 320
+      },
+      {
+        "translation": [
+          232,
+          82
+        ],
+        "ground": 408,
+        "torso": 320
+      },
+      {
+        "translation": [
+          216,
+          78
+        ],
+        "ground": 408,
+        "torso": 320
+      },
+      {
+        "translation": [
+          214,
+          125
+        ],
+        "ground": 408,
+        "torso": 320
+      },
+      {
+        "translation": [
+          216,
+          177
+        ],
+        "ground": 408,
+        "torso": 320
+      },
+      {
+        "translation": [
+          214,
+          185
+        ],
+        "ground": 408,
+        "torso": 320
+      },
+      {
+        "translation": [
+          213,
+          174
+        ],
+        "ground": 408,
+        "torso": 320
+      },
+      {
+        "translation": [
+          223,
+          179
+        ],
+        "ground": 408,
+        "torso": 320
+      },
+      {
+        "translation": [
+          216,
+          170
+        ],
+        "ground": 408,
+        "torso": 320
+      },
+      {
+        "translation": [
+          215,
+          169
+        ],
+        "ground": 408,
+        "torso": 320
+      },
+      {
+        "translation": [
+          221,
+          168
+        ],
+        "ground": 408,
+        "torso": 320
+      }
+    ]
+  },
+  "cross": {
+    "shared_scale": 0.7892074198988196,
+    "source_body_heights": [
+      294,
+      296,
+      296,
+      295,
+      302,
+      302,
+      301,
+      304,
+      296,
+      294,
+      297,
+      297
+    ],
+    "frames": [
+      {
+        "translation": [
+          221,
+          172
+        ],
+        "ground": 408,
+        "torso": 320
+      },
+      {
+        "translation": [
+          219,
+          172
+        ],
+        "ground": 408,
+        "torso": 320
+      },
+      {
+        "translation": [
+          193,
+          171
+        ],
+        "ground": 408,
+        "torso": 320
+      },
+      {
+        "translation": [
+          174,
+          171
+        ],
+        "ground": 408,
+        "torso": 320
+      },
+      {
+        "translation": [
+          206,
+          167
+        ],
+        "ground": 408,
+        "torso": 320
+      },
+      {
+        "translation": [
+          203,
+          168
+        ],
+        "ground": 408,
+        "torso": 320
+      },
+      {
+        "translation": [
+          208,
+          167
+        ],
+        "ground": 408,
+        "torso": 320
+      },
+      {
+        "translation": [
+          191,
+          165
+        ],
+        "ground": 408,
+        "torso": 320
+      },
+      {
+        "translation": [
+          161,
+          171
+        ],
+        "ground": 408,
+        "torso": 320
+      },
+      {
+        "translation": [
+          166,
+          172
+        ],
+        "ground": 408,
+        "torso": 320
+      },
+      {
+        "translation": [
+          217,
+          170
+        ],
+        "ground": 408,
+        "torso": 320
+      },
+      {
+        "translation": [
+          218,
+          172
+        ],
+        "ground": 408,
+        "torso": 320
+      }
+    ]
+  },
+  "thrust": {
+    "shared_scale": 0.819614711033275,
+    "source_body_heights": [
+      285,
+      287,
+      286,
+      288,
+      276,
+      272,
+      269,
+      270,
+      281,
+      286,
+      288,
+      288
+    ],
+    "frames": [
+      {
+        "translation": [
+          217,
+          172
+        ],
+        "ground": 408,
+        "torso": 320
+      },
+      {
+        "translation": [
+          217,
+          172
+        ],
+        "ground": 408,
+        "torso": 320
+      },
+      {
+        "translation": [
+          218,
+          172
+        ],
+        "ground": 408,
+        "torso": 320
+      },
+      {
+        "translation": [
+          217,
+          170
+        ],
+        "ground": 408,
+        "torso": 320
+      },
+      {
+        "translation": [
+          220,
+          180
+        ],
+        "ground": 408,
+        "torso": 320
+      },
+      {
+        "translation": [
+          210,
+          184
+        ],
+        "ground": 408,
+        "torso": 320
+      },
+      {
+        "translation": [
+          203,
+          186
+        ],
+        "ground": 408,
+        "torso": 320
+      },
+      {
+        "translation": [
+          206,
+          185
+        ],
+        "ground": 408,
+        "torso": 320
+      },
+      {
+        "translation": [
+          209,
+          177
+        ],
+        "ground": 408,
+        "torso": 320
+      },
+      {
+        "translation": [
+          215,
+          172
+        ],
+        "ground": 408,
+        "torso": 320
+      },
+      {
+        "translation": [
+          210,
+          171
+        ],
+        "ground": 408,
+        "torso": 320
+      },
+      {
+        "translation": [
+          210,
+          171
+        ],
+        "ground": 408,
+        "torso": 320
+      }
+    ]
+  }
+}

@@ -1,0 +1,818 @@
+{
+  "layers": 116,
+  "textureMiB": 43.4285888671875,
+  "regions": [
+    {
+      "index": 0,
+      "panel": "outskirts",
+      "kind": "cloth",
+      "pixels": 103668,
+      "hotCount": 0
+    },
+    {
+      "index": 1,
+      "panel": "outskirts",
+      "kind": "cloth",
+      "pixels": 106596,
+      "hotCount": 0
+    },
+    {
+      "index": 2,
+      "panel": "outskirts",
+      "kind": "cloth",
+      "pixels": 175560,
+      "hotCount": 8
+    },
+    {
+      "index": 3,
+      "panel": "outskirts",
+      "kind": "fire",
+      "pixels": 18240,
+      "hotCount": 127
+    },
+    {
+      "index": 4,
+      "panel": "outskirts",
+      "kind": "fire",
+      "pixels": 16428,
+      "hotCount": 154
+    },
+    {
+      "index": 5,
+      "panel": "outskirts",
+      "kind": "light",
+      "pixels": 23688,
+      "hotCount": 225
+    },
+    {
+      "index": 6,
+      "panel": "outskirts-link",
+      "kind": "cloth",
+      "pixels": 90312,
+      "hotCount": 0
+    },
+    {
+      "index": 7,
+      "panel": "outskirts-link",
+      "kind": "cloth",
+      "pixels": 70200,
+      "hotCount": 0
+    },
+    {
+      "index": 8,
+      "panel": "outskirts-link",
+      "kind": "cloth",
+      "pixels": 157920,
+      "hotCount": 2
+    },
+    {
+      "index": 9,
+      "panel": "outskirts-link",
+      "kind": "cloth",
+      "pixels": 121500,
+      "hotCount": 0
+    },
+    {
+      "index": 10,
+      "panel": "outskirts-link",
+      "kind": "cloth",
+      "pixels": 48888,
+      "hotCount": 0
+    },
+    {
+      "index": 11,
+      "panel": "outskirts-link",
+      "kind": "cloth",
+      "pixels": 88572,
+      "hotCount": 195
+    },
+    {
+      "index": 12,
+      "panel": "outskirts-link",
+      "kind": "light",
+      "pixels": 16896,
+      "hotCount": 195
+    },
+    {
+      "index": 13,
+      "panel": "outskirts-link",
+      "kind": "light",
+      "pixels": 16632,
+      "hotCount": 218
+    },
+    {
+      "index": 14,
+      "panel": "outskirts-link",
+      "kind": "light",
+      "pixels": 15840,
+      "hotCount": 186
+    },
+    {
+      "index": 15,
+      "panel": "gates",
+      "kind": "cloth",
+      "pixels": 149868,
+      "hotCount": 114
+    },
+    {
+      "index": 16,
+      "panel": "gates",
+      "kind": "cloth",
+      "pixels": 182280,
+      "hotCount": 134
+    },
+    {
+      "index": 17,
+      "panel": "gates",
+      "kind": "cloth",
+      "pixels": 253164,
+      "hotCount": 1
+    },
+    {
+      "index": 18,
+      "panel": "gates",
+      "kind": "cloth",
+      "pixels": 137592,
+      "hotCount": 2332
+    },
+    {
+      "index": 19,
+      "panel": "gates",
+      "kind": "cloth",
+      "pixels": 71760,
+      "hotCount": 196
+    },
+    {
+      "index": 20,
+      "panel": "gates",
+      "kind": "fire",
+      "pixels": 21120,
+      "hotCount": 294
+    },
+    {
+      "index": 21,
+      "panel": "gates",
+      "kind": "fire",
+      "pixels": 23736,
+      "hotCount": 318
+    },
+    {
+      "index": 22,
+      "panel": "gates",
+      "kind": "light",
+      "pixels": 16236,
+      "hotCount": 117
+    },
+    {
+      "index": 23,
+      "panel": "gates",
+      "kind": "water",
+      "pixels": 48312,
+      "hotCount": 0
+    },
+    {
+      "index": 24,
+      "panel": "gates-descent",
+      "kind": "cloth",
+      "pixels": 120600,
+      "hotCount": 0
+    },
+    {
+      "index": 25,
+      "panel": "gates-descent",
+      "kind": "cloth",
+      "pixels": 110400,
+      "hotCount": 0
+    },
+    {
+      "index": 26,
+      "panel": "gates-descent",
+      "kind": "cloth",
+      "pixels": 229824,
+      "hotCount": 15
+    },
+    {
+      "index": 27,
+      "panel": "gates-descent",
+      "kind": "cloth",
+      "pixels": 107520,
+      "hotCount": 0
+    },
+    {
+      "index": 28,
+      "panel": "gates-descent",
+      "kind": "cloth",
+      "pixels": 182280,
+      "hotCount": 21
+    },
+    {
+      "index": 29,
+      "panel": "gates-descent",
+      "kind": "cloth",
+      "pixels": 110856,
+      "hotCount": 0
+    },
+    {
+      "index": 30,
+      "panel": "gates-descent",
+      "kind": "cloth",
+      "pixels": 356748,
+      "hotCount": 4
+    },
+    {
+      "index": 31,
+      "panel": "gates-descent",
+      "kind": "light",
+      "pixels": 22344,
+      "hotCount": 249
+    },
+    {
+      "index": 32,
+      "panel": "gates-descent",
+      "kind": "light",
+      "pixels": 19320,
+      "hotCount": 160
+    },
+    {
+      "index": 33,
+      "panel": "gates-descent",
+      "kind": "light",
+      "pixels": 17220,
+      "hotCount": 137
+    },
+    {
+      "index": 34,
+      "panel": "market",
+      "kind": "cloth",
+      "pixels": 67680,
+      "hotCount": 0
+    },
+    {
+      "index": 35,
+      "panel": "market",
+      "kind": "cloth",
+      "pixels": 56544,
+      "hotCount": 0
+    },
+    {
+      "index": 36,
+      "panel": "market",
+      "kind": "cloth",
+      "pixels": 68112,
+      "hotCount": 0
+    },
+    {
+      "index": 37,
+      "panel": "market",
+      "kind": "cloth",
+      "pixels": 161820,
+      "hotCount": 0
+    },
+    {
+      "index": 38,
+      "panel": "market",
+      "kind": "cloth",
+      "pixels": 107736,
+      "hotCount": 0
+    },
+    {
+      "index": 39,
+      "panel": "market",
+      "kind": "cloth",
+      "pixels": 302820,
+      "hotCount": 1411
+    },
+    {
+      "index": 40,
+      "panel": "market",
+      "kind": "cloth",
+      "pixels": 248400,
+      "hotCount": 199
+    },
+    {
+      "index": 41,
+      "panel": "market",
+      "kind": "cloth",
+      "pixels": 72576,
+      "hotCount": 0
+    },
+    {
+      "index": 42,
+      "panel": "market",
+      "kind": "light",
+      "pixels": 15624,
+      "hotCount": 109
+    },
+    {
+      "index": 43,
+      "panel": "market",
+      "kind": "light",
+      "pixels": 12432,
+      "hotCount": 121
+    },
+    {
+      "index": 44,
+      "panel": "market",
+      "kind": "light",
+      "pixels": 15252,
+      "hotCount": 72
+    },
+    {
+      "index": 45,
+      "panel": "market-link",
+      "kind": "cloth",
+      "pixels": 137616,
+      "hotCount": 0
+    },
+    {
+      "index": 46,
+      "panel": "market-link",
+      "kind": "cloth",
+      "pixels": 333960,
+      "hotCount": 0
+    },
+    {
+      "index": 47,
+      "panel": "market-link",
+      "kind": "cloth",
+      "pixels": 167112,
+      "hotCount": 896
+    },
+    {
+      "index": 48,
+      "panel": "market-link",
+      "kind": "cloth",
+      "pixels": 153180,
+      "hotCount": 35
+    },
+    {
+      "index": 49,
+      "panel": "market-link",
+      "kind": "cloth",
+      "pixels": 97920,
+      "hotCount": 63
+    },
+    {
+      "index": 50,
+      "panel": "market-link",
+      "kind": "light",
+      "pixels": 14508,
+      "hotCount": 93
+    },
+    {
+      "index": 51,
+      "panel": "residential",
+      "kind": "cloth",
+      "pixels": 37392,
+      "hotCount": 0
+    },
+    {
+      "index": 52,
+      "panel": "residential",
+      "kind": "cloth",
+      "pixels": 54984,
+      "hotCount": 123
+    },
+    {
+      "index": 53,
+      "panel": "residential",
+      "kind": "cloth",
+      "pixels": 46200,
+      "hotCount": 0
+    },
+    {
+      "index": 54,
+      "panel": "residential",
+      "kind": "cloth",
+      "pixels": 123804,
+      "hotCount": 0
+    },
+    {
+      "index": 55,
+      "panel": "residential",
+      "kind": "cloth",
+      "pixels": 100200,
+      "hotCount": 1
+    },
+    {
+      "index": 56,
+      "panel": "residential",
+      "kind": "cloth",
+      "pixels": 52896,
+      "hotCount": 407
+    },
+    {
+      "index": 57,
+      "panel": "residential",
+      "kind": "fire",
+      "pixels": 16872,
+      "hotCount": 241
+    },
+    {
+      "index": 58,
+      "panel": "residential",
+      "kind": "fire",
+      "pixels": 22140,
+      "hotCount": 404
+    },
+    {
+      "index": 59,
+      "panel": "residential",
+      "kind": "fire",
+      "pixels": 23040,
+      "hotCount": 398
+    },
+    {
+      "index": 60,
+      "panel": "residential",
+      "kind": "fire",
+      "pixels": 50268,
+      "hotCount": 704
+    },
+    {
+      "index": 61,
+      "panel": "residential",
+      "kind": "fire",
+      "pixels": 39000,
+      "hotCount": 201
+    },
+    {
+      "index": 62,
+      "panel": "residential",
+      "kind": "fire",
+      "pixels": 39312,
+      "hotCount": 187
+    },
+    {
+      "index": 63,
+      "panel": "residential",
+      "kind": "smoke",
+      "pixels": 466416,
+      "hotCount": 287
+    },
+    {
+      "index": 64,
+      "panel": "residential",
+      "kind": "smoke",
+      "pixels": 401880,
+      "hotCount": 92
+    },
+    {
+      "index": 65,
+      "panel": "residential",
+      "kind": "smoke",
+      "pixels": 325728,
+      "hotCount": 1
+    },
+    {
+      "index": 66,
+      "panel": "residential-descent",
+      "kind": "cloth",
+      "pixels": 120960,
+      "hotCount": 0
+    },
+    {
+      "index": 67,
+      "panel": "residential-descent",
+      "kind": "cloth",
+      "pixels": 103488,
+      "hotCount": 1
+    },
+    {
+      "index": 68,
+      "panel": "residential-descent",
+      "kind": "cloth",
+      "pixels": 145992,
+      "hotCount": 1
+    },
+    {
+      "index": 69,
+      "panel": "residential-descent",
+      "kind": "cloth",
+      "pixels": 335256,
+      "hotCount": 465
+    },
+    {
+      "index": 70,
+      "panel": "residential-descent",
+      "kind": "fire",
+      "pixels": 34800,
+      "hotCount": 150
+    },
+    {
+      "index": 71,
+      "panel": "residential-descent",
+      "kind": "fire",
+      "pixels": 31584,
+      "hotCount": 248
+    },
+    {
+      "index": 72,
+      "panel": "residential-descent",
+      "kind": "fire",
+      "pixels": 19188,
+      "hotCount": 37
+    },
+    {
+      "index": 73,
+      "panel": "residential-descent",
+      "kind": "light",
+      "pixels": 15624,
+      "hotCount": 159
+    },
+    {
+      "index": 74,
+      "panel": "residential-descent",
+      "kind": "light",
+      "pixels": 17424,
+      "hotCount": 262
+    },
+    {
+      "index": 75,
+      "panel": "residential-descent",
+      "kind": "light",
+      "pixels": 13572,
+      "hotCount": 165
+    },
+    {
+      "index": 76,
+      "panel": "prison",
+      "kind": "cloth",
+      "pixels": 255216,
+      "hotCount": 777
+    },
+    {
+      "index": 77,
+      "panel": "prison",
+      "kind": "cloth",
+      "pixels": 117576,
+      "hotCount": 193
+    },
+    {
+      "index": 78,
+      "panel": "prison",
+      "kind": "cloth",
+      "pixels": 63000,
+      "hotCount": 0
+    },
+    {
+      "index": 79,
+      "panel": "prison",
+      "kind": "cloth",
+      "pixels": 105792,
+      "hotCount": 10
+    },
+    {
+      "index": 80,
+      "panel": "prison",
+      "kind": "cloth",
+      "pixels": 212784,
+      "hotCount": 338
+    },
+    {
+      "index": 81,
+      "panel": "prison",
+      "kind": "fire",
+      "pixels": 23124,
+      "hotCount": 586
+    },
+    {
+      "index": 82,
+      "panel": "prison",
+      "kind": "fire",
+      "pixels": 19200,
+      "hotCount": 423
+    },
+    {
+      "index": 83,
+      "panel": "prison",
+      "kind": "fire",
+      "pixels": 21648,
+      "hotCount": 525
+    },
+    {
+      "index": 84,
+      "panel": "prison",
+      "kind": "fire",
+      "pixels": 15504,
+      "hotCount": 266
+    },
+    {
+      "index": 85,
+      "panel": "prison-descent",
+      "kind": "cloth",
+      "pixels": 238680,
+      "hotCount": 0
+    },
+    {
+      "index": 86,
+      "panel": "prison-descent",
+      "kind": "cloth",
+      "pixels": 149352,
+      "hotCount": 0
+    },
+    {
+      "index": 87,
+      "panel": "prison-descent",
+      "kind": "cloth",
+      "pixels": 110544,
+      "hotCount": 15
+    },
+    {
+      "index": 88,
+      "panel": "prison-descent",
+      "kind": "cloth",
+      "pixels": 68040,
+      "hotCount": 169
+    },
+    {
+      "index": 89,
+      "panel": "prison-descent",
+      "kind": "cloth",
+      "pixels": 94428,
+      "hotCount": 6
+    },
+    {
+      "index": 90,
+      "panel": "prison-descent",
+      "kind": "light",
+      "pixels": 25800,
+      "hotCount": 317
+    },
+    {
+      "index": 91,
+      "panel": "prison-descent",
+      "kind": "light",
+      "pixels": 27216,
+      "hotCount": 431
+    },
+    {
+      "index": 92,
+      "panel": "prison-descent",
+      "kind": "light",
+      "pixels": 38688,
+      "hotCount": 746
+    },
+    {
+      "index": 93,
+      "panel": "citadel",
+      "kind": "cloth",
+      "pixels": 152928,
+      "hotCount": 139
+    },
+    {
+      "index": 94,
+      "panel": "citadel",
+      "kind": "cloth",
+      "pixels": 320508,
+      "hotCount": 933
+    },
+    {
+      "index": 95,
+      "panel": "citadel",
+      "kind": "cloth",
+      "pixels": 241560,
+      "hotCount": 750
+    },
+    {
+      "index": 96,
+      "panel": "citadel",
+      "kind": "cloth",
+      "pixels": 90300,
+      "hotCount": 1
+    },
+    {
+      "index": 97,
+      "panel": "citadel",
+      "kind": "fire",
+      "pixels": 30504,
+      "hotCount": 370
+    },
+    {
+      "index": 98,
+      "panel": "citadel",
+      "kind": "fire",
+      "pixels": 32016,
+      "hotCount": 354
+    },
+    {
+      "index": 99,
+      "panel": "citadel",
+      "kind": "fire",
+      "pixels": 22932,
+      "hotCount": 203
+    },
+    {
+      "index": 100,
+      "panel": "citadel",
+      "kind": "fire",
+      "pixels": 16236,
+      "hotCount": 215
+    },
+    {
+      "index": 101,
+      "panel": "citadel",
+      "kind": "fire",
+      "pixels": 34104,
+      "hotCount": 632
+    },
+    {
+      "index": 102,
+      "panel": "citadel",
+      "kind": "fire",
+      "pixels": 20520,
+      "hotCount": 334
+    },
+    {
+      "index": 103,
+      "panel": "citadel",
+      "kind": "fire",
+      "pixels": 22140,
+      "hotCount": 444
+    },
+    {
+      "index": 104,
+      "panel": "citadel-link",
+      "kind": "cloth",
+      "pixels": 166428,
+      "hotCount": 3
+    },
+    {
+      "index": 105,
+      "panel": "citadel-link",
+      "kind": "cloth",
+      "pixels": 92904,
+      "hotCount": 1
+    },
+    {
+      "index": 106,
+      "panel": "citadel-link",
+      "kind": "cloth",
+      "pixels": 327684,
+      "hotCount": 1634
+    },
+    {
+      "index": 107,
+      "panel": "citadel-link",
+      "kind": "cloth",
+      "pixels": 72324,
+      "hotCount": 0
+    },
+    {
+      "index": 108,
+      "panel": "citadel-link",
+      "kind": "fire",
+      "pixels": 34320,
+      "hotCount": 247
+    },
+    {
+      "index": 109,
+      "panel": "citadel-link",
+      "kind": "fire",
+      "pixels": 45360,
+      "hotCount": 464
+    },
+    {
+      "index": 110,
+      "panel": "citadel-link",
+      "kind": "fire",
+      "pixels": 36888,
+      "hotCount": 299
+    },
+    {
+      "index": 111,
+      "panel": "citadel-link",
+      "kind": "fire",
+      "pixels": 33072,
+      "hotCount": 606
+    },
+    {
+      "index": 112,
+      "panel": "citadel-link",
+      "kind": "fire",
+      "pixels": 25392,
+      "hotCount": 398
+    },
+    {
+      "index": 113,
+      "panel": "citadel-link",
+      "kind": "fire",
+      "pixels": 27456,
+      "hotCount": 464
+    },
+    {
+      "index": 114,
+      "panel": "citadel-link",
+      "kind": "fire",
+      "pixels": 14256,
+      "hotCount": 214
+    },
+    {
+      "index": 115,
+      "panel": "citadel-link",
+      "kind": "fire",
+      "pixels": 14688,
+      "hotCount": 218
+    }
+  ]
+}

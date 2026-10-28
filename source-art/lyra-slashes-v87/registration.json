@@ -1,0 +1,414 @@
+{
+  "slash": {
+    "shared_scale": 0.773746432939258,
+    "standing_reference_body_height": 219,
+    "normalized_witness_body_height": 219,
+    "normalized_witness_body_area": 14668,
+    "frames": [
+      {
+        "shared_scale": 0.773746432939258,
+        "ground_anchor": 403,
+        "body_anchor": [
+          320,
+          300
+        ],
+        "translation": [
+          240,
+          159
+        ],
+        "effect_components": 1,
+        "source": "source-art/lyra-slashes-v87/slash.png",
+        "component": 0,
+        "action": "diagonal sweep",
+        "locked_to": "huntress-idle-00"
+      },
+      {
+        "shared_scale": 0.773746432939258,
+        "ground_anchor": 403,
+        "body_anchor": [
+          320,
+          300
+        ],
+        "translation": [
+          195,
+          178
+        ],
+        "effect_components": 1,
+        "source": "source-art/lyra-slashes-v87/slash.png",
+        "component": 1,
+        "action": "diagonal sweep"
+      },
+      {
+        "shared_scale": 0.773746432939258,
+        "ground_anchor": 403,
+        "body_anchor": [
+          320,
+          300
+        ],
+        "translation": [
+          240,
+          162
+        ],
+        "effect_components": 1,
+        "source": "source-art/lyra-slashes-v87/slash.png",
+        "component": 2,
+        "action": "diagonal sweep"
+      },
+      {
+        "shared_scale": 0.773746432939258,
+        "ground_anchor": 403,
+        "body_anchor": [
+          320,
+          300
+        ],
+        "translation": [
+          231,
+          150
+        ],
+        "effect_components": 1,
+        "source": "source-art/lyra-slashes-v87/slash.png",
+        "component": 3,
+        "action": "diagonal sweep"
+      },
+      {
+        "shared_scale": 0.773746432939258,
+        "ground_anchor": 403,
+        "body_anchor": [
+          320,
+          300
+        ],
+        "translation": [
+          213,
+          168
+        ],
+        "effect_components": 1,
+        "source": "source-art/lyra-slashes-v87/slash.png",
+        "component": 4,
+        "action": "diagonal sweep"
+      },
+      {
+        "shared_scale": 0.773746432939258,
+        "ground_anchor": 403,
+        "body_anchor": [
+          320,
+          300
+        ],
+        "translation": [
+          236,
+          196
+        ],
+        "effect_components": 1,
+        "source": "source-art/lyra-slashes-v87/slash.png",
+        "component": 5,
+        "action": "diagonal sweep"
+      },
+      {
+        "shared_scale": 0.773746432939258,
+        "ground_anchor": 403,
+        "body_anchor": [
+          320,
+          300
+        ],
+        "translation": [
+          235,
+          206
+        ],
+        "effect_components": 1,
+        "source": "source-art/lyra-slashes-v87/slash.png",
+        "component": 6,
+        "action": "diagonal sweep"
+      },
+      {
+        "shared_scale": 0.773746432939258,
+        "ground_anchor": 403,
+        "body_anchor": [
+          320,
+          300
+        ],
+        "translation": [
+          232,
+          213
+        ],
+        "effect_components": 1,
+        "source": "source-art/lyra-slashes-v87/slash.png",
+        "component": 7,
+        "action": "diagonal sweep"
+      }
+    ]
+  },
+  "rise": {
+    "shared_scale": 0.7617391304347826,
+    "standing_reference_body_height": 219,
+    "normalized_witness_body_height": 219,
+    "normalized_witness_body_area": 14804,
+    "frames": [
+      {
+        "shared_scale": 0.7617391304347826,
+        "ground_anchor": 403,
+        "body_anchor": [
+          320,
+          300
+        ],
+        "translation": [
+          202,
+          180
+        ],
+        "effect_components": 1,
+        "source": "source-art/lyra-slashes-v87/rise.png",
+        "component": 0,
+        "action": "turning horizontal slash",
+        "locked_to": "huntress-slash-07"
+      },
+      {
+        "shared_scale": 0.7617391304347826,
+        "ground_anchor": 403,
+        "body_anchor": [
+          320,
+          300
+        ],
+        "translation": [
+          209,
+          177
+        ],
+        "effect_components": 1,
+        "source": "source-art/lyra-slashes-v87/rise.png",
+        "component": 1,
+        "action": "turning horizontal slash"
+      },
+      {
+        "shared_scale": 0.7617391304347826,
+        "ground_anchor": 403,
+        "body_anchor": [
+          320,
+          300
+        ],
+        "translation": [
+          214,
+          174
+        ],
+        "effect_components": 1,
+        "source": "source-art/lyra-slashes-v87/rise.png",
+        "component": 2,
+        "action": "turning horizontal slash"
+      },
+      {
+        "shared_scale": 0.7617391304347826,
+        "ground_anchor": 403,
+        "body_anchor": [
+          320,
+          300
+        ],
+        "translation": [
+          186,
+          178
+        ],
+        "effect_components": 1,
+        "source": "source-art/lyra-slashes-v87/rise.png",
+        "component": 3,
+        "action": "turning horizontal slash"
+      },
+      {
+        "shared_scale": 0.7617391304347826,
+        "ground_anchor": 403,
+        "body_anchor": [
+          320,
+          300
+        ],
+        "translation": [
+          184,
+          192
+        ],
+        "effect_components": 1,
+        "source": "source-art/lyra-slashes-v87/rise.png",
+        "component": 4,
+        "action": "turning horizontal slash"
+      },
+      {
+        "shared_scale": 0.7617391304347826,
+        "ground_anchor": 403,
+        "body_anchor": [
+          320,
+          300
+        ],
+        "translation": [
+          179,
+          191
+        ],
+        "effect_components": 1,
+        "source": "source-art/lyra-slashes-v87/rise.png",
+        "component": 5,
+        "action": "turning horizontal slash"
+      },
+      {
+        "shared_scale": 0.7617391304347826,
+        "ground_anchor": 403,
+        "body_anchor": [
+          320,
+          300
+        ],
+        "translation": [
+          208,
+          182
+        ],
+        "effect_components": 1,
+        "source": "source-art/lyra-slashes-v87/rise.png",
+        "component": 6,
+        "action": "turning horizontal slash"
+      },
+      {
+        "shared_scale": 0.7617391304347826,
+        "ground_anchor": 403,
+        "body_anchor": [
+          320,
+          300
+        ],
+        "translation": [
+          230,
+          177
+        ],
+        "effect_components": 1,
+        "source": "source-art/lyra-slashes-v87/rise.png",
+        "component": 7,
+        "action": "turning horizontal slash"
+      }
+    ]
+  },
+  "finisher": {
+    "shared_scale": 0.7465909090909091,
+    "standing_reference_body_height": 219,
+    "normalized_witness_body_height": 219,
+    "normalized_witness_body_area": 14788,
+    "frames": [
+      {
+        "shared_scale": 0.7465909090909091,
+        "ground_anchor": 403,
+        "body_anchor": [
+          320,
+          300
+        ],
+        "translation": [
+          232,
+          152
+        ],
+        "effect_components": 1,
+        "source": "source-art/lyra-slashes-v87/finisher.png",
+        "component": 0,
+        "action": "crossed-blade slash",
+        "locked_to": "huntress-rise-07"
+      },
+      {
+        "shared_scale": 0.7465909090909091,
+        "ground_anchor": 403,
+        "body_anchor": [
+          320,
+          300
+        ],
+        "translation": [
+          226,
+          152
+        ],
+        "effect_components": 1,
+        "source": "source-art/lyra-slashes-v87/finisher.png",
+        "component": 1,
+        "action": "crossed-blade slash"
+      },
+      {
+        "shared_scale": 0.7465909090909091,
+        "ground_anchor": 403,
+        "body_anchor": [
+          320,
+          300
+        ],
+        "translation": [
+          214,
+          144
+        ],
+        "effect_components": 1,
+        "source": "source-art/lyra-slashes-v87/finisher.png",
+        "component": 2,
+        "action": "crossed-blade slash"
+      },
+      {
+        "shared_scale": 0.7465909090909091,
+        "ground_anchor": 403,
+        "body_anchor": [
+          320,
+          300
+        ],
+        "translation": [
+          219,
+          161
+        ],
+        "effect_components": 1,
+        "source": "source-art/lyra-slashes-v87/finisher.png",
+        "component": 3,
+        "action": "crossed-blade slash"
+      },
+      {
+        "shared_scale": 0.7465909090909091,
+        "ground_anchor": 403,
+        "body_anchor": [
+          320,
+          300
+        ],
+        "translation": [
+          218,
+          170
+        ],
+        "effect_components": 3,
+        "source": "source-art/lyra-slashes-v87/finisher.png",
+        "component": 4,
+        "action": "crossed-blade slash"
+      },
+      {
+        "shared_scale": 0.7465909090909091,
+        "ground_anchor": 403,
+        "body_anchor": [
+          320,
+          300
+        ],
+        "translation": [
+          200,
+          156
+        ],
+        "effect_components": 1,
+        "source": "source-art/lyra-slashes-v87/finisher.png",
+        "component": 5,
+        "action": "crossed-blade slash"
+      },
+      {
+        "shared_scale": 0.7465909090909091,
+        "ground_anchor": 403,
+        "body_anchor": [
+          320,
+          300
+        ],
+        "translation": [
+          196,
+          172
+        ],
+        "effect_components": 1,
+        "source": "source-art/lyra-slashes-v87/finisher.png",
+        "component": 6,
+        "action": "crossed-blade slash"
+      },
+      {
+        "shared_scale": 0.7465909090909091,
+        "ground_anchor": 403,
+        "body_anchor": [
+          320,
+          300
+        ],
+        "translation": [
+          239,
+          168
+        ],
+        "effect_components": 1,
+        "source": "source-art/lyra-slashes-v87/finisher.png",
+        "component": 7,
+        "action": "crossed-blade slash",
+        "locked_to": "huntress-idle-00"
+      }
+    ]
+  }
+}

@@ -1,0 +1,110 @@
+{
+  "witch-air-cast-03": {
+    "canvas": [
+      768,
+      448
+    ],
+    "body_offset": [
+      160,
+      0
+    ],
+    "original_effect_roi": [
+      307,
+      270,
+      448,
+      410
+    ],
+    "generated_crop": [
+      390,
+      300,
+      580,
+      450
+    ],
+    "effect_position": [
+      467,
+      273
+    ],
+    "effect_width_scale": 1
+  },
+  "witch-cast2-03": {
+    "canvas": [
+      768,
+      448
+    ],
+    "body_offset": [
+      160,
+      0
+    ],
+    "original_effect_roi": [
+      310,
+      140,
+      448,
+      280
+    ],
+    "generated_crop": [
+      1045,
+      190,
+      1255,
+      320
+    ],
+    "effect_position": [
+      470,
+      158
+    ],
+    "effect_width_scale": 1
+  },
+  "witch-cast3-02": {
+    "canvas": [
+      768,
+      448
+    ],
+    "body_offset": [
+      160,
+      0
+    ],
+    "original_effect_roi": [
+      350,
+      170,
+      448,
+      320
+    ],
+    "generated_crop": [
+      315,
+      710,
+      640,
+      850
+    ],
+    "effect_position": [
+      500,
+      166
+    ],
+    "effect_width_scale": 0.7
+  },
+  "witch-rage-02": {
+    "canvas": [
+      768,
+      448
+    ],
+    "body_offset": [
+      160,
+      0
+    ],
+    "original_effect_roi": [
+      320,
+      165,
+      448,
+      330
+    ],
+    "generated_crop": [
+      1000,
+      695,
+      1260,
+      900
+    ],
+    "effect_position": [
+      440,
+      151
+    ],
+    "effect_width_scale": 1
+  }
+}

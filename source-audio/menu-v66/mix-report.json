@@ -1,0 +1,64 @@
+{
+  "title": "Iron at the Gate",
+  "bpm": 112,
+  "duration_seconds": 120.0,
+  "bars": 56,
+  "key": "D pedal",
+  "sections": [
+    [
+      0,
+      4,
+      "entry"
+    ],
+    [
+      4,
+      20,
+      "groove"
+    ],
+    [
+      20,
+      28,
+      "chord-response"
+    ],
+    [
+      28,
+      36,
+      "half-time"
+    ],
+    [
+      36,
+      40,
+      "bass-pocket"
+    ],
+    [
+      40,
+      52,
+      "groove-return"
+    ],
+    [
+      52,
+      56,
+      "turnaround"
+    ]
+  ],
+  "stems": {
+    "guitar-left": {
+      "active_rms": 0.07500000298023224,
+      "gain_db": 4.388680823475925
+    },
+    "guitar-right": {
+      "active_rms": 0.07500000298023224,
+      "gain_db": 4.3979773874441435
+    },
+    "bass": {
+      "active_rms": 0.07800000160932541,
+      "gain_db": 2.7877828920367116
+    },
+    "drums": {
+      "active_rms": 0.08799999952316284,
+      "gain_db": 1.4476614295965253
+    }
+  },
+  "loudness_target_lufs": -17,
+  "guitar_source": "Skimel, CC BY-SA 4.0"
+}

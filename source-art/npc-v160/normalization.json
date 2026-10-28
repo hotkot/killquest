@@ -1,0 +1,2262 @@
+{
+  "guard": [
+    {
+      "key": "rebel-guard-00",
+      "factor": 1.0,
+      "foot": 408,
+      "canvas": [
+        448,
+        448
+      ],
+      "bounds": [
+        125,
+        174,
+        287,
+        408
+      ]
+    },
+    {
+      "key": "rebel-guard-01",
+      "factor": 0.9914529914529915,
+      "foot": 408,
+      "canvas": [
+        448,
+        448
+      ],
+      "bounds": [
+        125,
+        174,
+        290,
+        409
+      ]
+    },
+    {
+      "key": "rebel-guard-02",
+      "factor": 1.0,
+      "foot": 408,
+      "canvas": [
+        448,
+        448
+      ],
+      "bounds": [
+        124,
+        176,
+        289,
+        408
+      ]
+    },
+    {
+      "key": "rebel-guard-03",
+      "factor": 1.008695652173913,
+      "foot": 408,
+      "canvas": [
+        448,
+        448
+      ],
+      "bounds": [
+        123,
+        171,
+        290,
+        409
+      ]
+    },
+    {
+      "key": "rebel-guard-04",
+      "factor": 1.0,
+      "foot": 408,
+      "canvas": [
+        448,
+        448
+      ],
+      "bounds": [
+        125,
+        173,
+        289,
+        408
+      ]
+    },
+    {
+      "key": "rebel-guard-05",
+      "factor": 1.0,
+      "foot": 408,
+      "canvas": [
+        448,
+        448
+      ],
+      "bounds": [
+        124,
+        174,
+        290,
+        408
+      ]
+    },
+    {
+      "key": "rebel-guard-combat-00",
+      "factor": 0.9914529914529915,
+      "foot": 408,
+      "canvas": [
+        768,
+        448
+      ],
+      "bounds": [
+        254,
+        176,
+        441,
+        409
+      ]
+    },
+    {
+      "key": "rebel-guard-combat-01",
+      "factor": 1.0,
+      "foot": 408,
+      "canvas": [
+        768,
+        448
+      ],
+      "bounds": [
+        280,
+        174,
+        465,
+        408
+      ]
+    },
+    {
+      "key": "rebel-guard-combat-02",
+      "factor": 0.9830508474576272,
+      "foot": 408,
+      "canvas": [
+        768,
+        448
+      ],
+      "bounds": [
+        266,
+        176,
+        440,
+        409
+      ]
+    },
+    {
+      "key": "rebel-guard-combat-03",
+      "factor": 0.9747899159663865,
+      "foot": 408,
+      "canvas": [
+        768,
+        448
+      ],
+      "bounds": [
+        268,
+        176,
+        453,
+        409
+      ]
+    },
+    {
+      "key": "rebel-guard-combat-04",
+      "factor": 0.9747899159663865,
+      "foot": 408,
+      "canvas": [
+        768,
+        448
+      ],
+      "bounds": [
+        263,
+        176,
+        444,
+        409
+      ]
+    },
+    {
+      "key": "rebel-guard-combat-05",
+      "factor": 0.9914529914529915,
+      "foot": 408,
+      "canvas": [
+        768,
+        448
+      ],
+      "bounds": [
+        279,
+        174,
+        457,
+        409
+      ]
+    },
+    {
+      "key": "rebel-guard-combat-06",
+      "factor": 0.91,
+      "foot": 408,
+      "canvas": [
+        768,
+        448
+      ],
+      "bounds": [
+        250,
+        176,
+        460,
+        409
+      ]
+    },
+    {
+      "key": "rebel-guard-combat-07",
+      "factor": 0.91,
+      "foot": 408,
+      "canvas": [
+        768,
+        448
+      ],
+      "bounds": [
+        262,
+        170,
+        439,
+        409
+      ]
+    },
+    {
+      "key": "rebel-guard-combat-08",
+      "factor": 0.91,
+      "foot": 408,
+      "canvas": [
+        768,
+        448
+      ],
+      "bounds": [
+        243,
+        182,
+        440,
+        409
+      ]
+    },
+    {
+      "key": "rebel-guard-combat-09",
+      "factor": 0.91,
+      "foot": 408,
+      "canvas": [
+        768,
+        448
+      ],
+      "bounds": [
+        252,
+        206,
+        525,
+        409
+      ]
+    },
+    {
+      "key": "rebel-guard-combat-10",
+      "factor": 0.91,
+      "foot": 408,
+      "canvas": [
+        768,
+        448
+      ],
+      "bounds": [
+        257,
+        204,
+        526,
+        409
+      ]
+    },
+    {
+      "key": "rebel-guard-combat-11",
+      "factor": 0.95,
+      "foot": 408,
+      "canvas": [
+        768,
+        448
+      ],
+      "bounds": [
+        294,
+        189,
+        458,
+        409
+      ]
+    },
+    {
+      "key": "rebel-guard-combat-12",
+      "factor": 0.95,
+      "foot": 408,
+      "canvas": [
+        768,
+        448
+      ],
+      "bounds": [
+        267,
+        208,
+        440,
+        409
+      ]
+    },
+    {
+      "key": "rebel-guard-combat-13",
+      "factor": 0.95,
+      "foot": 408,
+      "canvas": [
+        768,
+        448
+      ],
+      "bounds": [
+        260,
+        209,
+        432,
+        409
+      ]
+    },
+    {
+      "key": "rebel-guard-combat-14",
+      "factor": 0.95,
+      "foot": 408,
+      "canvas": [
+        768,
+        448
+      ],
+      "bounds": [
+        250,
+        203,
+        457,
+        409
+      ]
+    },
+    {
+      "key": "rebel-guard-combat-15",
+      "factor": 0.95,
+      "foot": 408,
+      "canvas": [
+        768,
+        448
+      ],
+      "bounds": [
+        268,
+        214,
+        450,
+        409
+      ]
+    },
+    {
+      "key": "rebel-guard-combat-16",
+      "factor": 0.95,
+      "foot": 408,
+      "canvas": [
+        768,
+        448
+      ],
+      "bounds": [
+        316,
+        199,
+        550,
+        409
+      ]
+    },
+    {
+      "key": "rebel-guard-combat-17",
+      "factor": 0.95,
+      "foot": 408,
+      "canvas": [
+        768,
+        448
+      ],
+      "bounds": [
+        315,
+        210,
+        514,
+        409
+      ]
+    },
+    {
+      "key": "rebel-guard-combat-18",
+      "factor": 0.95,
+      "foot": 408,
+      "canvas": [
+        768,
+        448
+      ],
+      "bounds": [
+        194,
+        221,
+        456,
+        409
+      ]
+    },
+    {
+      "key": "rebel-guard-combat-19",
+      "factor": 0.95,
+      "foot": 408,
+      "canvas": [
+        768,
+        448
+      ],
+      "bounds": [
+        304,
+        227,
+        497,
+        409
+      ]
+    },
+    {
+      "key": "rebel-guard-combat-20",
+      "factor": 0.95,
+      "foot": 408,
+      "canvas": [
+        768,
+        448
+      ],
+      "bounds": [
+        259,
+        241,
+        470,
+        409
+      ]
+    },
+    {
+      "key": "rebel-guard-combat-21",
+      "factor": 0.95,
+      "foot": 408,
+      "canvas": [
+        768,
+        448
+      ],
+      "bounds": [
+        277,
+        306,
+        492,
+        409
+      ]
+    },
+    {
+      "key": "rebel-guard-combat-22",
+      "factor": 0.95,
+      "foot": 408,
+      "canvas": [
+        768,
+        448
+      ],
+      "bounds": [
+        241,
+        325,
+        528,
+        409
+      ]
+    },
+    {
+      "key": "rebel-guard-combat-23",
+      "factor": 0.95,
+      "foot": 408,
+      "canvas": [
+        768,
+        448
+      ],
+      "bounds": [
+        269,
+        338,
+        498,
+        409
+      ]
+    }
+  ],
+  "bulwark": [
+    {
+      "key": "rebel-bulwark-00",
+      "factor": 1.0,
+      "foot": 408,
+      "canvas": [
+        448,
+        448
+      ],
+      "bounds": [
+        113,
+        176,
+        310,
+        408
+      ]
+    },
+    {
+      "key": "rebel-bulwark-01",
+      "factor": 0.991304347826087,
+      "foot": 408,
+      "canvas": [
+        448,
+        448
+      ],
+      "bounds": [
+        114,
+        176,
+        310,
+        409
+      ]
+    },
+    {
+      "key": "rebel-bulwark-02",
+      "factor": 1.0,
+      "foot": 408,
+      "canvas": [
+        448,
+        448
+      ],
+      "bounds": [
+        95,
+        176,
+        309,
+        408
+      ]
+    },
+    {
+      "key": "rebel-bulwark-03",
+      "factor": 0.9827586206896551,
+      "foot": 408,
+      "canvas": [
+        448,
+        448
+      ],
+      "bounds": [
+        116,
+        179,
+        312,
+        409
+      ]
+    },
+    {
+      "key": "rebel-bulwark-04",
+      "factor": 0.9827586206896551,
+      "foot": 408,
+      "canvas": [
+        448,
+        448
+      ],
+      "bounds": [
+        116,
+        177,
+        311,
+        409
+      ]
+    },
+    {
+      "key": "rebel-bulwark-05",
+      "factor": 0.9827586206896551,
+      "foot": 408,
+      "canvas": [
+        448,
+        448
+      ],
+      "bounds": [
+        115,
+        177,
+        310,
+        409
+      ]
+    },
+    {
+      "key": "rebel-bulwark-combat-00",
+      "factor": 0.9743589743589743,
+      "foot": 408,
+      "canvas": [
+        768,
+        448
+      ],
+      "bounds": [
+        256,
+        176,
+        472,
+        408
+      ]
+    },
+    {
+      "key": "rebel-bulwark-combat-01",
+      "factor": 0.9827586206896551,
+      "foot": 408,
+      "canvas": [
+        768,
+        448
+      ],
+      "bounds": [
+        253,
+        178,
+        462,
+        409
+      ]
+    },
+    {
+      "key": "rebel-bulwark-combat-02",
+      "factor": 0.9827586206896551,
+      "foot": 408,
+      "canvas": [
+        768,
+        448
+      ],
+      "bounds": [
+        247,
+        177,
+        467,
+        409
+      ]
+    },
+    {
+      "key": "rebel-bulwark-combat-03",
+      "factor": 0.9661016949152542,
+      "foot": 408,
+      "canvas": [
+        768,
+        448
+      ],
+      "bounds": [
+        262,
+        176,
+        462,
+        409
+      ]
+    },
+    {
+      "key": "rebel-bulwark-combat-04",
+      "factor": 0.9827586206896551,
+      "foot": 408,
+      "canvas": [
+        768,
+        448
+      ],
+      "bounds": [
+        246,
+        177,
+        462,
+        409
+      ]
+    },
+    {
+      "key": "rebel-bulwark-combat-05",
+      "factor": 0.9827586206896551,
+      "foot": 408,
+      "canvas": [
+        768,
+        448
+      ],
+      "bounds": [
+        241,
+        178,
+        466,
+        409
+      ]
+    },
+    {
+      "key": "rebel-bulwark-combat-06",
+      "factor": 0.95,
+      "foot": 408,
+      "canvas": [
+        768,
+        448
+      ],
+      "bounds": [
+        264,
+        189,
+        474,
+        409
+      ]
+    },
+    {
+      "key": "rebel-bulwark-combat-07",
+      "factor": 0.95,
+      "foot": 408,
+      "canvas": [
+        768,
+        448
+      ],
+      "bounds": [
+        255,
+        192,
+        519,
+        409
+      ]
+    },
+    {
+      "key": "rebel-bulwark-combat-08",
+      "factor": 0.95,
+      "foot": 408,
+      "canvas": [
+        768,
+        448
+      ],
+      "bounds": [
+        255,
+        192,
+        519,
+        409
+      ]
+    },
+    {
+      "key": "rebel-bulwark-combat-09",
+      "factor": 0.95,
+      "foot": 408,
+      "canvas": [
+        768,
+        448
+      ],
+      "bounds": [
+        255,
+        192,
+        519,
+        409
+      ]
+    },
+    {
+      "key": "rebel-bulwark-combat-10",
+      "factor": 0.95,
+      "foot": 408,
+      "canvas": [
+        768,
+        448
+      ],
+      "bounds": [
+        254,
+        189,
+        480,
+        409
+      ]
+    },
+    {
+      "key": "rebel-bulwark-combat-11",
+      "factor": 0.95,
+      "foot": 408,
+      "canvas": [
+        768,
+        448
+      ],
+      "bounds": [
+        331,
+        190,
+        530,
+        409
+      ]
+    },
+    {
+      "key": "rebel-bulwark-combat-12",
+      "factor": 0.95,
+      "foot": 408,
+      "canvas": [
+        768,
+        448
+      ],
+      "bounds": [
+        253,
+        192,
+        471,
+        409
+      ]
+    },
+    {
+      "key": "rebel-bulwark-combat-13",
+      "factor": 0.95,
+      "foot": 408,
+      "canvas": [
+        768,
+        448
+      ],
+      "bounds": [
+        259,
+        196,
+        465,
+        409
+      ]
+    },
+    {
+      "key": "rebel-bulwark-combat-14",
+      "factor": 0.95,
+      "foot": 408,
+      "canvas": [
+        768,
+        448
+      ],
+      "bounds": [
+        220,
+        192,
+        451,
+        409
+      ]
+    },
+    {
+      "key": "rebel-bulwark-combat-15",
+      "factor": 0.95,
+      "foot": 408,
+      "canvas": [
+        768,
+        448
+      ],
+      "bounds": [
+        266,
+        186,
+        503,
+        409
+      ]
+    },
+    {
+      "key": "rebel-bulwark-combat-16",
+      "factor": 0.95,
+      "foot": 408,
+      "canvas": [
+        768,
+        448
+      ],
+      "bounds": [
+        279,
+        204,
+        460,
+        409
+      ]
+    },
+    {
+      "key": "rebel-bulwark-combat-17",
+      "factor": 0.95,
+      "foot": 408,
+      "canvas": [
+        768,
+        448
+      ],
+      "bounds": [
+        277,
+        207,
+        454,
+        409
+      ]
+    },
+    {
+      "key": "rebel-bulwark-combat-18",
+      "factor": 0.95,
+      "foot": 408,
+      "canvas": [
+        768,
+        448
+      ],
+      "bounds": [
+        194,
+        228,
+        438,
+        409
+      ]
+    },
+    {
+      "key": "rebel-bulwark-combat-19",
+      "factor": 0.95,
+      "foot": 408,
+      "canvas": [
+        768,
+        448
+      ],
+      "bounds": [
+        258,
+        244,
+        481,
+        409
+      ]
+    },
+    {
+      "key": "rebel-bulwark-combat-20",
+      "factor": 0.95,
+      "foot": 408,
+      "canvas": [
+        768,
+        448
+      ],
+      "bounds": [
+        180,
+        279,
+        449,
+        409
+      ]
+    },
+    {
+      "key": "rebel-bulwark-combat-21",
+      "factor": 0.95,
+      "foot": 408,
+      "canvas": [
+        768,
+        448
+      ],
+      "bounds": [
+        262,
+        304,
+        507,
+        409
+      ]
+    },
+    {
+      "key": "rebel-bulwark-combat-22",
+      "factor": 0.95,
+      "foot": 408,
+      "canvas": [
+        768,
+        448
+      ],
+      "bounds": [
+        273,
+        313,
+        493,
+        409
+      ]
+    },
+    {
+      "key": "rebel-bulwark-combat-23",
+      "factor": 0.95,
+      "foot": 408,
+      "canvas": [
+        768,
+        448
+      ],
+      "bounds": [
+        262,
+        312,
+        506,
+        409
+      ]
+    }
+  ],
+  "spearman": [
+    {
+      "key": "rebel-spearman-00",
+      "factor": 1.0,
+      "foot": 408,
+      "canvas": [
+        448,
+        448
+      ],
+      "bounds": [
+        152,
+        114,
+        298,
+        408
+      ]
+    },
+    {
+      "key": "rebel-spearman-01",
+      "factor": 0.9834710743801653,
+      "foot": 408,
+      "canvas": [
+        448,
+        448
+      ],
+      "bounds": [
+        154,
+        119,
+        299,
+        409
+      ]
+    },
+    {
+      "key": "rebel-spearman-02",
+      "factor": 0.9834710743801653,
+      "foot": 408,
+      "canvas": [
+        448,
+        448
+      ],
+      "bounds": [
+        146,
+        121,
+        303,
+        409
+      ]
+    },
+    {
+      "key": "rebel-spearman-03",
+      "factor": 1.0084745762711864,
+      "foot": 408,
+      "canvas": [
+        448,
+        448
+      ],
+      "bounds": [
+        151,
+        113,
+        303,
+        409
+      ]
+    },
+    {
+      "key": "rebel-spearman-04",
+      "factor": 0.9834710743801653,
+      "foot": 408,
+      "canvas": [
+        448,
+        448
+      ],
+      "bounds": [
+        155,
+        119,
+        302,
+        409
+      ]
+    },
+    {
+      "key": "rebel-spearman-05",
+      "factor": 1.0084745762711864,
+      "foot": 408,
+      "canvas": [
+        448,
+        448
+      ],
+      "bounds": [
+        150,
+        113,
+        303,
+        409
+      ]
+    },
+    {
+      "key": "rebel-spearman-combat-00",
+      "factor": 1.0,
+      "foot": 408,
+      "canvas": [
+        1024,
+        448
+      ],
+      "bounds": [
+        308,
+        169,
+        692,
+        408
+      ]
+    },
+    {
+      "key": "rebel-spearman-combat-01",
+      "factor": 1.0,
+      "foot": 408,
+      "canvas": [
+        1024,
+        448
+      ],
+      "bounds": [
+        296,
+        169,
+        685,
+        408
+      ]
+    },
+    {
+      "key": "rebel-spearman-combat-02",
+      "factor": 1.0,
+      "foot": 408,
+      "canvas": [
+        1024,
+        448
+      ],
+      "bounds": [
+        301,
+        168,
+        686,
+        408
+      ]
+    },
+    {
+      "key": "rebel-spearman-combat-03",
+      "factor": 0.9916666666666667,
+      "foot": 408,
+      "canvas": [
+        1024,
+        448
+      ],
+      "bounds": [
+        296,
+        171,
+        682,
+        409
+      ]
+    },
+    {
+      "key": "rebel-spearman-combat-04",
+      "factor": 1.017094017094017,
+      "foot": 408,
+      "canvas": [
+        1024,
+        448
+      ],
+      "bounds": [
+        299,
+        171,
+        694,
+        409
+      ]
+    },
+    {
+      "key": "rebel-spearman-combat-05",
+      "factor": 1.043859649122807,
+      "foot": 408,
+      "canvas": [
+        1024,
+        448
+      ],
+      "bounds": [
+        339,
+        170,
+        738,
+        409
+      ]
+    },
+    {
+      "key": "rebel-spearman-combat-06",
+      "factor": 0.97,
+      "foot": 408,
+      "canvas": [
+        1024,
+        448
+      ],
+      "bounds": [
+        333,
+        178,
+        718,
+        409
+      ]
+    },
+    {
+      "key": "rebel-spearman-combat-07",
+      "factor": 0.97,
+      "foot": 408,
+      "canvas": [
+        1024,
+        448
+      ],
+      "bounds": [
+        329,
+        173,
+        713,
+        409
+      ]
+    },
+    {
+      "key": "rebel-spearman-combat-08",
+      "factor": 0.97,
+      "foot": 408,
+      "canvas": [
+        1024,
+        448
+      ],
+      "bounds": [
+        323,
+        195,
+        831,
+        409
+      ]
+    },
+    {
+      "key": "rebel-spearman-combat-09",
+      "factor": 0.97,
+      "foot": 408,
+      "canvas": [
+        1024,
+        448
+      ],
+      "bounds": [
+        470,
+        192,
+        962,
+        409
+      ]
+    },
+    {
+      "key": "rebel-spearman-combat-10",
+      "factor": 0.97,
+      "foot": 408,
+      "canvas": [
+        1024,
+        448
+      ],
+      "bounds": [
+        326,
+        184,
+        720,
+        409
+      ]
+    },
+    {
+      "key": "rebel-spearman-combat-11",
+      "factor": 0.97,
+      "foot": 408,
+      "canvas": [
+        1024,
+        448
+      ],
+      "bounds": [
+        425,
+        182,
+        803,
+        409
+      ]
+    },
+    {
+      "key": "rebel-spearman-combat-12",
+      "factor": 0.97,
+      "foot": 408,
+      "canvas": [
+        1024,
+        448
+      ],
+      "bounds": [
+        333,
+        178,
+        718,
+        409
+      ]
+    },
+    {
+      "key": "rebel-spearman-combat-13",
+      "factor": 0.97,
+      "foot": 408,
+      "canvas": [
+        1024,
+        448
+      ],
+      "bounds": [
+        329,
+        173,
+        713,
+        409
+      ]
+    },
+    {
+      "key": "rebel-spearman-combat-14",
+      "factor": 0.97,
+      "foot": 408,
+      "canvas": [
+        1024,
+        448
+      ],
+      "bounds": [
+        419,
+        171,
+        795,
+        409
+      ]
+    },
+    {
+      "key": "rebel-spearman-combat-15",
+      "factor": 0.97,
+      "foot": 408,
+      "canvas": [
+        1024,
+        448
+      ],
+      "bounds": [
+        284,
+        172,
+        668,
+        409
+      ]
+    },
+    {
+      "key": "rebel-spearman-combat-16",
+      "factor": 0.97,
+      "foot": 408,
+      "canvas": [
+        1024,
+        448
+      ],
+      "bounds": [
+        406,
+        199,
+        750,
+        409
+      ]
+    },
+    {
+      "key": "rebel-spearman-combat-17",
+      "factor": 0.97,
+      "foot": 408,
+      "canvas": [
+        1024,
+        448
+      ],
+      "bounds": [
+        372,
+        217,
+        708,
+        409
+      ]
+    },
+    {
+      "key": "rebel-spearman-combat-18",
+      "factor": 0.97,
+      "foot": 408,
+      "canvas": [
+        1024,
+        448
+      ],
+      "bounds": [
+        372,
+        241,
+        700,
+        409
+      ]
+    },
+    {
+      "key": "rebel-spearman-combat-19",
+      "factor": 0.97,
+      "foot": 408,
+      "canvas": [
+        1024,
+        448
+      ],
+      "bounds": [
+        406,
+        256,
+        763,
+        409
+      ]
+    },
+    {
+      "key": "rebel-spearman-combat-20",
+      "factor": 0.97,
+      "foot": 408,
+      "canvas": [
+        1024,
+        448
+      ],
+      "bounds": [
+        292,
+        311,
+        731,
+        409
+      ]
+    },
+    {
+      "key": "rebel-spearman-combat-21",
+      "factor": 0.97,
+      "foot": 408,
+      "canvas": [
+        1024,
+        448
+      ],
+      "bounds": [
+        293,
+        314,
+        729,
+        409
+      ]
+    },
+    {
+      "key": "rebel-spearman-combat-22",
+      "factor": 0.97,
+      "foot": 408,
+      "canvas": [
+        1024,
+        448
+      ],
+      "bounds": [
+        293,
+        314,
+        730,
+        409
+      ]
+    },
+    {
+      "key": "rebel-spearman-combat-23",
+      "factor": 0.97,
+      "foot": 408,
+      "canvas": [
+        1024,
+        448
+      ],
+      "bounds": [
+        293,
+        317,
+        729,
+        409
+      ]
+    }
+  ],
+  "crossbowman": [
+    {
+      "key": "rebel-crossbowman-00",
+      "factor": 1.0,
+      "foot": 408,
+      "canvas": [
+        448,
+        448
+      ],
+      "bounds": [
+        117,
+        189,
+        309,
+        408
+      ]
+    },
+    {
+      "key": "rebel-crossbowman-01",
+      "factor": 0.9821428571428571,
+      "foot": 408,
+      "canvas": [
+        448,
+        448
+      ],
+      "bounds": [
+        116,
+        189,
+        310,
+        409
+      ]
+    },
+    {
+      "key": "rebel-crossbowman-02",
+      "factor": 0.990990990990991,
+      "foot": 408,
+      "canvas": [
+        448,
+        448
+      ],
+      "bounds": [
+        115,
+        189,
+        308,
+        409
+      ]
+    },
+    {
+      "key": "rebel-crossbowman-03",
+      "factor": 1.0091743119266054,
+      "foot": 408,
+      "canvas": [
+        448,
+        448
+      ],
+      "bounds": [
+        113,
+        186,
+        312,
+        409
+      ]
+    },
+    {
+      "key": "rebel-crossbowman-04",
+      "factor": 1.0,
+      "foot": 408,
+      "canvas": [
+        448,
+        448
+      ],
+      "bounds": [
+        114,
+        186,
+        309,
+        408
+      ]
+    },
+    {
+      "key": "rebel-crossbowman-05",
+      "factor": 1.0091743119266054,
+      "foot": 408,
+      "canvas": [
+        448,
+        448
+      ],
+      "bounds": [
+        113,
+        185,
+        311,
+        409
+      ]
+    },
+    {
+      "key": "rebel-crossbowman-combat-00",
+      "factor": 1.0185185185185186,
+      "foot": 408,
+      "canvas": [
+        768,
+        448
+      ],
+      "bounds": [
+        259,
+        189,
+        470,
+        409
+      ]
+    },
+    {
+      "key": "rebel-crossbowman-combat-01",
+      "factor": 1.0,
+      "foot": 408,
+      "canvas": [
+        768,
+        448
+      ],
+      "bounds": [
+        340,
+        187,
+        545,
+        408
+      ]
+    },
+    {
+      "key": "rebel-crossbowman-combat-02",
+      "factor": 0.9734513274336283,
+      "foot": 408,
+      "canvas": [
+        768,
+        448
+      ],
+      "bounds": [
+        265,
+        190,
+        465,
+        409
+      ]
+    },
+    {
+      "key": "rebel-crossbowman-combat-03",
+      "factor": 0.9821428571428571,
+      "foot": 408,
+      "canvas": [
+        768,
+        448
+      ],
+      "bounds": [
+        284,
+        188,
+        480,
+        409
+      ]
+    },
+    {
+      "key": "rebel-crossbowman-combat-04",
+      "factor": 0.990990990990991,
+      "foot": 408,
+      "canvas": [
+        768,
+        448
+      ],
+      "bounds": [
+        258,
+        188,
+        465,
+        409
+      ]
+    },
+    {
+      "key": "rebel-crossbowman-combat-05",
+      "factor": 0.9821428571428571,
+      "foot": 408,
+      "canvas": [
+        768,
+        448
+      ],
+      "bounds": [
+        269,
+        188,
+        469,
+        409
+      ]
+    },
+    {
+      "key": "rebel-crossbowman-combat-06",
+      "factor": 1.05,
+      "foot": 408,
+      "canvas": [
+        768,
+        448
+      ],
+      "bounds": [
+        264,
+        173,
+        505,
+        409
+      ]
+    },
+    {
+      "key": "rebel-crossbowman-combat-07",
+      "factor": 1.05,
+      "foot": 408,
+      "canvas": [
+        768,
+        448
+      ],
+      "bounds": [
+        257,
+        177,
+        483,
+        409
+      ]
+    },
+    {
+      "key": "rebel-crossbowman-combat-08",
+      "factor": 1.05,
+      "foot": 408,
+      "canvas": [
+        768,
+        448
+      ],
+      "bounds": [
+        257,
+        177,
+        483,
+        409
+      ]
+    },
+    {
+      "key": "rebel-crossbowman-combat-09",
+      "factor": 1.05,
+      "foot": 408,
+      "canvas": [
+        768,
+        448
+      ],
+      "bounds": [
+        275,
+        180,
+        480,
+        409
+      ]
+    },
+    {
+      "key": "rebel-crossbowman-combat-10",
+      "factor": 1.05,
+      "foot": 408,
+      "canvas": [
+        768,
+        448
+      ],
+      "bounds": [
+        280,
+        175,
+        487,
+        409
+      ]
+    },
+    {
+      "key": "rebel-crossbowman-combat-11",
+      "factor": 1.05,
+      "foot": 408,
+      "canvas": [
+        768,
+        448
+      ],
+      "bounds": [
+        261,
+        184,
+        489,
+        409
+      ]
+    },
+    {
+      "key": "rebel-crossbowman-combat-12",
+      "factor": 1.05,
+      "foot": 408,
+      "canvas": [
+        768,
+        448
+      ],
+      "bounds": [
+        278,
+        176,
+        484,
+        409
+      ]
+    },
+    {
+      "key": "rebel-crossbowman-combat-13",
+      "factor": 1.05,
+      "foot": 408,
+      "canvas": [
+        768,
+        448
+      ],
+      "bounds": [
+        249,
+        175,
+        472,
+        409
+      ]
+    },
+    {
+      "key": "rebel-crossbowman-combat-14",
+      "factor": 1.05,
+      "foot": 408,
+      "canvas": [
+        768,
+        448
+      ],
+      "bounds": [
+        263,
+        173,
+        485,
+        409
+      ]
+    },
+    {
+      "key": "rebel-crossbowman-combat-15",
+      "factor": 1.05,
+      "foot": 408,
+      "canvas": [
+        768,
+        448
+      ],
+      "bounds": [
+        269,
+        174,
+        485,
+        409
+      ]
+    },
+    {
+      "key": "rebel-crossbowman-combat-16",
+      "factor": 1.05,
+      "foot": 408,
+      "canvas": [
+        768,
+        448
+      ],
+      "bounds": [
+        257,
+        174,
+        490,
+        409
+      ]
+    },
+    {
+      "key": "rebel-crossbowman-combat-17",
+      "factor": 1.05,
+      "foot": 408,
+      "canvas": [
+        768,
+        448
+      ],
+      "bounds": [
+        329,
+        174,
+        568,
+        409
+      ]
+    },
+    {
+      "key": "rebel-crossbowman-combat-18",
+      "factor": 1.05,
+      "foot": 408,
+      "canvas": [
+        768,
+        448
+      ],
+      "bounds": [
+        251,
+        191,
+        460,
+        409
+      ]
+    },
+    {
+      "key": "rebel-crossbowman-combat-19",
+      "factor": 1.05,
+      "foot": 408,
+      "canvas": [
+        768,
+        448
+      ],
+      "bounds": [
+        278,
+        196,
+        457,
+        409
+      ]
+    },
+    {
+      "key": "rebel-crossbowman-combat-20",
+      "factor": 1.05,
+      "foot": 408,
+      "canvas": [
+        768,
+        448
+      ],
+      "bounds": [
+        199,
+        217,
+        441,
+        409
+      ]
+    },
+    {
+      "key": "rebel-crossbowman-combat-21",
+      "factor": 1.05,
+      "foot": 408,
+      "canvas": [
+        768,
+        448
+      ],
+      "bounds": [
+        143,
+        249,
+        427,
+        409
+      ]
+    },
+    {
+      "key": "rebel-crossbowman-combat-22",
+      "factor": 1.05,
+      "foot": 408,
+      "canvas": [
+        768,
+        448
+      ],
+      "bounds": [
+        199,
+        292,
+        437,
+        409
+      ]
+    },
+    {
+      "key": "rebel-crossbowman-combat-23",
+      "factor": 1.05,
+      "foot": 408,
+      "canvas": [
+        768,
+        448
+      ],
+      "bounds": [
+        254,
+        295,
+        514,
+        409
+      ]
+    }
+  ],
+  "commander": [
+    {
+      "key": "rebel-commander-00",
+      "factor": 1.0,
+      "foot": 408,
+      "canvas": [
+        448,
+        448
+      ],
+      "bounds": [
+        94,
+        163,
+        318,
+        408
+      ]
+    },
+    {
+      "key": "rebel-commander-01",
+      "factor": 1.0,
+      "foot": 408,
+      "canvas": [
+        448,
+        448
+      ],
+      "bounds": [
+        98,
+        162,
+        322,
+        408
+      ]
+    },
+    {
+      "key": "rebel-commander-02",
+      "factor": 1.0,
+      "foot": 408,
+      "canvas": [
+        448,
+        448
+      ],
+      "bounds": [
+        89,
+        162,
+        318,
+        408
+      ]
+    },
+    {
+      "key": "rebel-commander-03",
+      "factor": 1.0,
+      "foot": 408,
+      "canvas": [
+        448,
+        448
+      ],
+      "bounds": [
+        95,
+        163,
+        319,
+        408
+      ]
+    },
+    {
+      "key": "rebel-commander-04",
+      "factor": 1.0087719298245614,
+      "foot": 408,
+      "canvas": [
+        448,
+        448
+      ],
+      "bounds": [
+        88,
+        161,
+        325,
+        409
+      ]
+    },
+    {
+      "key": "rebel-commander-05",
+      "factor": 1.0,
+      "foot": 408,
+      "canvas": [
+        448,
+        448
+      ],
+      "bounds": [
+        94,
+        163,
+        318,
+        408
+      ]
+    },
+    {
+      "key": "rebel-commander-combat-00",
+      "factor": 1.0,
+      "foot": 408,
+      "canvas": [
+        768,
+        448
+      ],
+      "bounds": [
+        238,
+        160,
+        474,
+        408
+      ]
+    },
+    {
+      "key": "rebel-commander-combat-01",
+      "factor": 0.9913793103448276,
+      "foot": 408,
+      "canvas": [
+        768,
+        448
+      ],
+      "bounds": [
+        246,
+        161,
+        484,
+        409
+      ]
+    },
+    {
+      "key": "rebel-commander-combat-02",
+      "factor": 0.9913793103448276,
+      "foot": 408,
+      "canvas": [
+        768,
+        448
+      ],
+      "bounds": [
+        265,
+        162,
+        490,
+        409
+      ]
+    },
+    {
+      "key": "rebel-commander-combat-03",
+      "factor": 1.0087719298245614,
+      "foot": 408,
+      "canvas": [
+        768,
+        448
+      ],
+      "bounds": [
+        236,
+        160,
+        495,
+        409
+      ]
+    },
+    {
+      "key": "rebel-commander-combat-04",
+      "factor": 1.0087719298245614,
+      "foot": 408,
+      "canvas": [
+        768,
+        448
+      ],
+      "bounds": [
+        241,
+        161,
+        488,
+        409
+      ]
+    },
+    {
+      "key": "rebel-commander-combat-05",
+      "factor": 0.9913793103448276,
+      "foot": 408,
+      "canvas": [
+        768,
+        448
+      ],
+      "bounds": [
+        249,
+        160,
+        486,
+        409
+      ]
+    },
+    {
+      "key": "rebel-commander-combat-06",
+      "factor": 1.04,
+      "foot": 408,
+      "canvas": [
+        768,
+        448
+      ],
+      "bounds": [
+        177,
+        98,
+        448,
+        409
+      ]
+    },
+    {
+      "key": "rebel-commander-combat-07",
+      "factor": 1.04,
+      "foot": 408,
+      "canvas": [
+        768,
+        448
+      ],
+      "bounds": [
+        213,
+        143,
+        503,
+        409
+      ]
+    },
+    {
+      "key": "rebel-commander-combat-08",
+      "factor": 1.04,
+      "foot": 408,
+      "canvas": [
+        768,
+        448
+      ],
+      "bounds": [
+        201,
+        173,
+        487,
+        409
+      ]
+    },
+    {
+      "key": "rebel-commander-combat-09",
+      "factor": 1.04,
+      "foot": 408,
+      "canvas": [
+        768,
+        448
+      ],
+      "bounds": [
+        243,
+        151,
+        493,
+        409
+      ]
+    },
+    {
+      "key": "rebel-commander-combat-10",
+      "factor": 1.04,
+      "foot": 408,
+      "canvas": [
+        768,
+        448
+      ],
+      "bounds": [
+        180,
+        146,
+        451,
+        409
+      ]
+    },
+    {
+      "key": "rebel-commander-combat-11",
+      "factor": 1.04,
+      "foot": 408,
+      "canvas": [
+        768,
+        448
+      ],
+      "bounds": [
+        210,
+        161,
+        545,
+        409
+      ]
+    },
+    {
+      "key": "rebel-commander-combat-12",
+      "factor": 1.04,
+      "foot": 408,
+      "canvas": [
+        768,
+        448
+      ],
+      "bounds": [
+        210,
+        161,
+        545,
+        409
+      ]
+    },
+    {
+      "key": "rebel-commander-combat-13",
+      "factor": 1.04,
+      "foot": 408,
+      "canvas": [
+        768,
+        448
+      ],
+      "bounds": [
+        243,
+        151,
+        493,
+        409
+      ]
+    },
+    {
+      "key": "rebel-commander-combat-14",
+      "factor": 1.04,
+      "foot": 408,
+      "canvas": [
+        768,
+        448
+      ],
+      "bounds": [
+        213,
+        164,
+        450,
+        409
+      ]
+    },
+    {
+      "key": "rebel-commander-combat-15",
+      "factor": 1.04,
+      "foot": 408,
+      "canvas": [
+        768,
+        448
+      ],
+      "bounds": [
+        218,
+        163,
+        560,
+        409
+      ]
+    },
+    {
+      "key": "rebel-commander-combat-16",
+      "factor": 1.04,
+      "foot": 408,
+      "canvas": [
+        768,
+        448
+      ],
+      "bounds": [
+        218,
+        163,
+        560,
+        409
+      ]
+    },
+    {
+      "key": "rebel-commander-combat-17",
+      "factor": 1.04,
+      "foot": 408,
+      "canvas": [
+        768,
+        448
+      ],
+      "bounds": [
+        243,
+        151,
+        493,
+        409
+      ]
+    },
+    {
+      "key": "rebel-commander-combat-18",
+      "factor": 1.04,
+      "foot": 408,
+      "canvas": [
+        768,
+        448
+      ],
+      "bounds": [
+        210,
+        123,
+        447,
+        409
+      ]
+    },
+    {
+      "key": "rebel-commander-combat-19",
+      "factor": 1.04,
+      "foot": 408,
+      "canvas": [
+        768,
+        448
+      ],
+      "bounds": [
+        210,
+        123,
+        447,
+        409
+      ]
+    },
+    {
+      "key": "rebel-commander-combat-20",
+      "factor": 1.04,
+      "foot": 408,
+      "canvas": [
+        768,
+        448
+      ],
+      "bounds": [
+        180,
+        146,
+        451,
+        409
+      ]
+    },
+    {
+      "key": "rebel-commander-combat-21",
+      "factor": 1.04,
+      "foot": 408,
+      "canvas": [
+        768,
+        448
+      ],
+      "bounds": [
+        205,
+        173,
+        537,
+        409
+      ]
+    },
+    {
+      "key": "rebel-commander-combat-22",
+      "factor": 1.04,
+      "foot": 408,
+      "canvas": [
+        768,
+        448
+      ],
+      "bounds": [
+        288,
+        171,
+        570,
+        409
+      ]
+    },
+    {
+      "key": "rebel-commander-combat-23",
+      "factor": 1.04,
+      "foot": 408,
+      "canvas": [
+        768,
+        448
+      ],
+      "bounds": [
+        227,
+        301,
+        541,
+        409
+      ]
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "target_lufs": -21,
+  "peak_ceiling_dbtp": -2,
+  "source_measurements": {
+    "input_i": "-43.75",
+    "input_tp": "-25.54",
+    "input_lra": "1.10",
+    "input_thresh": "-53.75",
+    "output_i": "-20.78",
+    "output_tp": "-2.79",
+    "output_lra": "0.80",
+    "output_thresh": "-30.78",
+    "normalization_type": "dynamic",
+    "target_offset": "-0.22"
+  },
+  "filter": "loudnorm=I=-21:TP=-2:LRA=8:measured_I=-43.75:measured_TP=-25.54:measured_LRA=1.10:measured_thresh=-53.75:offset=-0.22:linear=true"
+}

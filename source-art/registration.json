@@ -1,0 +1,4426 @@
+{
+  "base-00": {
+    "source_anchor": [
+      130,
+      201
+    ],
+    "body_anchor": [
+      224,
+      300
+    ],
+    "translation": [
+      94,
+      99
+    ]
+  },
+  "base-01": {
+    "source_anchor": [
+      132,
+      201
+    ],
+    "body_anchor": [
+      224,
+      300
+    ],
+    "translation": [
+      92,
+      99
+    ]
+  },
+  "base-02": {
+    "source_anchor": [
+      140,
+      199
+    ],
+    "body_anchor": [
+      224,
+      300
+    ],
+    "translation": [
+      84,
+      101
+    ]
+  },
+  "base-03": {
+    "source_anchor": [
+      166,
+      198
+    ],
+    "body_anchor": [
+      224,
+      300
+    ],
+    "translation": [
+      58,
+      102
+    ]
+  },
+  "base-04": {
+    "source_anchor": [
+      173,
+      243
+    ],
+    "body_anchor": [
+      224,
+      300
+    ],
+    "translation": [
+      51,
+      57
+    ]
+  },
+  "base-05": {
+    "source_anchor": [
+      164,
+      187
+    ],
+    "body_anchor": [
+      224,
+      300
+    ],
+    "translation": [
+      60,
+      113
+    ]
+  },
+  "base-06": {
+    "source_anchor": [
+      203,
+      249
+    ],
+    "body_anchor": [
+      224,
+      300
+    ],
+    "translation": [
+      21,
+      51
+    ]
+  },
+  "base-07": {
+    "source_anchor": [
+      174,
+      229
+    ],
+    "body_anchor": [
+      224,
+      300
+    ],
+    "translation": [
+      50,
+      71
+    ]
+  },
+  "base-08": {
+    "source_anchor": [
+      184,
+      234
+    ],
+    "body_anchor": [
+      224,
+      300
+    ],
+    "translation": [
+      40,
+      66
+    ]
+  },
+  "base-09": {
+    "source_anchor": [
+      211,
+      230
+    ],
+    "body_anchor": [
+      224,
+      300
+    ],
+    "translation": [
+      13,
+      70
+    ]
+  },
+  "base-10": {
+    "source_anchor": [
+      192,
+      239
+    ],
+    "body_anchor": [
+      224,
+      300
+    ],
+    "translation": [
+      32,
+      61
+    ]
+  },
+  "base-11": {
+    "source_anchor": [
+      203,
+      232
+    ],
+    "body_anchor": [
+      224,
+      300
+    ],
+    "translation": [
+      21,
+      68
+    ]
+  },
+  "base-12": {
+    "source_anchor": [
+      214,
+      246
+    ],
+    "body_anchor": [
+      224,
+      300
+    ],
+    "translation": [
+      10,
+      54
+    ]
+  },
+  "base-13": {
+    "source_anchor": [
+      231,
+      239
+    ],
+    "body_anchor": [
+      224,
+      300
+    ],
+    "translation": [
+      -7,
+      61
+    ]
+  },
+  "base-14": {
+    "source_anchor": [
+      181,
+      237
+    ],
+    "body_anchor": [
+      224,
+      300
+    ],
+    "translation": [
+      43,
+      63
+    ]
+  },
+  "base-15": {
+    "source_anchor": [
+      209,
+      233
+    ],
+    "body_anchor": [
+      224,
+      300
+    ],
+    "translation": [
+      15,
+      67
+    ]
+  },
+  "base-16": {
+    "source_anchor": [
+      202,
+      244
+    ],
+    "body_anchor": [
+      224,
+      300
+    ],
+    "translation": [
+      22,
+      56
+    ]
+  },
+  "base-17": {
+    "source_anchor": [
+      203,
+      232
+    ],
+    "body_anchor": [
+      224,
+      300
+    ],
+    "translation": [
+      21,
+      68
+    ]
+  },
+  "base-18": {
+    "source_anchor": [
+      132,
+      206
+    ],
+    "body_anchor": [
+      224,
+      300
+    ],
+    "translation": [
+      92,
+      94
+    ]
+  },
+  "base-19": {
+    "source_anchor": [
+      130,
+      205
+    ],
+    "body_anchor": [
+      224,
+      300
+    ],
+    "translation": [
+      94,
+      95
+    ]
+  },
+  "base-20": {
+    "source_anchor": [
+      172,
+      208
+    ],
+    "body_anchor": [
+      224,
+      300
+    ],
+    "translation": [
+      52,
+      92
+    ]
+  },
+  "base-21": {
+    "source_anchor": [
+      158,
+      213
+    ],
+    "body_anchor": [
+      224,
+      300
+    ],
+    "translation": [
+      66,
+      87
+    ]
+  },
+  "base-22": {
+    "source_anchor": [
+      189,
+      213
+    ],
+    "body_anchor": [
+      224,
+      300
+    ],
+    "translation": [
+      35,
+      87
+    ]
+  },
+  "base-23": {
+    "source_anchor": [
+      168,
+      203
+    ],
+    "body_anchor": [
+      224,
+      300
+    ],
+    "translation": [
+      56,
+      97
+    ]
+  },
+  "hero-walk-00": {
+    "source_anchor": [
+      224,
+      300
+    ],
+    "body_anchor": [
+      224,
+      300
+    ],
+    "translation": [
+      0,
+      0
+    ]
+  },
+  "hero-walk-01": {
+    "source_anchor": [
+      224,
+      300
+    ],
+    "body_anchor": [
+      224,
+      300
+    ],
+    "translation": [
+      0,
+      0
+    ]
+  },
+  "hero-walk-02": {
+    "source_anchor": [
+      224,
+      300
+    ],
+    "body_anchor": [
+      224,
+      300
+    ],
+    "translation": [
+      0,
+      0
+    ]
+  },
+  "hero-walk-03": {
+    "source_anchor": [
+      224,
+      300
+    ],
+    "body_anchor": [
+      224,
+      300
+    ],
+    "translation": [
+      0,
+      0
+    ]
+  },
+  "hero-walk-04": {
+    "source_anchor": [
+      224,
+      300
+    ],
+    "body_anchor": [
+      224,
+      300
+    ],
+    "translation": [
+      0,
+      0
+    ]
+  },
+  "hero-walk-05": {
+    "source_anchor": [
+      224,
+      300
+    ],
+    "body_anchor": [
+      224,
+      300
+    ],
+    "translation": [
+      0,
+      0
+    ]
+  },
+  "hero-walk-06": {
+    "source_anchor": [
+      224,
+      300
+    ],
+    "body_anchor": [
+      224,
+      300
+    ],
+    "translation": [
+      0,
+      0
+    ]
+  },
+  "hero-walk-07": {
+    "source_anchor": [
+      224,
+      300
+    ],
+    "body_anchor": [
+      224,
+      300
+    ],
+    "translation": [
+      0,
+      0
+    ]
+  },
+  "hero-walk-08": {
+    "source_anchor": [
+      224,
+      300
+    ],
+    "body_anchor": [
+      224,
+      300
+    ],
+    "translation": [
+      0,
+      0
+    ]
+  },
+  "hero-walk-09": {
+    "source_anchor": [
+      224,
+      300
+    ],
+    "body_anchor": [
+      224,
+      300
+    ],
+    "translation": [
+      0,
+      0
+    ]
+  },
+  "hero-walk-10": {
+    "source_anchor": [
+      224,
+      300
+    ],
+    "body_anchor": [
+      224,
+      300
+    ],
+    "translation": [
+      0,
+      0
+    ]
+  },
+  "hero-walk-11": {
+    "source_anchor": [
+      224,
+      300
+    ],
+    "body_anchor": [
+      224,
+      300
+    ],
+    "translation": [
+      0,
+      0
+    ]
+  },
+  "hero-walk-12": {
+    "source_anchor": [
+      224,
+      300
+    ],
+    "body_anchor": [
+      224,
+      300
+    ],
+    "translation": [
+      0,
+      0
+    ]
+  },
+  "hero-walk-13": {
+    "source_anchor": [
+      224,
+      300
+    ],
+    "body_anchor": [
+      224,
+      300
+    ],
+    "translation": [
+      0,
+      0
+    ]
+  },
+  "hero-walk-14": {
+    "source_anchor": [
+      224,
+      300
+    ],
+    "body_anchor": [
+      224,
+      300
+    ],
+    "translation": [
+      0,
+      0
+    ]
+  },
+  "hero-walk-15": {
+    "source_anchor": [
+      224,
+      300
+    ],
+    "body_anchor": [
+      224,
+      300
+    ],
+    "translation": [
+      0,
+      0
+    ]
+  },
+  "bandit-walk-00": {
+    "source_anchor": [
+      121,
+      206
+    ],
+    "body_anchor": [
+      224,
+      300
+    ],
+    "translation": [
+      103,
+      94
+    ]
+  },
+  "bandit-walk-01": {
+    "source_anchor": [
+      126,
+      206
+    ],
+    "body_anchor": [
+      224,
+      300
+    ],
+    "translation": [
+      98,
+      94
+    ]
+  },
+  "bandit-walk-02": {
+    "source_anchor": [
+      169,
+      206
+    ],
+    "body_anchor": [
+      224,
+      300
+    ],
+    "translation": [
+      55,
+      94
+    ]
+  },
+  "bandit-walk-03": {
+    "source_anchor": [
+      214,
+      206
+    ],
+    "body_anchor": [
+      224,
+      300
+    ],
+    "translation": [
+      10,
+      94
+    ]
+  },
+  "bandit-walk-04": {
+    "source_anchor": [
+      212,
+      206
+    ],
+    "body_anchor": [
+      224,
+      300
+    ],
+    "translation": [
+      12,
+      94
+    ]
+  },
+  "bandit-walk-05": {
+    "source_anchor": [
+      127,
+      206
+    ],
+    "body_anchor": [
+      224,
+      300
+    ],
+    "translation": [
+      97,
+      94
+    ]
+  },
+  "bandit-walk-06": {
+    "source_anchor": [
+      160,
+      206
+    ],
+    "body_anchor": [
+      224,
+      300
+    ],
+    "translation": [
+      64,
+      94
+    ]
+  },
+  "bandit-walk-07": {
+    "source_anchor": [
+      207,
+      206
+    ],
+    "body_anchor": [
+      224,
+      300
+    ],
+    "translation": [
+      17,
+      94
+    ]
+  },
+  "hero-slide-00": {
+    "source_anchor": [
+      130,
+      207
+    ],
+    "body_anchor": [
+      224,
+      307
+    ],
+    "translation": [
+      94,
+      100
+    ]
+  },
+  "hero-slide-01": {
+    "source_anchor": [
+      111,
+      237
+    ],
+    "body_anchor": [
+      224,
+      337
+    ],
+    "translation": [
+      113,
+      100
+    ]
+  },
+  "hero-slide-02": {
+    "source_anchor": [
+      87,
+      244
+    ],
+    "body_anchor": [
+      224,
+      344
+    ],
+    "translation": [
+      137,
+      100
+    ]
+  },
+  "hero-slide-03": {
+    "source_anchor": [
+      166,
+      257
+    ],
+    "body_anchor": [
+      224,
+      357
+    ],
+    "translation": [
+      58,
+      100
+    ]
+  },
+  "hero-slide-04": {
+    "source_anchor": [
+      78,
+      254
+    ],
+    "body_anchor": [
+      224,
+      354
+    ],
+    "translation": [
+      146,
+      100
+    ]
+  },
+  "hero-slide-05": {
+    "source_anchor": [
+      98,
+      253
+    ],
+    "body_anchor": [
+      224,
+      353
+    ],
+    "translation": [
+      126,
+      100
+    ]
+  },
+  "hero-slide-06": {
+    "source_anchor": [
+      137,
+      211
+    ],
+    "body_anchor": [
+      224,
+      311
+    ],
+    "translation": [
+      87,
+      100
+    ]
+  },
+  "hero-slide-07": {
+    "source_anchor": [
+      146,
+      207
+    ],
+    "body_anchor": [
+      224,
+      307
+    ],
+    "translation": [
+      78,
+      100
+    ]
+  },
+  "hero-slash-00": {
+    "source_anchor": [
+      130,
+      207
+    ],
+    "body_anchor": [
+      224,
+      300
+    ],
+    "translation": [
+      94,
+      93
+    ]
+  },
+  "hero-slash-01": {
+    "source_anchor": [
+      136,
+      211
+    ],
+    "body_anchor": [
+      224,
+      300
+    ],
+    "translation": [
+      88,
+      89
+    ]
+  },
+  "hero-slash-02": {
+    "source_anchor": [
+      132,
+      217
+    ],
+    "body_anchor": [
+      224,
+      300
+    ],
+    "translation": [
+      92,
+      83
+    ]
+  },
+  "hero-slash-03": {
+    "source_anchor": [
+      102,
+      220
+    ],
+    "body_anchor": [
+      224,
+      300
+    ],
+    "translation": [
+      122,
+      80
+    ]
+  },
+  "hero-slash-04": {
+    "source_anchor": [
+      133,
+      217
+    ],
+    "body_anchor": [
+      224,
+      300
+    ],
+    "translation": [
+      91,
+      83
+    ]
+  },
+  "hero-slash-05": {
+    "source_anchor": [
+      101,
+      211
+    ],
+    "body_anchor": [
+      224,
+      300
+    ],
+    "translation": [
+      123,
+      89
+    ]
+  },
+  "hero-slash-06": {
+    "source_anchor": [
+      104,
+      217
+    ],
+    "body_anchor": [
+      224,
+      300
+    ],
+    "translation": [
+      120,
+      83
+    ]
+  },
+  "hero-slash-07": {
+    "source_anchor": [
+      108,
+      214
+    ],
+    "body_anchor": [
+      224,
+      300
+    ],
+    "translation": [
+      116,
+      86
+    ]
+  },
+  "hero-slash-08": {
+    "source_anchor": [
+      114,
+      207
+    ],
+    "body_anchor": [
+      224,
+      300
+    ],
+    "translation": [
+      110,
+      93
+    ]
+  },
+  "hero-slash-09": {
+    "source_anchor": [
+      119,
+      207
+    ],
+    "body_anchor": [
+      224,
+      300
+    ],
+    "translation": [
+      105,
+      93
+    ]
+  },
+  "hero-slash-10": {
+    "source_anchor": [
+      117,
+      210
+    ],
+    "body_anchor": [
+      224,
+      300
+    ],
+    "translation": [
+      107,
+      90
+    ]
+  },
+  "hero-slash-11": {
+    "source_anchor": [
+      124,
+      207
+    ],
+    "body_anchor": [
+      224,
+      300
+    ],
+    "translation": [
+      100,
+      93
+    ]
+  },
+  "hero-rise-00": {
+    "source_anchor": [
+      130,
+      207
+    ],
+    "body_anchor": [
+      224,
+      300
+    ],
+    "translation": [
+      94,
+      93
+    ]
+  },
+  "hero-rise-01": {
+    "source_anchor": [
+      100,
+      214
+    ],
+    "body_anchor": [
+      224,
+      300
+    ],
+    "translation": [
+      124,
+      86
+    ]
+  },
+  "hero-rise-02": {
+    "source_anchor": [
+      232,
+      230
+    ],
+    "body_anchor": [
+      224,
+      300
+    ],
+    "translation": [
+      -8,
+      70
+    ]
+  },
+  "hero-rise-03": {
+    "source_anchor": [
+      219,
+      220
+    ],
+    "body_anchor": [
+      224,
+      300
+    ],
+    "translation": [
+      5,
+      80
+    ]
+  },
+  "hero-rise-04": {
+    "source_anchor": [
+      114,
+      214
+    ],
+    "body_anchor": [
+      224,
+      300
+    ],
+    "translation": [
+      110,
+      86
+    ]
+  },
+  "hero-rise-05": {
+    "source_anchor": [
+      113,
+      211
+    ],
+    "body_anchor": [
+      224,
+      300
+    ],
+    "translation": [
+      111,
+      89
+    ]
+  },
+  "hero-rise-06": {
+    "source_anchor": [
+      124,
+      212
+    ],
+    "body_anchor": [
+      224,
+      300
+    ],
+    "translation": [
+      100,
+      88
+    ]
+  },
+  "hero-rise-07": {
+    "source_anchor": [
+      134,
+      213
+    ],
+    "body_anchor": [
+      224,
+      300
+    ],
+    "translation": [
+      90,
+      87
+    ]
+  },
+  "hero-rise-08": {
+    "source_anchor": [
+      171,
+      204
+    ],
+    "body_anchor": [
+      224,
+      300
+    ],
+    "translation": [
+      53,
+      96
+    ]
+  },
+  "hero-rise-09": {
+    "source_anchor": [
+      123,
+      206
+    ],
+    "body_anchor": [
+      224,
+      300
+    ],
+    "translation": [
+      101,
+      94
+    ]
+  },
+  "hero-rise-10": {
+    "source_anchor": [
+      118,
+      213
+    ],
+    "body_anchor": [
+      224,
+      300
+    ],
+    "translation": [
+      106,
+      87
+    ]
+  },
+  "hero-rise-11": {
+    "source_anchor": [
+      130,
+      213
+    ],
+    "body_anchor": [
+      224,
+      300
+    ],
+    "translation": [
+      94,
+      87
+    ]
+  },
+  "bandit-stab-00": {
+    "source_anchor": [
+      125,
+      210
+    ],
+    "body_anchor": [
+      224,
+      300
+    ],
+    "translation": [
+      99,
+      90
+    ]
+  },
+  "bandit-stab-01": {
+    "source_anchor": [
+      133,
+      213
+    ],
+    "body_anchor": [
+      224,
+      300
+    ],
+    "translation": [
+      91,
+      87
+    ]
+  },
+  "bandit-stab-02": {
+    "source_anchor": [
+      138,
+      224
+    ],
+    "body_anchor": [
+      224,
+      300
+    ],
+    "translation": [
+      86,
+      76
+    ]
+  },
+  "bandit-stab-03": {
+    "source_anchor": [
+      139,
+      240
+    ],
+    "body_anchor": [
+      224,
+      300
+    ],
+    "translation": [
+      85,
+      60
+    ]
+  },
+  "bandit-stab-04": {
+    "source_anchor": [
+      129,
+      217
+    ],
+    "body_anchor": [
+      224,
+      300
+    ],
+    "translation": [
+      95,
+      83
+    ]
+  },
+  "bandit-stab-05": {
+    "source_anchor": [
+      149,
+      218
+    ],
+    "body_anchor": [
+      224,
+      300
+    ],
+    "translation": [
+      75,
+      82
+    ]
+  },
+  "bandit-stab-06": {
+    "source_anchor": [
+      148,
+      218
+    ],
+    "body_anchor": [
+      224,
+      300
+    ],
+    "translation": [
+      76,
+      82
+    ]
+  },
+  "bandit-stab-07": {
+    "source_anchor": [
+      146,
+      225
+    ],
+    "body_anchor": [
+      224,
+      300
+    ],
+    "translation": [
+      78,
+      75
+    ]
+  },
+  "bandit-stab-08": {
+    "source_anchor": [
+      131,
+      205
+    ],
+    "body_anchor": [
+      224,
+      300
+    ],
+    "translation": [
+      93,
+      95
+    ]
+  },
+  "bandit-stab-09": {
+    "source_anchor": [
+      129,
+      208
+    ],
+    "body_anchor": [
+      224,
+      300
+    ],
+    "translation": [
+      95,
+      92
+    ]
+  },
+  "bandit-stab-10": {
+    "source_anchor": [
+      140,
+      204
+    ],
+    "body_anchor": [
+      224,
+      300
+    ],
+    "translation": [
+      84,
+      96
+    ]
+  },
+  "bandit-stab-11": {
+    "source_anchor": [
+      136,
+      205
+    ],
+    "body_anchor": [
+      224,
+      300
+    ],
+    "translation": [
+      88,
+      95
+    ]
+  },
+  "hero-link-one-00": {
+    "source_anchor": [
+      108,
+      214
+    ],
+    "body_anchor": [
+      224,
+      300
+    ],
+    "translation": [
+      116,
+      86
+    ]
+  },
+  "hero-link-one-01": {
+    "source_anchor": [
+      107,
+      214
+    ],
+    "body_anchor": [
+      224,
+      300
+    ],
+    "translation": [
+      117,
+      86
+    ]
+  },
+  "hero-link-one-02": {
+    "source_anchor": [
+      107,
+      210
+    ],
+    "body_anchor": [
+      224,
+      300
+    ],
+    "translation": [
+      117,
+      90
+    ]
+  },
+  "hero-link-one-03": {
+    "source_anchor": [
+      122,
+      214
+    ],
+    "body_anchor": [
+      224,
+      300
+    ],
+    "translation": [
+      102,
+      86
+    ]
+  },
+  "hero-link-one-04": {
+    "source_anchor": [
+      112,
+      214
+    ],
+    "body_anchor": [
+      224,
+      300
+    ],
+    "translation": [
+      112,
+      86
+    ]
+  },
+  "hero-link-one-05": {
+    "source_anchor": [
+      168,
+      214
+    ],
+    "body_anchor": [
+      224,
+      300
+    ],
+    "translation": [
+      56,
+      86
+    ]
+  },
+  "hero-link-one-06": {
+    "source_anchor": [
+      190,
+      213
+    ],
+    "body_anchor": [
+      224,
+      300
+    ],
+    "translation": [
+      34,
+      87
+    ]
+  },
+  "hero-link-one-07": {
+    "source_anchor": [
+      219,
+      220
+    ],
+    "body_anchor": [
+      224,
+      300
+    ],
+    "translation": [
+      5,
+      80
+    ]
+  },
+  "hero-spin-00": {
+    "source_anchor": [
+      130,
+      207
+    ],
+    "body_anchor": [
+      224,
+      300
+    ],
+    "translation": [
+      94,
+      93
+    ]
+  },
+  "hero-spin-01": {
+    "source_anchor": [
+      125,
+      233
+    ],
+    "body_anchor": [
+      224,
+      300
+    ],
+    "translation": [
+      99,
+      67
+    ]
+  },
+  "hero-spin-02": {
+    "source_anchor": [
+      140,
+      212
+    ],
+    "body_anchor": [
+      224,
+      300
+    ],
+    "translation": [
+      84,
+      88
+    ]
+  },
+  "hero-spin-03": {
+    "source_anchor": [
+      112,
+      211
+    ],
+    "body_anchor": [
+      224,
+      300
+    ],
+    "translation": [
+      112,
+      89
+    ]
+  },
+  "hero-spin-04": {
+    "source_anchor": [
+      207,
+      211
+    ],
+    "body_anchor": [
+      224,
+      300
+    ],
+    "translation": [
+      17,
+      89
+    ]
+  },
+  "hero-spin-05": {
+    "source_anchor": [
+      234,
+      212
+    ],
+    "body_anchor": [
+      224,
+      300
+    ],
+    "translation": [
+      -10,
+      88
+    ]
+  },
+  "hero-spin-06": {
+    "source_anchor": [
+      102,
+      211
+    ],
+    "body_anchor": [
+      224,
+      300
+    ],
+    "translation": [
+      122,
+      89
+    ]
+  },
+  "hero-spin-07": {
+    "source_anchor": [
+      114,
+      211
+    ],
+    "body_anchor": [
+      224,
+      300
+    ],
+    "translation": [
+      110,
+      89
+    ]
+  },
+  "hero-spin-08": {
+    "source_anchor": [
+      132,
+      218
+    ],
+    "body_anchor": [
+      224,
+      300
+    ],
+    "translation": [
+      92,
+      82
+    ]
+  },
+  "hero-spin-09": {
+    "source_anchor": [
+      135,
+      220
+    ],
+    "body_anchor": [
+      224,
+      300
+    ],
+    "translation": [
+      89,
+      80
+    ]
+  },
+  "hero-spin-10": {
+    "source_anchor": [
+      148,
+      214
+    ],
+    "body_anchor": [
+      224,
+      300
+    ],
+    "translation": [
+      76,
+      86
+    ]
+  },
+  "hero-spin-11": {
+    "source_anchor": [
+      135,
+      214
+    ],
+    "body_anchor": [
+      224,
+      300
+    ],
+    "translation": [
+      89,
+      86
+    ]
+  },
+  "hero-heavy-00": {
+    "source_anchor": [
+      129,
+      207
+    ],
+    "body_anchor": [
+      224,
+      300
+    ],
+    "translation": [
+      95,
+      93
+    ]
+  },
+  "hero-heavy-01": {
+    "source_anchor": [
+      112,
+      207
+    ],
+    "body_anchor": [
+      224,
+      300
+    ],
+    "translation": [
+      112,
+      93
+    ]
+  },
+  "hero-heavy-02": {
+    "source_anchor": [
+      130,
+      225
+    ],
+    "body_anchor": [
+      224,
+      300
+    ],
+    "translation": [
+      94,
+      75
+    ]
+  },
+  "hero-heavy-03": {
+    "source_anchor": [
+      129,
+      217
+    ],
+    "body_anchor": [
+      224,
+      300
+    ],
+    "translation": [
+      95,
+      83
+    ]
+  },
+  "hero-heavy-04": {
+    "source_anchor": [
+      149,
+      218
+    ],
+    "body_anchor": [
+      224,
+      300
+    ],
+    "translation": [
+      75,
+      82
+    ]
+  },
+  "hero-heavy-05": {
+    "source_anchor": [
+      103,
+      235
+    ],
+    "body_anchor": [
+      224,
+      300
+    ],
+    "translation": [
+      121,
+      65
+    ]
+  },
+  "hero-heavy-06": {
+    "source_anchor": [
+      107,
+      227
+    ],
+    "body_anchor": [
+      224,
+      300
+    ],
+    "translation": [
+      117,
+      73
+    ]
+  },
+  "hero-heavy-07": {
+    "source_anchor": [
+      83,
+      224
+    ],
+    "body_anchor": [
+      224,
+      300
+    ],
+    "translation": [
+      141,
+      76
+    ]
+  },
+  "hero-heavy-08": {
+    "source_anchor": [
+      112,
+      221
+    ],
+    "body_anchor": [
+      224,
+      300
+    ],
+    "translation": [
+      112,
+      79
+    ]
+  },
+  "hero-heavy-09": {
+    "source_anchor": [
+      117,
+      231
+    ],
+    "body_anchor": [
+      224,
+      300
+    ],
+    "translation": [
+      107,
+      69
+    ]
+  },
+  "hero-heavy-10": {
+    "source_anchor": [
+      122,
+      219
+    ],
+    "body_anchor": [
+      224,
+      300
+    ],
+    "translation": [
+      102,
+      81
+    ]
+  },
+  "hero-heavy-11": {
+    "source_anchor": [
+      130,
+      217
+    ],
+    "body_anchor": [
+      224,
+      300
+    ],
+    "translation": [
+      94,
+      83
+    ]
+  },
+  "hero-link-two-00": {
+    "source_anchor": [
+      134,
+      213
+    ],
+    "body_anchor": [
+      224,
+      300
+    ],
+    "translation": [
+      90,
+      87
+    ]
+  },
+  "hero-link-two-01": {
+    "source_anchor": [
+      132,
+      215
+    ],
+    "body_anchor": [
+      224,
+      300
+    ],
+    "translation": [
+      92,
+      85
+    ]
+  },
+  "hero-link-two-02": {
+    "source_anchor": [
+      135,
+      214
+    ],
+    "body_anchor": [
+      224,
+      300
+    ],
+    "translation": [
+      89,
+      86
+    ]
+  },
+  "hero-link-two-03": {
+    "source_anchor": [
+      134,
+      213
+    ],
+    "body_anchor": [
+      224,
+      300
+    ],
+    "translation": [
+      90,
+      87
+    ]
+  },
+  "hero-link-two-04": {
+    "source_anchor": [
+      137,
+      213
+    ],
+    "body_anchor": [
+      224,
+      300
+    ],
+    "translation": [
+      87,
+      87
+    ]
+  },
+  "hero-link-two-05": {
+    "source_anchor": [
+      133,
+      215
+    ],
+    "body_anchor": [
+      224,
+      300
+    ],
+    "translation": [
+      91,
+      85
+    ]
+  },
+  "hero-link-two-06": {
+    "source_anchor": [
+      134,
+      213
+    ],
+    "body_anchor": [
+      224,
+      300
+    ],
+    "translation": [
+      90,
+      87
+    ]
+  },
+  "hero-link-two-07": {
+    "source_anchor": [
+      149,
+      218
+    ],
+    "body_anchor": [
+      224,
+      300
+    ],
+    "translation": [
+      75,
+      82
+    ]
+  },
+  "hero-jump-00": {
+    "source_anchor": [
+      170,
+      241
+    ],
+    "body_anchor": [
+      224,
+      300
+    ],
+    "translation": [
+      54,
+      59
+    ]
+  },
+  "hero-jump-01": {
+    "source_anchor": [
+      170,
+      241
+    ],
+    "body_anchor": [
+      224,
+      300
+    ],
+    "translation": [
+      54,
+      59
+    ]
+  },
+  "hero-jump-02": {
+    "source_anchor": [
+      170,
+      241
+    ],
+    "body_anchor": [
+      224,
+      300
+    ],
+    "translation": [
+      54,
+      59
+    ]
+  },
+  "hero-jump-03": {
+    "source_anchor": [
+      170,
+      241
+    ],
+    "body_anchor": [
+      224,
+      300
+    ],
+    "translation": [
+      54,
+      59
+    ]
+  },
+  "hero-jump-04": {
+    "source_anchor": [
+      170,
+      241
+    ],
+    "body_anchor": [
+      224,
+      300
+    ],
+    "translation": [
+      54,
+      59
+    ]
+  },
+  "hero-jump-05": {
+    "source_anchor": [
+      170,
+      241
+    ],
+    "body_anchor": [
+      224,
+      300
+    ],
+    "translation": [
+      54,
+      59
+    ]
+  },
+  "hero-jump-06": {
+    "source_anchor": [
+      170,
+      241
+    ],
+    "body_anchor": [
+      224,
+      300
+    ],
+    "translation": [
+      54,
+      59
+    ]
+  },
+  "hero-jump-07": {
+    "source_anchor": [
+      170,
+      241
+    ],
+    "body_anchor": [
+      224,
+      300
+    ],
+    "translation": [
+      54,
+      59
+    ]
+  },
+  "hero-air-chop-00": {
+    "source_anchor": [
+      224,
+      300
+    ],
+    "body_anchor": [
+      224,
+      300
+    ],
+    "translation": [
+      0,
+      0
+    ]
+  },
+  "hero-air-chop-01": {
+    "source_anchor": [
+      224,
+      300
+    ],
+    "body_anchor": [
+      224,
+      300
+    ],
+    "translation": [
+      0,
+      0
+    ]
+  },
+  "hero-air-chop-02": {
+    "source_anchor": [
+      224,
+      300
+    ],
+    "body_anchor": [
+      224,
+      300
+    ],
+    "translation": [
+      0,
+      0
+    ]
+  },
+  "hero-air-chop-03": {
+    "source_anchor": [
+      224,
+      300
+    ],
+    "body_anchor": [
+      224,
+      300
+    ],
+    "translation": [
+      0,
+      0
+    ]
+  },
+  "hero-air-chop-04": {
+    "source_anchor": [
+      224,
+      300
+    ],
+    "body_anchor": [
+      224,
+      300
+    ],
+    "translation": [
+      0,
+      0
+    ]
+  },
+  "hero-air-chop-05": {
+    "source_anchor": [
+      224,
+      300
+    ],
+    "body_anchor": [
+      224,
+      300
+    ],
+    "translation": [
+      0,
+      0
+    ]
+  },
+  "hero-air-chop-06": {
+    "source_anchor": [
+      224,
+      300
+    ],
+    "body_anchor": [
+      224,
+      300
+    ],
+    "translation": [
+      0,
+      0
+    ]
+  },
+  "hero-air-chop-07": {
+    "source_anchor": [
+      224,
+      300
+    ],
+    "body_anchor": [
+      224,
+      300
+    ],
+    "translation": [
+      0,
+      0
+    ]
+  },
+  "hero-air-spin-00": {
+    "source_anchor": [
+      224,
+      300
+    ],
+    "body_anchor": [
+      224,
+      300
+    ],
+    "translation": [
+      0,
+      0
+    ]
+  },
+  "hero-air-spin-01": {
+    "source_anchor": [
+      224,
+      300
+    ],
+    "body_anchor": [
+      224,
+      300
+    ],
+    "translation": [
+      0,
+      0
+    ]
+  },
+  "hero-air-spin-02": {
+    "source_anchor": [
+      224,
+      300
+    ],
+    "body_anchor": [
+      224,
+      300
+    ],
+    "translation": [
+      0,
+      0
+    ]
+  },
+  "hero-air-spin-03": {
+    "source_anchor": [
+      224,
+      300
+    ],
+    "body_anchor": [
+      224,
+      300
+    ],
+    "translation": [
+      0,
+      0
+    ]
+  },
+  "hero-air-spin-04": {
+    "source_anchor": [
+      224,
+      300
+    ],
+    "body_anchor": [
+      224,
+      300
+    ],
+    "translation": [
+      0,
+      0
+    ]
+  },
+  "hero-air-spin-05": {
+    "source_anchor": [
+      224,
+      300
+    ],
+    "body_anchor": [
+      224,
+      300
+    ],
+    "translation": [
+      0,
+      0
+    ]
+  },
+  "hero-air-spin-06": {
+    "source_anchor": [
+      224,
+      300
+    ],
+    "body_anchor": [
+      224,
+      300
+    ],
+    "translation": [
+      0,
+      0
+    ]
+  },
+  "hero-air-spin-07": {
+    "source_anchor": [
+      224,
+      300
+    ],
+    "body_anchor": [
+      224,
+      300
+    ],
+    "translation": [
+      0,
+      0
+    ]
+  },
+  "bandit-sword-00": {
+    "source_anchor": [
+      224,
+      300
+    ],
+    "body_anchor": [
+      224,
+      300
+    ],
+    "translation": [
+      0,
+      0
+    ]
+  },
+  "bandit-sword-01": {
+    "source_anchor": [
+      224,
+      300
+    ],
+    "body_anchor": [
+      224,
+      300
+    ],
+    "translation": [
+      0,
+      0
+    ]
+  },
+  "bandit-sword-02": {
+    "source_anchor": [
+      224,
+      300
+    ],
+    "body_anchor": [
+      224,
+      300
+    ],
+    "translation": [
+      0,
+      0
+    ]
+  },
+  "bandit-sword-03": {
+    "source_anchor": [
+      224,
+      300
+    ],
+    "body_anchor": [
+      224,
+      300
+    ],
+    "translation": [
+      0,
+      0
+    ]
+  },
+  "bandit-sword-04": {
+    "source_anchor": [
+      224,
+      300
+    ],
+    "body_anchor": [
+      224,
+      300
+    ],
+    "translation": [
+      0,
+      0
+    ]
+  },
+  "bandit-sword-05": {
+    "source_anchor": [
+      224,
+      300
+    ],
+    "body_anchor": [
+      224,
+      300
+    ],
+    "translation": [
+      0,
+      0
+    ]
+  },
+  "bandit-sword-06": {
+    "source_anchor": [
+      224,
+      300
+    ],
+    "body_anchor": [
+      224,
+      300
+    ],
+    "translation": [
+      0,
+      0
+    ]
+  },
+  "bandit-sword-07": {
+    "source_anchor": [
+      224,
+      300
+    ],
+    "body_anchor": [
+      224,
+      300
+    ],
+    "translation": [
+      0,
+      0
+    ]
+  },
+  "bandit-sword-08": {
+    "source_anchor": [
+      224,
+      300
+    ],
+    "body_anchor": [
+      224,
+      300
+    ],
+    "translation": [
+      0,
+      0
+    ]
+  },
+  "bandit-sword-09": {
+    "source_anchor": [
+      224,
+      300
+    ],
+    "body_anchor": [
+      224,
+      300
+    ],
+    "translation": [
+      0,
+      0
+    ]
+  },
+  "bandit-sword-10": {
+    "source_anchor": [
+      224,
+      300
+    ],
+    "body_anchor": [
+      224,
+      300
+    ],
+    "translation": [
+      0,
+      0
+    ]
+  },
+  "bandit-sword-11": {
+    "source_anchor": [
+      224,
+      300
+    ],
+    "body_anchor": [
+      224,
+      300
+    ],
+    "translation": [
+      0,
+      0
+    ]
+  },
+  "bandit-sword-12": {
+    "source_anchor": [
+      224,
+      300
+    ],
+    "body_anchor": [
+      224,
+      300
+    ],
+    "translation": [
+      0,
+      0
+    ]
+  },
+  "bandit-sword-13": {
+    "source_anchor": [
+      224,
+      300
+    ],
+    "body_anchor": [
+      224,
+      300
+    ],
+    "translation": [
+      0,
+      0
+    ]
+  },
+  "bandit-sword-14": {
+    "source_anchor": [
+      224,
+      300
+    ],
+    "body_anchor": [
+      224,
+      300
+    ],
+    "translation": [
+      0,
+      0
+    ]
+  },
+  "bandit-sword-15": {
+    "source_anchor": [
+      224,
+      300
+    ],
+    "body_anchor": [
+      224,
+      300
+    ],
+    "translation": [
+      0,
+      0
+    ]
+  },
+  "bandit-archer-00": {
+    "source_anchor": [
+      224,
+      300
+    ],
+    "body_anchor": [
+      224,
+      300
+    ],
+    "translation": [
+      0,
+      0
+    ]
+  },
+  "bandit-archer-01": {
+    "source_anchor": [
+      224,
+      300
+    ],
+    "body_anchor": [
+      224,
+      300
+    ],
+    "translation": [
+      0,
+      0
+    ]
+  },
+  "bandit-archer-02": {
+    "source_anchor": [
+      224,
+      300
+    ],
+    "body_anchor": [
+      224,
+      300
+    ],
+    "translation": [
+      0,
+      0
+    ]
+  },
+  "bandit-archer-03": {
+    "source_anchor": [
+      224,
+      300
+    ],
+    "body_anchor": [
+      224,
+      300
+    ],
+    "translation": [
+      0,
+      0
+    ]
+  },
+  "bandit-archer-04": {
+    "source_anchor": [
+      224,
+      300
+    ],
+    "body_anchor": [
+      224,
+      300
+    ],
+    "translation": [
+      0,
+      0
+    ]
+  },
+  "bandit-archer-05": {
+    "source_anchor": [
+      224,
+      300
+    ],
+    "body_anchor": [
+      224,
+      300
+    ],
+    "translation": [
+      0,
+      0
+    ]
+  },
+  "bandit-archer-06": {
+    "source_anchor": [
+      224,
+      300
+    ],
+    "body_anchor": [
+      224,
+      300
+    ],
+    "translation": [
+      0,
+      0
+    ]
+  },
+  "bandit-archer-07": {
+    "source_anchor": [
+      224,
+      300
+    ],
+    "body_anchor": [
+      224,
+      300
+    ],
+    "translation": [
+      0,
+      0
+    ]
+  },
+  "bandit-archer-08": {
+    "source_anchor": [
+      224,
+      300
+    ],
+    "body_anchor": [
+      224,
+      300
+    ],
+    "translation": [
+      0,
+      0
+    ]
+  },
+  "bandit-archer-09": {
+    "source_anchor": [
+      224,
+      300
+    ],
+    "body_anchor": [
+      224,
+      300
+    ],
+    "translation": [
+      0,
+      0
+    ]
+  },
+  "bandit-archer-10": {
+    "source_anchor": [
+      224,
+      300
+    ],
+    "body_anchor": [
+      224,
+      300
+    ],
+    "translation": [
+      0,
+      0
+    ]
+  },
+  "bandit-archer-11": {
+    "source_anchor": [
+      224,
+      300
+    ],
+    "body_anchor": [
+      224,
+      300
+    ],
+    "translation": [
+      0,
+      0
+    ]
+  },
+  "bandit-archer-12": {
+    "source_anchor": [
+      224,
+      300
+    ],
+    "body_anchor": [
+      224,
+      300
+    ],
+    "translation": [
+      0,
+      0
+    ]
+  },
+  "bandit-archer-13": {
+    "source_anchor": [
+      224,
+      300
+    ],
+    "body_anchor": [
+      224,
+      300
+    ],
+    "translation": [
+      0,
+      0
+    ]
+  },
+  "bandit-archer-14": {
+    "source_anchor": [
+      224,
+      300
+    ],
+    "body_anchor": [
+      224,
+      300
+    ],
+    "translation": [
+      0,
+      0
+    ]
+  },
+  "bandit-archer-15": {
+    "source_anchor": [
+      224,
+      300
+    ],
+    "body_anchor": [
+      224,
+      300
+    ],
+    "translation": [
+      0,
+      0
+    ]
+  },
+  "hero-rage-00": {
+    "source_anchor": [
+      224,
+      300
+    ],
+    "body_anchor": [
+      224,
+      300
+    ],
+    "translation": [
+      0,
+      0
+    ]
+  },
+  "hero-rage-01": {
+    "source_anchor": [
+      224,
+      300
+    ],
+    "body_anchor": [
+      224,
+      300
+    ],
+    "translation": [
+      0,
+      0
+    ]
+  },
+  "hero-rage-02": {
+    "source_anchor": [
+      224,
+      300
+    ],
+    "body_anchor": [
+      224,
+      300
+    ],
+    "translation": [
+      0,
+      0
+    ]
+  },
+  "hero-rage-03": {
+    "source_anchor": [
+      224,
+      300
+    ],
+    "body_anchor": [
+      224,
+      300
+    ],
+    "translation": [
+      0,
+      0
+    ]
+  },
+  "hero-rage-04": {
+    "source_anchor": [
+      224,
+      300
+    ],
+    "body_anchor": [
+      224,
+      300
+    ],
+    "translation": [
+      0,
+      0
+    ]
+  },
+  "hero-rage-05": {
+    "source_anchor": [
+      224,
+      300
+    ],
+    "body_anchor": [
+      224,
+      300
+    ],
+    "translation": [
+      0,
+      0
+    ]
+  },
+  "hero-rage-06": {
+    "source_anchor": [
+      224,
+      300
+    ],
+    "body_anchor": [
+      224,
+      300
+    ],
+    "translation": [
+      0,
+      0
+    ]
+  },
+  "hero-rage-07": {
+    "source_anchor": [
+      224,
+      300
+    ],
+    "body_anchor": [
+      224,
+      300
+    ],
+    "translation": [
+      0,
+      0
+    ]
+  },
+  "hero-rage-08": {
+    "source_anchor": [
+      224,
+      300
+    ],
+    "body_anchor": [
+      224,
+      300
+    ],
+    "translation": [
+      0,
+      0
+    ]
+  },
+  "hero-rage-09": {
+    "source_anchor": [
+      224,
+      300
+    ],
+    "body_anchor": [
+      224,
+      300
+    ],
+    "translation": [
+      0,
+      0
+    ]
+  },
+  "hero-rage-10": {
+    "source_anchor": [
+      224,
+      300
+    ],
+    "body_anchor": [
+      224,
+      300
+    ],
+    "translation": [
+      0,
+      0
+    ]
+  },
+  "hero-rage-11": {
+    "source_anchor": [
+      224,
+      300
+    ],
+    "body_anchor": [
+      224,
+      300
+    ],
+    "translation": [
+      0,
+      0
+    ]
+  },
+  "hero-grapple-00": {
+    "source_anchor": [
+      224,
+      300
+    ],
+    "body_anchor": [
+      224,
+      300
+    ],
+    "translation": [
+      0,
+      0
+    ]
+  },
+  "hero-grapple-01": {
+    "source_anchor": [
+      224,
+      300
+    ],
+    "body_anchor": [
+      224,
+      300
+    ],
+    "translation": [
+      0,
+      0
+    ]
+  },
+  "hero-grapple-02": {
+    "source_anchor": [
+      224,
+      300
+    ],
+    "body_anchor": [
+      224,
+      300
+    ],
+    "translation": [
+      0,
+      0
+    ]
+  },
+  "hero-grapple-03": {
+    "source_anchor": [
+      224,
+      300
+    ],
+    "body_anchor": [
+      224,
+      300
+    ],
+    "translation": [
+      0,
+      0
+    ]
+  },
+  "hero-grapple-04": {
+    "source_anchor": [
+      224,
+      300
+    ],
+    "body_anchor": [
+      224,
+      300
+    ],
+    "translation": [
+      0,
+      0
+    ]
+  },
+  "hero-grapple-05": {
+    "source_anchor": [
+      224,
+      300
+    ],
+    "body_anchor": [
+      224,
+      300
+    ],
+    "translation": [
+      0,
+      0
+    ]
+  },
+  "hero-grapple-06": {
+    "source_anchor": [
+      224,
+      300
+    ],
+    "body_anchor": [
+      224,
+      300
+    ],
+    "translation": [
+      0,
+      0
+    ]
+  },
+  "hero-grapple-07": {
+    "source_anchor": [
+      224,
+      300
+    ],
+    "body_anchor": [
+      224,
+      300
+    ],
+    "translation": [
+      0,
+      0
+    ]
+  },
+  "bandit-dagger-grapple-00": {
+    "source_anchor": [
+      224,
+      300
+    ],
+    "body_anchor": [
+      224,
+      300
+    ],
+    "translation": [
+      0,
+      0
+    ]
+  },
+  "bandit-dagger-grapple-01": {
+    "source_anchor": [
+      224,
+      300
+    ],
+    "body_anchor": [
+      224,
+      300
+    ],
+    "translation": [
+      0,
+      0
+    ]
+  },
+  "bandit-dagger-grapple-02": {
+    "source_anchor": [
+      224,
+      300
+    ],
+    "body_anchor": [
+      224,
+      300
+    ],
+    "translation": [
+      0,
+      0
+    ]
+  },
+  "bandit-dagger-grapple-03": {
+    "source_anchor": [
+      224,
+      300
+    ],
+    "body_anchor": [
+      224,
+      300
+    ],
+    "translation": [
+      0,
+      0
+    ]
+  },
+  "bandit-dagger-grapple-04": {
+    "source_anchor": [
+      224,
+      300
+    ],
+    "body_anchor": [
+      224,
+      300
+    ],
+    "translation": [
+      0,
+      0
+    ]
+  },
+  "bandit-dagger-grapple-05": {
+    "source_anchor": [
+      224,
+      300
+    ],
+    "body_anchor": [
+      224,
+      300
+    ],
+    "translation": [
+      0,
+      0
+    ]
+  },
+  "bandit-dagger-grapple-06": {
+    "source_anchor": [
+      224,
+      300
+    ],
+    "body_anchor": [
+      224,
+      300
+    ],
+    "translation": [
+      0,
+      0
+    ]
+  },
+  "bandit-dagger-grapple-07": {
+    "source_anchor": [
+      224,
+      300
+    ],
+    "body_anchor": [
+      224,
+      300
+    ],
+    "translation": [
+      0,
+      0
+    ]
+  },
+  "bandit-sword-grapple-00": {
+    "source_anchor": [
+      224,
+      300
+    ],
+    "body_anchor": [
+      224,
+      300
+    ],
+    "translation": [
+      0,
+      0
+    ]
+  },
+  "bandit-sword-grapple-01": {
+    "source_anchor": [
+      224,
+      300
+    ],
+    "body_anchor": [
+      224,
+      300
+    ],
+    "translation": [
+      0,
+      0
+    ]
+  },
+  "bandit-sword-grapple-02": {
+    "source_anchor": [
+      224,
+      300
+    ],
+    "body_anchor": [
+      224,
+      300
+    ],
+    "translation": [
+      0,
+      0
+    ]
+  },
+  "bandit-sword-grapple-03": {
+    "source_anchor": [
+      224,
+      300
+    ],
+    "body_anchor": [
+      224,
+      300
+    ],
+    "translation": [
+      0,
+      0
+    ]
+  },
+  "bandit-sword-grapple-04": {
+    "source_anchor": [
+      224,
+      300
+    ],
+    "body_anchor": [
+      224,
+      300
+    ],
+    "translation": [
+      0,
+      0
+    ]
+  },
+  "bandit-sword-grapple-05": {
+    "source_anchor": [
+      224,
+      300
+    ],
+    "body_anchor": [
+      224,
+      300
+    ],
+    "translation": [
+      0,
+      0
+    ]
+  },
+  "bandit-sword-grapple-06": {
+    "source_anchor": [
+      224,
+      300
+    ],
+    "body_anchor": [
+      224,
+      300
+    ],
+    "translation": [
+      0,
+      0
+    ]
+  },
+  "bandit-sword-grapple-07": {
+    "source_anchor": [
+      224,
+      300
+    ],
+    "body_anchor": [
+      224,
+      300
+    ],
+    "translation": [
+      0,
+      0
+    ]
+  },
+  "bandit-archer-grapple-00": {
+    "source_anchor": [
+      224,
+      300
+    ],
+    "body_anchor": [
+      224,
+      300
+    ],
+    "translation": [
+      0,
+      0
+    ]
+  },
+  "bandit-archer-grapple-01": {
+    "source_anchor": [
+      224,
+      300
+    ],
+    "body_anchor": [
+      224,
+      300
+    ],
+    "translation": [
+      0,
+      0
+    ]
+  },
+  "bandit-archer-grapple-02": {
+    "source_anchor": [
+      224,
+      300
+    ],
+    "body_anchor": [
+      224,
+      300
+    ],
+    "translation": [
+      0,
+      0
+    ]
+  },
+  "bandit-archer-grapple-03": {
+    "source_anchor": [
+      224,
+      300
+    ],
+    "body_anchor": [
+      224,
+      300
+    ],
+    "translation": [
+      0,
+      0
+    ]
+  },
+  "bandit-archer-grapple-04": {
+    "source_anchor": [
+      224,
+      300
+    ],
+    "body_anchor": [
+      224,
+      300
+    ],
+    "translation": [
+      0,
+      0
+    ]
+  },
+  "bandit-archer-grapple-05": {
+    "source_anchor": [
+      224,
+      300
+    ],
+    "body_anchor": [
+      224,
+      300
+    ],
+    "translation": [
+      0,
+      0
+    ]
+  },
+  "bandit-archer-grapple-06": {
+    "source_anchor": [
+      224,
+      300
+    ],
+    "body_anchor": [
+      224,
+      300
+    ],
+    "translation": [
+      0,
+      0
+    ]
+  },
+  "bandit-archer-grapple-07": {
+    "source_anchor": [
+      224,
+      300
+    ],
+    "body_anchor": [
+      224,
+      300
+    ],
+    "translation": [
+      0,
+      0
+    ]
+  },
+  "hero-idle-00": {
+    "source_anchor": [
+      224,
+      300
+    ],
+    "body_anchor": [
+      224,
+      300
+    ],
+    "translation": [
+      0,
+      0
+    ]
+  },
+  "hero-idle-01": {
+    "source_anchor": [
+      224,
+      300
+    ],
+    "body_anchor": [
+      224,
+      300
+    ],
+    "translation": [
+      0,
+      0
+    ]
+  },
+  "hero-idle-02": {
+    "source_anchor": [
+      224,
+      300
+    ],
+    "body_anchor": [
+      224,
+      300
+    ],
+    "translation": [
+      0,
+      0
+    ]
+  },
+  "hero-idle-03": {
+    "source_anchor": [
+      224,
+      300
+    ],
+    "body_anchor": [
+      224,
+      300
+    ],
+    "translation": [
+      0,
+      0
+    ]
+  },
+  "hero-idle-04": {
+    "source_anchor": [
+      224,
+      300
+    ],
+    "body_anchor": [
+      224,
+      300
+    ],
+    "translation": [
+      0,
+      0
+    ]
+  },
+  "hero-idle-05": {
+    "source_anchor": [
+      224,
+      300
+    ],
+    "body_anchor": [
+      224,
+      300
+    ],
+    "translation": [
+      0,
+      0
+    ]
+  },
+  "hero-idle-06": {
+    "source_anchor": [
+      224,
+      300
+    ],
+    "body_anchor": [
+      224,
+      300
+    ],
+    "translation": [
+      0,
+      0
+    ]
+  },
+  "hero-idle-07": {
+    "source_anchor": [
+      224,
+      300
+    ],
+    "body_anchor": [
+      224,
+      300
+    ],
+    "translation": [
+      0,
+      0
+    ]
+  },
+  "hero-air-heavy-00": {
+    "source_anchor": [
+      224,
+      300
+    ],
+    "body_anchor": [
+      224,
+      300
+    ],
+    "translation": [
+      0,
+      0
+    ]
+  },
+  "hero-air-heavy-01": {
+    "source_anchor": [
+      224,
+      300
+    ],
+    "body_anchor": [
+      224,
+      300
+    ],
+    "translation": [
+      0,
+      0
+    ]
+  },
+  "hero-air-heavy-02": {
+    "source_anchor": [
+      224,
+      300
+    ],
+    "body_anchor": [
+      224,
+      300
+    ],
+    "translation": [
+      0,
+      0
+    ]
+  },
+  "hero-air-heavy-03": {
+    "source_anchor": [
+      224,
+      300
+    ],
+    "body_anchor": [
+      224,
+      300
+    ],
+    "translation": [
+      0,
+      0
+    ]
+  },
+  "hero-air-heavy-04": {
+    "source_anchor": [
+      224,
+      300
+    ],
+    "body_anchor": [
+      224,
+      300
+    ],
+    "translation": [
+      0,
+      0
+    ]
+  },
+  "hero-air-heavy-05": {
+    "source_anchor": [
+      224,
+      300
+    ],
+    "body_anchor": [
+      224,
+      300
+    ],
+    "translation": [
+      0,
+      0
+    ]
+  },
+  "hero-air-heavy-06": {
+    "source_anchor": [
+      224,
+      300
+    ],
+    "body_anchor": [
+      224,
+      300
+    ],
+    "translation": [
+      0,
+      0
+    ]
+  },
+  "hero-air-heavy-07": {
+    "source_anchor": [
+      224,
+      300
+    ],
+    "body_anchor": [
+      224,
+      300
+    ],
+    "translation": [
+      0,
+      0
+    ]
+  },
+  "bandit-bruiser-00": {
+    "source_anchor": [
+      224,
+      300
+    ],
+    "body_anchor": [
+      224,
+      300
+    ],
+    "translation": [
+      0,
+      0
+    ]
+  },
+  "bandit-bruiser-01": {
+    "source_anchor": [
+      224,
+      300
+    ],
+    "body_anchor": [
+      224,
+      300
+    ],
+    "translation": [
+      0,
+      0
+    ]
+  },
+  "bandit-bruiser-02": {
+    "source_anchor": [
+      224,
+      300
+    ],
+    "body_anchor": [
+      224,
+      300
+    ],
+    "translation": [
+      0,
+      0
+    ]
+  },
+  "bandit-bruiser-03": {
+    "source_anchor": [
+      224,
+      300
+    ],
+    "body_anchor": [
+      224,
+      300
+    ],
+    "translation": [
+      0,
+      0
+    ]
+  },
+  "bandit-bruiser-04": {
+    "source_anchor": [
+      224,
+      300
+    ],
+    "body_anchor": [
+      224,
+      300
+    ],
+    "translation": [
+      0,
+      0
+    ]
+  },
+  "bandit-bruiser-05": {
+    "source_anchor": [
+      224,
+      300
+    ],
+    "body_anchor": [
+      224,
+      300
+    ],
+    "translation": [
+      0,
+      0
+    ]
+  },
+  "bandit-bruiser-06": {
+    "source_anchor": [
+      224,
+      300
+    ],
+    "body_anchor": [
+      224,
+      300
+    ],
+    "translation": [
+      0,
+      0
+    ]
+  },
+  "bandit-bruiser-07": {
+    "source_anchor": [
+      224,
+      300
+    ],
+    "body_anchor": [
+      224,
+      300
+    ],
+    "translation": [
+      0,
+      0
+    ]
+  },
+  "bandit-bruiser-08": {
+    "source_anchor": [
+      224,
+      300
+    ],
+    "body_anchor": [
+      224,
+      300
+    ],
+    "translation": [
+      0,
+      0
+    ]
+  },
+  "bandit-bruiser-09": {
+    "source_anchor": [
+      224,
+      300
+    ],
+    "body_anchor": [
+      224,
+      300
+    ],
+    "translation": [
+      0,
+      0
+    ]
+  },
+  "bandit-bruiser-10": {
+    "source_anchor": [
+      224,
+      300
+    ],
+    "body_anchor": [
+      224,
+      300
+    ],
+    "translation": [
+      0,
+      0
+    ]
+  },
+  "bandit-bruiser-11": {
+    "source_anchor": [
+      224,
+      300
+    ],
+    "body_anchor": [
+      224,
+      300
+    ],
+    "translation": [
+      0,
+      0
+    ]
+  },
+  "bandit-bruiser-12": {
+    "source_anchor": [
+      224,
+      300
+    ],
+    "body_anchor": [
+      224,
+      300
+    ],
+    "translation": [
+      0,
+      0
+    ]
+  },
+  "bandit-bruiser-13": {
+    "source_anchor": [
+      224,
+      300
+    ],
+    "body_anchor": [
+      224,
+      300
+    ],
+    "translation": [
+      0,
+      0
+    ]
+  },
+  "bandit-bruiser-14": {
+    "source_anchor": [
+      224,
+      300
+    ],
+    "body_anchor": [
+      224,
+      300
+    ],
+    "translation": [
+      0,
+      0
+    ]
+  },
+  "bandit-bruiser-15": {
+    "source_anchor": [
+      224,
+      300
+    ],
+    "body_anchor": [
+      224,
+      300
+    ],
+    "translation": [
+      0,
+      0
+    ]
+  },
+  "bandit-bruiser-16": {
+    "source_anchor": [
+      224,
+      300
+    ],
+    "body_anchor": [
+      224,
+      300
+    ],
+    "translation": [
+      0,
+      0
+    ]
+  },
+  "bandit-bruiser-17": {
+    "source_anchor": [
+      224,
+      300
+    ],
+    "body_anchor": [
+      224,
+      300
+    ],
+    "translation": [
+      0,
+      0
+    ]
+  },
+  "bandit-bruiser-18": {
+    "source_anchor": [
+      224,
+      300
+    ],
+    "body_anchor": [
+      224,
+      300
+    ],
+    "translation": [
+      0,
+      0
+    ]
+  },
+  "bandit-bruiser-19": {
+    "source_anchor": [
+      224,
+      300
+    ],
+    "body_anchor": [
+      224,
+      300
+    ],
+    "translation": [
+      0,
+      0
+    ]
+  },
+  "bandit-bruiser-20": {
+    "source_anchor": [
+      224,
+      300
+    ],
+    "body_anchor": [
+      224,
+      300
+    ],
+    "translation": [
+      0,
+      0
+    ]
+  },
+  "bandit-bruiser-21": {
+    "source_anchor": [
+      224,
+      300
+    ],
+    "body_anchor": [
+      224,
+      300
+    ],
+    "translation": [
+      0,
+      0
+    ]
+  },
+  "bandit-bruiser-22": {
+    "source_anchor": [
+      224,
+      300
+    ],
+    "body_anchor": [
+      224,
+      300
+    ],
+    "translation": [
+      0,
+      0
+    ]
+  },
+  "bandit-bruiser-23": {
+    "source_anchor": [
+      224,
+      300
+    ],
+    "body_anchor": [
+      224,
+      300
+    ],
+    "translation": [
+      0,
+      0
+    ]
+  },
+  "hero-knockdown-00": {
+    "source_anchor": [
+      224,
+      300
+    ],
+    "body_anchor": [
+      224,
+      300
+    ],
+    "translation": [
+      0,
+      0
+    ]
+  },
+  "hero-knockdown-01": {
+    "source_anchor": [
+      224,
+      300
+    ],
+    "body_anchor": [
+      224,
+      300
+    ],
+    "translation": [
+      0,
+      0
+    ]
+  },
+  "hero-knockdown-02": {
+    "source_anchor": [
+      224,
+      300
+    ],
+    "body_anchor": [
+      224,
+      300
+    ],
+    "translation": [
+      0,
+      0
+    ]
+  },
+  "hero-knockdown-03": {
+    "source_anchor": [
+      224,
+      300
+    ],
+    "body_anchor": [
+      224,
+      300
+    ],
+    "translation": [
+      0,
+      0
+    ]
+  },
+  "hero-knockdown-04": {
+    "source_anchor": [
+      224,
+      300
+    ],
+    "body_anchor": [
+      224,
+      300
+    ],
+    "translation": [
+      0,
+      0
+    ]
+  },
+  "hero-knockdown-05": {
+    "source_anchor": [
+      224,
+      300
+    ],
+    "body_anchor": [
+      224,
+      300
+    ],
+    "translation": [
+      0,
+      0
+    ]
+  },
+  "hero-knockdown-06": {
+    "source_anchor": [
+      224,
+      300
+    ],
+    "body_anchor": [
+      224,
+      300
+    ],
+    "translation": [
+      0,
+      0
+    ]
+  },
+  "hero-knockdown-07": {
+    "source_anchor": [
+      224,
+      300
+    ],
+    "body_anchor": [
+      224,
+      300
+    ],
+    "translation": [
+      0,
+      0
+    ]
+  },
+  "hero-pickup-00": {
+    "source_anchor": [
+      224,
+      300
+    ],
+    "body_anchor": [
+      224,
+      300
+    ],
+    "translation": [
+      0,
+      0
+    ]
+  },
+  "hero-pickup-01": {
+    "source_anchor": [
+      224,
+      300
+    ],
+    "body_anchor": [
+      224,
+      300
+    ],
+    "translation": [
+      0,
+      0
+    ]
+  },
+  "hero-pickup-02": {
+    "source_anchor": [
+      224,
+      300
+    ],
+    "body_anchor": [
+      224,
+      300
+    ],
+    "translation": [
+      0,
+      0
+    ]
+  },
+  "hero-pickup-03": {
+    "source_anchor": [
+      224,
+      300
+    ],
+    "body_anchor": [
+      224,
+      300
+    ],
+    "translation": [
+      0,
+      0
+    ]
+  },
+  "hero-pickup-04": {
+    "source_anchor": [
+      224,
+      300
+    ],
+    "body_anchor": [
+      224,
+      300
+    ],
+    "translation": [
+      0,
+      0
+    ]
+  },
+  "hero-pickup-05": {
+    "source_anchor": [
+      224,
+      300
+    ],
+    "body_anchor": [
+      224,
+      300
+    ],
+    "translation": [
+      0,
+      0
+    ]
+  },
+  "hero-pickup-06": {
+    "source_anchor": [
+      224,
+      300
+    ],
+    "body_anchor": [
+      224,
+      300
+    ],
+    "translation": [
+      0,
+      0
+    ]
+  },
+  "hero-pickup-07": {
+    "source_anchor": [
+      224,
+      300
+    ],
+    "body_anchor": [
+      224,
+      300
+    ],
+    "translation": [
+      0,
+      0
+    ]
+  },
+  "enemy-dog-00": {
+    "source_anchor": [
+      224,
+      300
+    ],
+    "body_anchor": [
+      224,
+      300
+    ],
+    "translation": [
+      0,
+      0
+    ]
+  },
+  "enemy-dog-01": {
+    "source_anchor": [
+      224,
+      300
+    ],
+    "body_anchor": [
+      224,
+      300
+    ],
+    "translation": [
+      0,
+      0
+    ]
+  },
+  "enemy-dog-02": {
+    "source_anchor": [
+      224,
+      300
+    ],
+    "body_anchor": [
+      224,
+      300
+    ],
+    "translation": [
+      0,
+      0
+    ]
+  },
+  "enemy-dog-03": {
+    "source_anchor": [
+      224,
+      300
+    ],
+    "body_anchor": [
+      224,
+      300
+    ],
+    "translation": [
+      0,
+      0
+    ]
+  },
+  "enemy-dog-04": {
+    "source_anchor": [
+      224,
+      300
+    ],
+    "body_anchor": [
+      224,
+      300
+    ],
+    "translation": [
+      0,
+      0
+    ]
+  },
+  "enemy-dog-05": {
+    "source_anchor": [
+      224,
+      300
+    ],
+    "body_anchor": [
+      224,
+      300
+    ],
+    "translation": [
+      0,
+      0
+    ]
+  },
+  "enemy-dog-06": {
+    "source_anchor": [
+      224,
+      300
+    ],
+    "body_anchor": [
+      224,
+      300
+    ],
+    "translation": [
+      0,
+      0
+    ]
+  },
+  "enemy-dog-07": {
+    "source_anchor": [
+      224,
+      300
+    ],
+    "body_anchor": [
+      224,
+      300
+    ],
+    "translation": [
+      0,
+      0
+    ]
+  },
+  "enemy-dog-08": {
+    "source_anchor": [
+      224,
+      300
+    ],
+    "body_anchor": [
+      224,
+      300
+    ],
+    "translation": [
+      0,
+      0
+    ]
+  },
+  "enemy-dog-09": {
+    "source_anchor": [
+      224,
+      300
+    ],
+    "body_anchor": [
+      224,
+      300
+    ],
+    "translation": [
+      0,
+      0
+    ]
+  },
+  "enemy-dog-10": {
+    "source_anchor": [
+      224,
+      300
+    ],
+    "body_anchor": [
+      224,
+      300
+    ],
+    "translation": [
+      0,
+      0
+    ]
+  },
+  "enemy-dog-11": {
+    "source_anchor": [
+      224,
+      300
+    ],
+    "body_anchor": [
+      224,
+      300
+    ],
+    "translation": [
+      0,
+      0
+    ]
+  },
+  "enemy-dog-12": {
+    "source_anchor": [
+      224,
+      300
+    ],
+    "body_anchor": [
+      224,
+      300
+    ],
+    "translation": [
+      0,
+      0
+    ]
+  },
+  "enemy-dog-13": {
+    "source_anchor": [
+      224,
+      300
+    ],
+    "body_anchor": [
+      224,
+      300
+    ],
+    "translation": [
+      0,
+      0
+    ]
+  },
+  "enemy-dog-14": {
+    "source_anchor": [
+      224,
+      300
+    ],
+    "body_anchor": [
+      224,
+      300
+    ],
+    "translation": [
+      0,
+      0
+    ]
+  },
+  "enemy-dog-15": {
+    "source_anchor": [
+      224,
+      300
+    ],
+    "body_anchor": [
+      224,
+      300
+    ],
+    "translation": [
+      0,
+      0
+    ]
+  },
+  "hero-win-00": {
+    "source_anchor": [
+      224,
+      300
+    ],
+    "body_anchor": [
+      224,
+      300
+    ],
+    "translation": [
+      0,
+      0
+    ]
+  },
+  "hero-win-01": {
+    "source_anchor": [
+      224,
+      300
+    ],
+    "body_anchor": [
+      224,
+      300
+    ],
+    "translation": [
+      0,
+      0
+    ]
+  },
+  "hero-win-02": {
+    "source_anchor": [
+      224,
+      300
+    ],
+    "body_anchor": [
+      224,
+      300
+    ],
+    "translation": [
+      0,
+      0
+    ]
+  },
+  "hero-win-03": {
+    "source_anchor": [
+      224,
+      300
+    ],
+    "body_anchor": [
+      224,
+      300
+    ],
+    "translation": [
+      0,
+      0
+    ]
+  },
+  "hero-win-04": {
+    "source_anchor": [
+      224,
+      300
+    ],
+    "body_anchor": [
+      224,
+      300
+    ],
+    "translation": [
+      0,
+      0
+    ]
+  },
+  "hero-win-05": {
+    "source_anchor": [
+      224,
+      300
+    ],
+    "body_anchor": [
+      224,
+      300
+    ],
+    "translation": [
+      0,
+      0
+    ]
+  },
+  "hero-win-06": {
+    "source_anchor": [
+      224,
+      300
+    ],
+    "body_anchor": [
+      224,
+      300
+    ],
+    "translation": [
+      0,
+      0
+    ]
+  },
+  "hero-win-07": {
+    "source_anchor": [
+      224,
+      300
+    ],
+    "body_anchor": [
+      224,
+      300
+    ],
+    "translation": [
+      0,
+      0
+    ]
+  },
+  "hero-win-08": {
+    "source_anchor": [
+      224,
+      300
+    ],
+    "body_anchor": [
+      224,
+      300
+    ],
+    "translation": [
+      0,
+      0
+    ]
+  },
+  "hero-win-09": {
+    "source_anchor": [
+      224,
+      300
+    ],
+    "body_anchor": [
+      224,
+      300
+    ],
+    "translation": [
+      0,
+      0
+    ]
+  },
+  "hero-win-10": {
+    "source_anchor": [
+      224,
+      300
+    ],
+    "body_anchor": [
+      224,
+      300
+    ],
+    "translation": [
+      0,
+      0
+    ]
+  },
+  "hero-win-11": {
+    "source_anchor": [
+      224,
+      300
+    ],
+    "body_anchor": [
+      224,
+      300
+    ],
+    "translation": [
+      0,
+      0
+    ]
+  }
+}
