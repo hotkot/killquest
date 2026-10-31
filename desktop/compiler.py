@@ -265,11 +265,48 @@ ACTIONS = {'build': build, 'test': test, 'package': package, 'run': run, 'deploy
 def gui():
     import tkinter as tk
     from tkinter import ttk
-    from tkinter.scrolledtext import ScrolledText
     window = tk.Tk()
     window.title('KillQuest — EXE Builder')
     window.geometry('940x640')
     window.minsize(700, 460)
+    background = '#15171c'
+    foreground = '#e6e8ee'
+    window.configure(background=background)
+    if sys.platform == 'win32':
+        # Request a dark native title bar on Windows versions that support it.
+        try:
+            import ctypes
+            from ctypes import wintypes
+            window.update_idletasks()
+            get_parent = ctypes.windll.user32.GetParent
+            get_parent.argtypes = [wintypes.HWND]
+            get_parent.restype = wintypes.HWND
+            hwnd = get_parent(window.winfo_id()) or window.winfo_id()
+            enabled = wintypes.BOOL(True)
+            set_attribute = ctypes.windll.dwmapi.DwmSetWindowAttribute
+            set_attribute.argtypes = [wintypes.HWND, wintypes.DWORD, ctypes.c_void_p, wintypes.DWORD]
+            for attribute in (20, 19):
+                if set_attribute(hwnd, attribute, ctypes.byref(enabled), ctypes.sizeof(enabled)) == 0:
+                    break
+        except (AttributeError, OSError):
+            pass  # Older Windows can still use the dark client area.
+    style = ttk.Style(window)
+    # Clam respects custom colors on Windows instead of the native light theme.
+    style.theme_use('clam')
+    style.configure('.', background=background, foreground=foreground)
+    style.configure('TFrame', background=background)
+    style.configure('TLabel', background=background, foreground=foreground)
+    style.configure('TButton', background='#2b303b', foreground=foreground,
+                    bordercolor='#454d5e', lightcolor='#2b303b', darkcolor='#2b303b',
+                    focuscolor='#97baff', padding=6)
+    style.map('TButton', background=[('disabled', '#20242c'), ('pressed', '#3e4e6b'),
+                                    ('active', '#364155')],
+              foreground=[('disabled', '#858c9b'), ('active', '#ffffff')],
+              bordercolor=[('focus', '#97baff')])
+    style.configure('Vertical.TScrollbar', background='#353c49', troughcolor='#101216',
+                    arrowcolor=foreground, bordercolor=background,
+                    lightcolor='#353c49', darkcolor='#353c49')
+    style.map('Vertical.TScrollbar', background=[('pressed', '#596b89'), ('active', '#47546a')])
     frame = ttk.Frame(window, padding=18)
     frame.pack(fill='both', expand=True)
     ttk.Label(frame, text='KillQuest · Windows EXE Builder', font=('Segoe UI', 19, 'bold')).pack(anchor='w')
@@ -278,8 +315,18 @@ def gui():
     toolbar.pack(fill='x')
     status = tk.StringVar(value='Ready — first build downloads the verified Electron runtime.')
     ttk.Label(frame, textvariable=status, wraplength=860).pack(anchor='w', pady=12)
-    output = ScrolledText(frame, wrap='word', state='disabled', font=('Consolas', 10))
-    output.pack(fill='both', expand=True)
+    log_frame = ttk.Frame(frame)
+    log_frame.pack(fill='both', expand=True)
+    output = tk.Text(log_frame, wrap='word', state='disabled', font=('Consolas', 10),
+                     background='#101216', foreground=foreground, insertbackground=foreground,
+                     selectbackground='#3b527b', selectforeground='#ffffff',
+                     relief='flat', borderwidth=0, highlightthickness=1,
+                     highlightbackground='#353c49', highlightcolor='#97baff', padx=12, pady=10)
+    scrollbar = ttk.Scrollbar(log_frame, orient='vertical', command=output.yview)
+    output.configure(yscrollcommand=scrollbar.set)
+    scrollbar.pack(side='right', fill='y')
+    output.pack(side='left', fill='both', expand=True)
+    output.tag_configure('error', foreground='#ff9292')
     ttk.Label(frame, text=f'Output: {OUTPUT}', wraplength=860).pack(anchor='w', pady=(10, 0))
     events = queue.Queue()
     buttons = []
@@ -310,7 +357,8 @@ def gui():
         while not events.empty():
             kind, message = events.get_nowait()
             output.config(state='normal')
-            output.insert('end', ('ERROR: ' if kind == 'error' else '') + message + '\n')
+            output.insert('end', ('ERROR: ' if kind == 'error' else '') + message + '\n',
+                          ('error',) if kind == 'error' else ())
             output.see('end')
             output.config(state='disabled')
             if kind in ('done', 'error'):

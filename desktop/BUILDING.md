@@ -11,7 +11,8 @@ Double-click **`desktop/Builder.bat`**. Alternatively, from the repository root:
 python desktop/compiler.py
 ```
 
-The window provides these actions:
+The window uses a dark theme for its controls, log panel and scrollbar, with a
+dark native title bar on supported Windows versions. It provides these actions:
 
 | Button | Action |
 | --- | --- |
