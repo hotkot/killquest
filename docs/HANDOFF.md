@@ -1,6 +1,6 @@
 # KillQuest — development handoff
 
-Updated 2026-10-28. Read AGENTS.md before editing. GitHub is the intended development source of truth after this migration.
+Updated 2026-10-31. Read AGENTS.md before editing. GitHub is the intended development source of truth after this migration.
 
 > New-chat prompt: Continue KillQuest from https://github.com/hotkot/killquest. Clone the repo, read AGENTS.md and docs/HANDOFF.md, inspect current Git status/recent commits and docs/MIGRATION.md, then implement my next request. Preserve the existing game and asset pipeline. Do not build a Windows EXE unless I explicitly request it.
 
@@ -75,7 +75,7 @@ Cages free rebel counterparts except knight captains. Rebels independently follo
 | dist/assets | Delivered sprites/scenery/audio/movies/Phaser/license |
 | source-art, source-audio | Approved references, raw sheets/stems, landmarks/provenance/QA |
 | scripts, checks, balance, notes | Authoring/regression/balance/design evidence |
-| desktop | Historical Electron packaging; not active web build |
+| desktop | Local Windows EXE builder UI/CLI and Electron wrapper; see desktop/BUILDING.md |
 | src/witch.js | Retained authoring fragment; integrated WITCH_SYSTEM in game.js is runtime |
 
 Combat is the model; ForestCombat extends BossCombat; CityCombat and CityTestCombat configure City. BrawlScene mirrors model into Phaser. Most modules use globals and ordered scripts, not imports. VM fixtures depend on class boundaries and globals.
@@ -128,7 +128,7 @@ VM/Canvas tests do not prove real browser rendering/audio/autoplay or physical c
 
 ## Known debt and user preferences
 
-No City boss, future levels locked, Continue disabled, some old City labels still say empty prototype, monolithic game.js, historical authoring paths and desktopv56 metadata. Keep historical implementation log but distinguish it from current docs. User wants direct action, approval previews before major new character/cinematic art, readable UI, stable scale/poses, and **no Windows EXE build unless explicitly asked**. Do not invent the next gameplay task after migration.
+No City boss, future levels locked, Continue disabled, some old City labels still say empty prototype, monolithic game.js, historical authoring paths. Keep historical implementation log but distinguish it from current docs. User wants direct action, approval previews before major new character/cinematic art, readable UI, stable scale/poses, and **no Windows EXE build unless explicitly asked**. Do not invent the next gameplay task after migration.
 
 ## Hosting/releases
 
@@ -136,4 +136,9 @@ GitHub push does not deploy the existing private Site. Preserve its audience and
 
 Live dist is ~243MB, close to Sites' observed256MiB expanded-directory limit. Keep old movies/source art out of runtime, measure before publication, host dist only.
 
-desktop/build_windows.py verifies an official Electron runtime but pins44.7.2 and labels outputv56; README is historical. Before a requested release update metadata/runtime choice, verify official checksums/package and test Windows/controllers. No EXE built during migration.
+Local Windows builder: desktop/Builder.bat opens desktop/compiler.py with Build, Test, Package, Run and Deploy buttons. Deploy runs those first four actions in order and stops on failure. Electron 45.2.1 is pinned and verified against official SHA256 sums. Build outputs and runtime cache are ignored by Git. See desktop/BUILDING.md for prerequisites, CLI and output paths. desktop/build_windows.py forwards to the same tool; old positional cache/destination arguments are retired. The web workflow remains buildless. Windows execution and physical-controller QA require a local Windows machine.
+
+
+### Desktop builder validation (2026-10-31)
+
+On Linux, built the official checksum-verified Electron 45.2.1 Windows x64 portable folder from current dist. Game JavaScript syntax, seven focused regression suites and the desktop protocol check passed; five builder failure-path tests passed. Damaged packaged files and stale source inventories were rejected, then the original build was restored and verified. Package validates ZIP CRCs and every bundled file hash. Windows GUI/game launch, audio/video and physical controllers remain untested here; use desktop/Builder.bat on Windows for local acceptance. Generated EXE/ZIP and runtime cache are intentionally untracked.
