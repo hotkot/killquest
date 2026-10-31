@@ -17,7 +17,7 @@ dark native title bar on supported Windows versions. It provides these actions:
 | Button | Action |
 | --- | --- |
 | Build | Download and verify the official pinned Electron 45.2.1 Windows x64 runtime, then copy the current game into a fresh portable EXE folder. |
-| Test | Check shipped JavaScript syntax, seven focused game regression suites, desktop URL isolation, builder failure paths, packaged file hashes, EXE architecture, and source freshness. Requires a completed Build. |
+| Test | Check shipped JavaScript syntax, eight focused game regression suites, desktop URL isolation, builder failure paths, packaged file hashes, EXE architecture, and source freshness. Requires a completed Build. |
 | Package | Verify the build and produce an integrity-checked portable ZIP. Requires a completed Build. |
 | Run | Verify the build and launch `KillQuest.exe` on Windows. |
 | Deploy | Run Build → Test → Package → Run in order, stopping on any failure. This runs locally; it does not upload or publish anything. |

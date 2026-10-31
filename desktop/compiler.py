@@ -20,7 +20,7 @@ CACHE = DESKTOP / '.cache'
 BUILD = OUTPUT / 'KillQuest-Windows-x64'
 ARCHIVE = OUTPUT / 'KillQuest-Windows-x64.zip'
 ELECTRON = '45.2.1'
-CHECKS = ('four-player-selection', 'carion-campaign-v167', 'city-route-v167',
+CHECKS = ('camera-pan', 'four-player-selection', 'carion-campaign-v167', 'city-route-v167',
           'city-ambient-v176', 'object-shadow-scene-v179', 'boot-flow', 'start-screen')
 
 

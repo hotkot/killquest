@@ -125,6 +125,13 @@ function renderWitchEffects(view,m){view.witchViews??=new Map();const live=new S
 const $=id=>document.getElementById(id), keys=new Set();let scene,mode=typeof LoadingScreen!=='undefined'?'loading':'menu';
 function soundCue(name,options={}){if(name.startsWith('hero-')&&scene?.model?.p?.isNpc)return;if((scene?.model?.isForest||scene?.model?.isCity)&&Number.isFinite(options.x))options={...options,x:options.x-(scene.cameras?.main?.scrollX||0)};if(name.startsWith('menu-')&&['start','menu','help','select','options','campaign'].includes(mode))audioMixer.startMenuMusic?.();if(name.startsWith('hero-')&&scene?.model?.p){const p=scene.model.p;if(p.character==='garran')options={...options,rate:(options.rate||1)*.9,gain:(options.gain||1)*.8};if(p.character==='selene'){options={...options,rate:(options.rate||1)*1.12,gain:(options.gain||1)*.8};name='lyra-'+name.slice(5);}if(p.character==='lyra')name='lyra-'+name.slice(5);options={...options,actor:'hero-'+(p.id||0)};}if(typeof audioMixer!=='undefined')audioMixer.play(name,options)}
 const clamp=(n,a,b)=>Math.max(a,Math.min(b,n));
+// Party membership, respawns and encounter releases can move the target by a
+// screen in one tick. Follow at world speed, never by teleporting the camera.
+// Cap elapsed time too, so returning from a suspended tab cannot cause a jump.
+function panCameraForward(current,target,dt,speed=300){
+ const elapsed=Number.isFinite(dt)?clamp(dt,0,.033):0;
+ return current+Math.min(Math.max(0,target-current),speed*elapsed);
+}
 function keyboardMovement(input){return{x:(input.has('ArrowRight')||input.has('d')?1:0)-(input.has('ArrowLeft')||input.has('a')?1:0),y:(input.has('ArrowDown')||input.has('s')?1:0)-(input.has('ArrowUp')||input.has('w')?1:0)};}
 function movementFor(input){const k=input.keyboardMove||keyboardMovement(input),length=Math.hypot(k.x,k.y);return length?{x:k.x/length,y:k.y/length}:input.analogMove||{x:0,y:0};}
 let selectionContext='test';
@@ -700,8 +707,8 @@ class ForestCombat extends BossCombat{
     p.lastSafeX=p.x;p.lastSafeY=p.y;if(Math.abs(p.x-targetX)>.1||Math.abs(p.y-targetY)>.1)ready=false;
    }
    const party=this.players.filter(p=>p.hp>0||p.lives>0),rear=Math.min(...party.map(p=>p.x));
-   this.cameraX=Math.max(this.cameraX,Math.min(left,rear-90,this.cameraX+220*dt));this.fightLeft=this.cameraX;
-   if(ready&&this.cameraX>=left-.1){this.cameraX=this.fightLeft=left;this.isBoss=true;this.phase='arena-jump';Object.assign(this.king,{x:FOREST_WIDTH+300,y:555,hp:this.king.maxHp,state:'idle',t:0,face:-1,bossAction:null,actionTime:0,revealStage:'jump',revealTime:0,revealHeight:0,introSound:true});this.enemies=[this.king];for(const p of this.players)if(p.hp>0){p.state='idle';p.t=0;p.idleTime=0;}keys.clear();}
+   this.cameraX=panCameraForward(this.cameraX,Math.min(left,rear-90),dt,220);this.fightLeft=this.cameraX;
+   if(ready&&this.cameraX===left){this.isBoss=true;this.phase='arena-jump';Object.assign(this.king,{x:FOREST_WIDTH+300,y:555,hp:this.king.maxHp,state:'idle',t:0,face:-1,bossAction:null,actionTime:0,revealStage:'jump',revealTime:0,revealHeight:0,introSound:true});this.enemies=[this.king];for(const p of this.players)if(p.hp>0){p.state='idle';p.t=0;p.idleTime=0;}keys.clear();}
    return;
   }
   for(const p of this.players)if(p.hp>0)p.idleTime=(p.idleTime||0)+dt;
@@ -720,7 +727,7 @@ class ForestCombat extends BossCombat{
  this.enemies=this.enemies.filter(e=>e.hp>0||e.state==='thrown'||e.t<2);const living=this.players.filter(p=>p.hp>0||p.lives>0),party=living.length?living:this.players,leader=Math.max(...party.map(p=>p.x)),rear=Math.min(...party.map(p=>p.x));if(this.players.length>1)for(const p of party)p.x=Math.min(p.x,rear+850);
  if(this.activeEncounter&&this.enemies.every(e=>e.hp<=0&&e.state!=='thrown')){this.activeEncounter=null;this.encounterIndex++;this.fightRight=FOREST_WIDTH;}
  if(!this.activeEncounter&&this.encounterIndex<FOREST_ENCOUNTERS.length&&leader>=FOREST_ENCOUNTERS[this.encounterIndex].at)this.startEncounter(FOREST_ENCOUNTERS[this.encounterIndex]);
- this.cameraX=Math.max(this.cameraX,Math.min(clamp((leader+rear)/2-520,0,FOREST_WIDTH-1280),Math.max(0,rear-80),Math.max(0,this.fightRight-1280)));this.fightLeft=this.cameraX;
+ this.cameraX=panCameraForward(this.cameraX,Math.min(clamp((leader+rear)/2-520,0,FOREST_WIDTH-1280),Math.max(0,rear-80),Math.max(0,this.fightRight-1280)),dt);this.fightLeft=this.cameraX;
  for(const p of this.players){p.x=clamp(p.x,this.leftEdge(60),this.rightEdge(60));p.lastSafeX=clamp(p.lastSafeX||p.x,this.leftEdge(60),this.rightEdge(60));}
  this.confineVisibleEnemies();if(this.encounterIndex===FOREST_ENCOUNTERS.length&&!this.activeEncounter&&leader>=11700)this.startArena();}
 
@@ -859,7 +866,7 @@ class CityCombat extends Combat{
  updateEnemies(dt){const all=this.enemies,p=this.p,oldSquad=this.squad,oldOpponents=this.npcOpponents;const active=all.filter(e=>e.hp<=0||e.x<(this.cameraX||0)+3300||Math.abs(e.x-p.x)<2200);const pools=this.cityArrowPools;this.cityNpcSimulation=true;try{for(const faction of ['bandits','soldiers']){const own=active.filter(e=>e.faction===faction);this.enemies=own;this.npcOpponents=this.players.concat(this.allies||[],active.filter(e=>e.faction!==faction)).filter(t=>t.hp>0);this.squad=faction==='soldiers'?this.citySquad:null;this.attackGap=this.cityAttackGaps[faction];this.arrows=pools[faction];Combat.prototype.updateEnemies.call(this,dt,own);pools[faction]=this.arrows;this.cityAttackGaps[faction]=this.attackGap;}}finally{this.cityNpcSimulation=false;this.enemies=all;this.p=p;this.squad=oldSquad;this.npcOpponents=oldOpponents;this.arrows=pools.bandits.concat(pools.soldiers);}this.updatePlayerArrows(dt);this.confineVisibleEnemies();}
  update(dt,input=keys){if(this.complete)return;this.ambientTime+=dt;this.updateCivilians(dt);if(this.phase==='dialogue'){this.villageDialogueAge+=dt;for(const p of this.players)p.idleTime+=dt;for(const e of this.enemies)e.idleTime=(e.idleTime||0)+dt;return;}if(this.phase==='entrance'){this.entranceTime=Math.min(3,this.entranceTime+dt);for(const p of this.players){const next=-90-p.id*75+(410+p.id*10)*this.entranceTime/3;p.walkDistance+=Math.abs(next-p.x);p.x=next;p.state='walk';p.face=1;}if(this.entranceTime>=3-1e-9){this.phase='dialogue';this.villageStep=0;this.villageDialogueAge=0;for(const p of this.players){p.state='idle';p.t=0;p.idleTime=0;p.lastSafeX=p.x;p.lastSafeY=p.y;}keys.clear();}return;}
   this.prepareCityEncounters();super.update(dt,input);this.enemies=this.enemies.filter(e=>e.hp>0||e.state==='thrown'||e.t<2);const living=this.players.filter(p=>p.hp>0||p.lives>0),party=living.length?living:this.players;let rear=Math.min(...party.map(p=>p.x));for(const p of party)p.x=Math.min(p.x,rear+850);const leader=Math.max(...party.map(p=>p.x));
-  this.cameraX=Math.max(this.cameraX,Math.min(clamp((leader+rear)/2-520,0,CITY_WIDTH-1280),Math.max(0,rear-80),Math.max(0,this.fightRight-1280)));this.fightLeft=this.cameraX;const targetY=clamp(cityRoadCenter(this.cameraX+520)-555,0,CITY_HEIGHT-720);this.cameraY=Math.max(this.cameraY,Math.min(targetY,this.cameraY+180*dt));
+  this.cameraX=panCameraForward(this.cameraX,Math.min(clamp((leader+rear)/2-520,0,CITY_WIDTH-1280),Math.max(0,rear-80),Math.max(0,this.fightRight-1280)),dt);this.fightLeft=this.cameraX;const targetY=clamp(cityRoadCenter(this.cameraX+520)-555,0,CITY_HEIGHT-720);this.cameraY=panCameraForward(this.cameraY,targetY,dt,180);
   for(const p of this.players){p.x=clamp(p.x,this.leftEdge(60),this.rightEdge(60));p.lastSafeX=clamp(p.lastSafeX||p.x,this.leftEdge(60),this.rightEdge(60));p.lastSafeY=clamp(p.lastSafeY||p.y,...cityRoadBounds(p.lastSafeX));p.y=clamp(p.y,...cityRoadBounds(p.x));}
   this.confineVisibleEnemies();if(this.cityNext===this.cityEncounters.length&&this.enemies.every(e=>e.hp<=0&&e.state!=='thrown')&&party.every(p=>p.x>=CITY_WIDTH-330)){this.complete=true;finish(true);}
  }
