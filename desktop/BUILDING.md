@@ -1,6 +1,6 @@
 # Local Windows EXE builder
 
-On a Windows x64 machine, install **Python 3.11 or newer** (including Tcl/Tk;
+On a Windows x64 machine, install **Python 3.7 or newer** (including Tcl/Tk;
 standard python.org installations include it) and **Node.js 22 or newer**.
 Restart your terminal after installing them. Keep the complete repository,
 including `dist`, `desktop`, and `checks`.

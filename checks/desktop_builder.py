@@ -1,5 +1,6 @@
 """Failure-path checks for the desktop builder; no network or game mutations."""
 import importlib.util
+import io
 from pathlib import Path
 import tempfile
 import unittest
@@ -11,6 +12,38 @@ spec.loader.exec_module(builder)
 
 
 class BuilderChecks(unittest.TestCase):
+    def test_download_cleanup_with_legacy_unlink(self):
+        original_unlink = Path.unlink
+
+        # Python 3.7's signature does not accept missing_ok.
+        def legacy_unlink(path):
+            return original_unlink(path)
+
+        with tempfile.TemporaryDirectory() as folder:
+            target = Path(folder) / 'runtime.zip'
+            with patch.object(Path, 'unlink', legacy_unlink), \
+                 patch.object(builder.urllib.request, 'urlopen', return_value=io.BytesIO(b'complete')):
+                builder.download('https://example.invalid/runtime.zip', target, lambda message: None)
+                self.assertEqual(target.read_bytes(), b'complete')
+                self.assertFalse(target.with_suffix('.zip.part').exists())
+
+    def test_failed_download_preserves_original_error(self):
+        with tempfile.TemporaryDirectory() as folder:
+            target = Path(folder) / 'runtime.zip'
+            with patch.object(builder.urllib.request, 'urlopen', side_effect=OSError('network failure')):
+                with self.assertRaisesRegex(OSError, 'network failure'):
+                    builder.download('https://example.invalid/runtime.zip', target, lambda message: None)
+            self.assertFalse(target.with_suffix('.zip.part').exists())
+
+    def test_stream_hash_handles_multiple_chunks(self):
+        data = b'game assets' * 300000
+        self.assertEqual(builder.stream_digest(io.BytesIO(data)), builder.hashlib.sha256(data).hexdigest())
+
+    def test_archive_path_boundaries(self):
+        root = Path('/runtime')
+        self.assertTrue(builder.is_within(root / 'resources/app', root))
+        self.assertFalse(builder.is_within(Path('/runtime-other/app'), root))
+
     def test_deploy_stops_on_failed_test(self):
         calls = []
         with patch.object(builder, 'build', lambda log: calls.append('build')), \

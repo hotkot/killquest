@@ -24,9 +24,31 @@ CHECKS = ('four-player-selection', 'carion-campaign-v167', 'city-route-v167',
           'city-ambient-v176', 'object-shadow-scene-v179', 'boot-flow', 'start-screen')
 
 
+def stream_digest(stream):
+    checksum = hashlib.sha256()
+    for chunk in iter(lambda: stream.read(1024 * 1024), b''):
+        checksum.update(chunk)
+    return checksum.hexdigest()
+
+
 def digest(path):
     with path.open('rb') as stream:
-        return hashlib.file_digest(stream, 'sha256').hexdigest()
+        return stream_digest(stream)
+
+
+def remove_if_present(path):
+    try:
+        path.unlink()
+    except FileNotFoundError:
+        pass
+
+
+def is_within(path, directory):
+    try:
+        path.relative_to(directory)
+        return True
+    except ValueError:
+        return False
 
 
 def sources():
@@ -59,7 +81,7 @@ def download(url, target, log):
             shutil.copyfileobj(response, out)
         partial.replace(target)
     finally:
-        partial.unlink(missing_ok=True)
+        remove_if_present(partial)
 
 
 def runtime(log):
@@ -104,14 +126,14 @@ def build(log=print):
         with zipfile.ZipFile(archive) as z:
             for member in z.infolist():
                 destination = (staging / member.filename).resolve()
-                if not destination.is_relative_to(staging.resolve()):
+                if not is_within(destination, staging.resolve()):
                     raise RuntimeError('Unsafe runtime archive path')
             if z.testzip() is not None:
                 raise RuntimeError('Corrupt Electron ZIP')
             z.extractall(staging)
         (staging / 'electron.exe').rename(staging / 'KillQuest.exe')
         verify_pe(staging / 'KillQuest.exe')
-        (staging / 'resources/default_app.asar').unlink(missing_ok=True)
+        remove_if_present(staging / 'resources/default_app.asar')
         app = staging / 'resources/app'
         log('Copying current game assets…')
         for relative, source in sources().items():
@@ -138,7 +160,7 @@ def build(log=print):
             raise
         if previous.exists():
             shutil.rmtree(previous)
-        ARCHIVE.unlink(missing_ok=True)
+        remove_if_present(ARCHIVE)
         log(f'Build complete: {BUILD / "KillQuest.exe"}')
     finally:
         if staging.exists():
@@ -158,7 +180,7 @@ def verify_build():
         if digest(BUILD / relative) != checksum:
             raise RuntimeError(f'Build file changed: {relative}. Build again.')
     current = sources()
-    bundled = {p.removeprefix('resources/app/'): checksum for p, checksum in expected.items()
+    bundled = {p[len('resources/app/'):]: checksum for p, checksum in expected.items()
                if p.startswith('resources/app/')}
     if set(current) != set(bundled) or any(digest(p) != bundled[r] for r, p in current.items()):
         raise RuntimeError('Game source changed since Build. Build again before continuing.')
@@ -213,14 +235,14 @@ def package(log=print):
                 raise RuntimeError('Package ZIP integrity failed')
             for relative, checksum in expected.items():
                 with z.open(BUILD.name + '/' + relative) as stream:
-                    if hashlib.file_digest(stream, 'sha256').hexdigest() != checksum:
+                    if stream_digest(stream) != checksum:
                         raise RuntimeError(f'Package content changed during packaging: {relative}')
             if z.read(BUILD.name + '/build-info.json') != info_bytes:
                 raise RuntimeError('Build manifest changed during packaging')
         verify_build()
         partial.replace(ARCHIVE)
     finally:
-        partial.unlink(missing_ok=True)
+        remove_if_present(partial)
     log(f'Package complete: {ARCHIVE}\nSHA256: {digest(ARCHIVE)}')
 
 

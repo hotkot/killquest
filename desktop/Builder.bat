@@ -8,6 +8,6 @@ if not errorlevel 1 (
     python compiler.py
 )
 if errorlevel 1 (
-    echo Install Python 3.11 or newer with Tcl/Tk support and Node.js 22 or newer.
+    echo Install Python 3.7 or newer with Tcl/Tk support and Node.js 22 or newer.
     pause
 )
